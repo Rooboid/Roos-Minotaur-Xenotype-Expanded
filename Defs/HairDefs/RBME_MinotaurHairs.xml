@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Jersey -->
+  
+  <HairDef>
+    <defName>RBME_Jersey</defName>
+    <label>RBME Jersey</label>
+    <styleGender>MaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairA</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 <!-- Cowtail -->
+  
+  <HairDef>
+    <defName>RBME_Cowtail</defName>
+    <label>RBME Cowtail</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairB</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>Rural</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 <!-- Motherly -->
+  
+  <HairDef>
+    <defName>RBME_Motherly</defName>
+    <label>RBME Motherly</label>
+    <styleGender>FemaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairC</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Royal</li>
+			<li>Tribal</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 <!-- Powerhouse -->
+  
+  <HairDef>
+    <defName>RBME_Powerhouse</defName>
+    <label>RBME Powerhouse</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairD</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>Punk</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 <!-- Skittish -->
+  
+  <HairDef>
+    <defName>RBME_Skittish</defName>
+    <label>RBME Skittish</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairH</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 <!-- Sylvie -->
+  
+  <HairDef>
+    <defName>RBME_Sylvie</defName>
+    <label>RBME Sylvie</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairI</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>Rural</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 <!-- Kylix -->
+  
+  <HairDef>
+    <defName>RBME_Kylix</defName>
+    <label>RBME Kylix</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairJ</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Royal</li>
+			<li>Urban</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 <!-- Two Tone -->
+  
+  <HairDef>
+    <defName>RBME_TwoTone</defName>
+    <label>RBME Two Tone</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairK</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 <!-- Artemis -->
+  
+  <HairDef>
+    <defName>RBME_Artemis</defName>
+    <label>RBME Artemis</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairL</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Royal</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 <!-- Eros -->
+  
+  <HairDef>
+    <defName>RBME_Eros</defName>
+    <label>RBME Eros</label>
+    <styleGender>MaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairM</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Royal</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 <!-- Feral -->
+  
+  <HairDef>
+    <defName>RBME_Feral</defName>
+    <label>RBME Feral</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairN</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurWild</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 <!-- Cowflick -->
+  
+  <HairDef>
+    <defName>RBME_Cowflick</defName>
+    <label>RBME Cowflick</label>
+    <styleGender>MaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairO</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>MinotaurWild</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Mussy -->
+  
+  <HairDef>
+    <defName>RBME_Mussy</defName>
+    <label>RBME Mussy</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairP</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurWild</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Deadpan -->
+  
+  <HairDef>
+    <defName>RBME_Deadpan</defName>
+    <label>RBME Deadpan</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairQ</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>MinotaurWild</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Calf -->
+  
+  <HairDef>
+    <defName>RBME_Calf</defName>
+    <label>RBME Calf</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairR</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Urban</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 	 <!-- Cowcurl -->
+  
+  <HairDef>
+    <defName>RBME_Cowcurl</defName>
+    <label>RBME Cowcurl</label>
+    <styleGender>Male</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairS</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Slugger -->
+  
+  <HairDef>
+    <defName>RBME_Slugger</defName>
+    <label>RBME Slugger</label>
+    <styleGender>MaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairT</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Bullderdash -->
+  
+  <HairDef>
+    <defName>RBME_Bullderdash</defName>
+    <label>RBME Bullderdash</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairU</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 	 <!-- Chaintail -->
+  
+  <HairDef>
+    <defName>RBME_Chaintail</defName>
+    <label>RBME Chaintail</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairV</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Punk</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Tuft -->
+  
+  <HairDef>
+    <defName>RBME_Tuft</defName>
+    <label>RBME Tuft</label>
+    <styleGender>MaleUsually</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairW</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Milkmaid -->
+  
+  <HairDef>
+    <defName>RBME_Milkmaid</defName>
+    <label>RBME Milkmaid</label>
+    <styleGender>Female</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairX</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>Urban</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 	 <!-- Hero -->
+  
+  <HairDef>
+    <defName>RBME_Hero</defName>
+    <label>RBME Hero</label>
+    <styleGender>Male</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairY</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 	 	 	 <!-- Bullrush -->
+  
+  <HairDef>
+    <defName>RBME_Bullrush</defName>
+    <label>RBME Bullrush</label>
+    <styleGender>Any</styleGender>
+	<category>Rural</category>
+    <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairZ</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>HairShort</li>
+		</styleTags>
+	 </HairDef>
+	 
+	 
+	 
+	 
+	 
+</Defs>

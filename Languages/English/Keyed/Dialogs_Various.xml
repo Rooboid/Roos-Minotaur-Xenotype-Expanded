@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+ <!-- Minotaur Faction Comms Overrides -->
+  <MinotaurFactionGreetingHostile>{0} questions your gall to make contact with them, huffs into the receiver and disconnects.</MinotaurFactionGreetingHostile>
+  <MinotaurFactionGreetingHostileAppreciative>{0} refuses to engage in conversation until {NEGOTIATOR_labelShort}'s faction proves their worthiness. {0} suggests that you release any of {0_possessive} faction's prisoners back to them or deliver a hefty sum of haygrass to one of {0_possessive} settlements. \n\nBefore {NEGOTIATOR_labelShort} can respond, {0} terminates the communication with a huff.</MinotaurFactionGreetingHostileAppreciative>
+  <MinotaurFactionGreetingWary>{0} takes a moment to identify {NEGOTIATOR_labelShort}'s voice, before questioning what {0_pronoun} can do for you.</MinotaurFactionGreetingWary>
+  <MinotaurFactionGreetingWarm>{0} greets {NEGOTIATOR_labelShort} with a moo, {NEGOTIATOR_labelShort} makes an attempt to moo in response. {0} is ready to offer {0_possessive} support in any way {0_pronoun} can.</MinotaurFactionGreetingWarm>
+  <MinotaurMilitaryAidSent>{0} assures you that victory is in sight, and sends {0_possessive} fighters to you.</MinotaurMilitaryAidSent>
+  
+  </LanguageData>

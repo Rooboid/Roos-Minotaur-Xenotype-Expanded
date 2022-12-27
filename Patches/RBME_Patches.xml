@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Royalty - Patches ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Sophian Style added to Hellenic Tribe-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/allowedCultures</xpath>
+			<value>
+				<allowedCultures><li>Sophian</li></allowedCultures>
+			</value>
+		</match>
+	</Operation>
+	
+	
+</Patch>

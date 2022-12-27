@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+  <FactionDef ParentName="FactionBase">
+    <defName>OutlanderMinotaur</defName>
+	<label>minotaur outlander union</label>
+    <description>An intimidating union of minotaur with an agelong hatred of humans, or as they deem them, ‘fleshbeasts’. Though generally hostile, neighbouring factions would do well to earn their favour, for they make monstrous enemies who don’t always play fair.</description>
+    <colorSpectrum>
+      <li>(0, 0.4, 0.94)</li>
+      <li>(0.64, 0.8, 1)</li>
+    </colorSpectrum>
+	<replacesFaction>OutlanderRough</replacesFaction>
+	<naturalEnemy>true</naturalEnemy>
+	<earliestRaidDays>15</earliestRaidDays>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>15</configurationListOrderPriority>
+    <pawnSingular>outlander</pawnSingular>
+    <pawnsPlural>outlanders</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>0.9</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>ringleader</leaderTitle>
+    <factionIconPath>World/Factions/RBME_OutlanderFaction</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionMinotaurOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementMinotaurOutlander</settlementNameMaker>
+    <allowedCultures><li>Rustican</li></allowedCultures>
+	<requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+    </disallowedMemes>
+    <structureMemeWeights>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">0.8</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+	  <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Animist>
+    </structureMemeWeights>
+	    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+    <xenotypeSet>
+      <xenotypeChances>
+        <RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">999</RBM_Minotaur>
+      </xenotypeChances>
+    </xenotypeSet>
+	<dialogFactionGreetingHostile>MinotaurFactionGreetingHostile</dialogFactionGreetingHostile>
+    <dialogFactionGreetingHostileAppreciative>MinotaurFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+    <dialogFactionGreetingWary>MinotaurFactionGreetingWary</dialogFactionGreetingWary>
+    <dialogFactionGreetingWarm>MinotaurFactionGreetingWarm</dialogFactionGreetingWarm>
+    <dialogMilitaryAidSent>MinotaurMilitaryAidSent</dialogMilitaryAidSent>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.5</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.1</commonality>
+      </li>
+    </backstoryFilters>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Standard Combat Variation -->
+        <kindDef>Combat</kindDef>
+		<commonality>100</commonality>
+        <options>
+          <Villager>5</Villager>
+          <RBM_MinotaurMarauder>10</RBM_MinotaurMarauder>
+          <RBM_MinotaurGuardianLow>1.5</RBM_MinotaurGuardianLow>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite>
+          <RBME_Harrier>5</RBME_Harrier>
+        </options>
+      </li>
+	        <li>
+        <!-- Intense Combat Variation -->
+        <kindDef>Combat</kindDef>
+		<commonality>30</commonality>
+        <options>
+          <RBM_MinotaurMarauder>10</RBM_MinotaurMarauder>
+          <RBM_MinotaurGuardianLow>2</RBM_MinotaurGuardianLow>
+          <RBM_MinotaurFighter>7</RBM_MinotaurFighter>
+          <Mercenary_Elite>9</Mercenary_Elite>
+          <RBME_Harrier>10</RBME_Harrier>
+        </options>
+      </li>
+	  <li>
+        <!-- Feral Combat Variation (Rare) -->
+        <kindDef>Combat</kindDef>
+		<commonality>5</commonality>
+        <options>
+          <RBM_MinotaurFeral>10</RBM_MinotaurFeral>
+          <RBM_MinotaurFighter>2</RBM_MinotaurFighter>
+          <Mercenary_Elite>1</Mercenary_Elite>
+          <RBME_Harrier>5</RBME_Harrier>
+        </options>
+      </li>
+	  	  <li>
+        <!-- Sacred Weapons (Rare) -->
+        <kindDef>Combat</kindDef>
+		<commonality>2</commonality>
+        <options>
+          <RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
+          <RBM_ProtectedMonarch>2</RBM_ProtectedMonarch>
+          <RBM_MinotaurMarauder>1</RBM_MinotaurMarauder>
+          <RBME_Harrier>5</RBME_Harrier>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Villager>20</Villager>
+		  <RBME_Minotaur_Calf>2</RBME_Minotaur_Calf>
+		  <RBME_Milkmaid>5</RBME_Milkmaid>
+          <Town_Guard>10</Town_Guard>
+          <Town_Councilman>5</Town_Councilman>
+        </options>
+      </li>
+      <li>
+		<!-- Standard Trader -->
+        <kindDef>Trader</kindDef>
+		<commonality>100</commonality>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Bison>10</Bison>
+          <Yak>7</Yak>
+          <Alpaca>5</Alpaca>
+        </carriers>
+        <guards>
+          <Villager>3</Villager>
+		  <RBME_Minotaur_Calf>0.5</RBME_Minotaur_Calf>
+		  <RBME_Milkmaid>4</RBME_Milkmaid>
+          <RBM_MinotaurFighter>10</RBM_MinotaurFighter>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <RBME_Harrier>15</RBME_Harrier>
+        </guards>
+      </li>
+	        <li>
+		<!-- Royal Trader -->
+        <kindDef>Trader</kindDef>
+		<commonality>20</commonality>
+        <traders>
+          <RBM_ProtectedMonarch>1</RBM_ProtectedMonarch>
+        </traders>
+        <carriers>
+          <Bison>10</Bison>
+          <Horse>7</Horse>
+		  <Yak>5</Yak>
+          <Thrumbo>0.05</Thrumbo>
+        </carriers>
+        <guards>
+          <RBM_MinotaurFighter>2</RBM_MinotaurFighter>
+          <RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
+          <RBM_MinotaurGuardianLow>10</RBM_MinotaurGuardianLow>
+          <RBME_Harrier>2</RBME_Harrier>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <RBME_Milkmaid>5</RBME_Milkmaid>
+		  <RBM_ProtectedMonarch>1</RBM_ProtectedMonarch>
+		  <Villager>15</Villager>
+		  <RBME_Minotaur_Calf>2</RBME_Minotaur_Calf>
+          <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>2</Grenadier_Destructive>
+          <RBM_MinotaurMarauder>3</RBM_MinotaurMarauder>
+          <RBM_MinotaurFighter>10</RBM_MinotaurFighter>
+          <RBM_MinotaurGuardianLow>10</RBM_MinotaurGuardianLow>
+          <RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Miner>1</Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Hunter>1</Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Logger>1</Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Farmer>1</Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/Factions/RBME_OutlanderFaction</settlementTexturePath>
+	    <permanentEnemyToEveryoneExcept>
+      <li>OutlanderCivil</li>
+      <li>TribeRoughNeanderthal</li>
+	  <li>OutlanderRoughPig</li>
+	  <li>Sanguophages</li>
+      <li>PlayerTribe</li>
+      <li>PlayerColony</li>
+      <li>Ancients</li>
+    </permanentEnemyToEveryoneExcept>
+  </FactionDef>
+  
+  </Defs>

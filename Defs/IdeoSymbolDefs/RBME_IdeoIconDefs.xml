@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurA</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconA</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+		<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurB</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconB</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+		<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurC</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconC</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+		<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurD</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconD</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+		<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurE</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconE</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+			<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurF</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconF</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+	
+		<IdeoIconDef>
+		<defName>RBME_Ideoligion_MinotaurG</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconG</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>Individualist</li>
+		</memes>
+	</IdeoIconDef>
+
+
+
+
+
+
+</Defs>
