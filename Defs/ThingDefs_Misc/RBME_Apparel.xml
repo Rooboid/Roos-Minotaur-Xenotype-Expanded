@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>RBME_Chiton</defName>
 		<label>chiton</label>
-		<description>A comfortable tunic that can be draped around the body in many different styles and  complimented with a belt.</description>
+		<description>A comfortable tunic that can be draped around the body in many different styles and complimented with a belt.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_ChitonIC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -65,7 +65,10 @@
   <defName>RBME_Panoply</defName>
     <techLevel>Spacer</techLevel>
 	<label>panoply</label>
-    <description>A simple set of pants.</description>
+    <description>A fabled set of armour said to have been crafted by the hands of the Gods. Though it's secrets of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. /n/nThe best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
+		<descriptionHyperlinks>
+			<GeneDef>RBM_Herculean</GeneDef>
+		</descriptionHyperlinks>
 	<graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/RBME_Panoply/RBME_PanoplyIC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,9 +85,9 @@
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>35</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.80</ArmorRating_Heat>
       <Insulation_Cold>55</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>23</EquipDelay>

@@ -12,7 +12,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RBME_EpsilonAxe</defName>
 		<label>epsilon axe</label>
-		<description>An ancient, obsidian bow of unknown origin, passed down by countless generations of minotaur. It fires blisteringly cold arrows, accurate enough to trim the nosehair of a pigskin from five acres away. It is so heavy that only pawns with the Herculean gene may equip it.</description>
+		<description>A skullshattering axe used widely by minotaur savages. It is so large that, even though a regular baseliner may indeed be able to pick it up, only pawns with the Herculean gene are strong enough to swing it in battle.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -77,7 +77,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBME_Pelekys</defName>
 		<label>Pelekys</label>
-		<description>An ancient, obsidian bow of unknown origin, passed down by countless generations of minotaur. It fires blisteringly cold arrows, accurate enough to trim the nosehair of a pigskin from five acres away. It is so heavy that only pawns with the Herculean gene may equip it.</description>
+		<description>A double-bitted axe that can be wielded in hand-to-hand combat or thrown short distances in a pinch.</description>
 		<possessionCount>1</possessionCount>
 		<rotateInShelves>false</rotateInShelves>
 		<uiIconScale>0.8</uiIconScale>
@@ -167,7 +167,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBME_Sling</defName>
 		<label>sling</label>
-		<description>An ancient, obsidian railgun powered by a glowing gemstone. Little is known about this fabled weapon, other than that victims of its blast seldom live to tell the tale. This railgun so massive that only pawns with the Herculean gene can equip it.</description>
+		<description>A timeless weapon comprised of a fibre pouch and a retention cord. /nAmmunition, such as small stones and lead bullets, can be lobbed at a great force with this weapon.</description>
 		<possessionCount>1</possessionCount>
 		<rotateInShelves>false</rotateInShelves>
 		<uiIconScale>0.8</uiIconScale>
