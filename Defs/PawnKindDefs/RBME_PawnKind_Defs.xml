@@ -16,6 +16,7 @@
 		<combatPower>50</combatPower>
 		<apparelTags>
 			<li>Neolithic</li>
+			<li>Medieval</li>
 		</apparelTags>
 		<!-- Xenotype -->
 		<xenotypeSet>
@@ -285,11 +286,12 @@
 		<combatPower>40</combatPower>
 		<weaponMoney>90~300</weaponMoney>
 		<weaponTags>
-			<li>MedievalMeleeBasic</li>			
+			<li>MedievalMeleeBasic</li>	
+			<li>MinoTribeDecent</li>
 		</weaponTags>
 	</PawnKindDef>
 	
-			<!-- Polemarch -->
+	<!-- Polemarch -->
 		
 	<PawnKindDef ParentName="MinotaurTribalBase">
 		<!-- Name -->
@@ -330,7 +332,8 @@
 			<li>NeolithicRangedHeavy</li>
 			<li>NeolithicRangedChief</li>
 			<li>MedievalMeleeDecent</li>
-			<li>NeolithicMeleeAdvanced</li>			
+			<li>NeolithicMeleeAdvanced</li>	
+			<li>MinoTribeDecent</li>			
 		</weaponTags>
 	</PawnKindDef>
 	
@@ -353,10 +356,9 @@
 		</requiredWorkTags>
 		<!-- Apparel -->
 		<apparelColor>(35,35,35)</apparelColor>	
-		<apparelMoney>200~620</apparelMoney>
+		<apparelMoney>200~3500</apparelMoney>
 		<apparelRequired>
-			<li>Apparel_PlateArmor</li>
-			<li>RBME_Chiton</li>
+			<li>RBME_Panoply</li>
 		</apparelRequired>
 		<gearHealthRange>0.5~1.2</gearHealthRange>
 		<specificApparelRequirements Inherit="False">
@@ -376,6 +378,7 @@
 			<li>HerculeanWeapon</li>
 			<li>MedievalMeleeAdvanced</li>
 			<li>EltexStaff</li>
+			<li>MinoTribeDecent</li>
 		</weaponTags>
 	</PawnKindDef>
 	
@@ -409,10 +412,9 @@
     </skills>
 		<!-- Apparel -->
 		<apparelColor>(35,35,35)</apparelColor>	
-		<apparelMoney>200~1500</apparelMoney>
+		<apparelMoney>200~999999</apparelMoney>
 		<apparelRequired>
-			<li>Apparel_PlateArmor</li>
-			<li>RBME_Chiton</li>
+			<li>RBME_Panoply</li>
 		</apparelRequired>
 		<gearHealthRange>1~1</gearHealthRange>
 		<specificApparelRequirements Inherit="False">
@@ -510,9 +512,6 @@
 		</skills>
 		<!-- Apparel -->
 		<apparelMoney>50~450</apparelMoney>
-		<apparelRequired>
-			<li>RBME_Dirndl</li>
-		</apparelRequired>
 		<gearHealthRange>1~1</gearHealthRange>
 		<specificApparelRequirements Inherit="False">
       <li>
@@ -701,6 +700,7 @@
 		<combatPower>170</combatPower>
 		<weaponMoney>999999</weaponMoney>
 		<weaponTags>
+			<li>MinoTribeDecent</li>
 			<li>HerculeanWeapon</li>
 		</weaponTags>
 	<techHediffsRequired>

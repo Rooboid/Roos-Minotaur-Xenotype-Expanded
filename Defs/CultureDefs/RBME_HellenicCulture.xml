@@ -5,12 +5,13 @@
     <defName>RBME_Hellenic</defName>
     <label>hellenic</label>
     <description>An ancient culture celebrated within minotaur tribes.</description>
-    <pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
-    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
-    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
-    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
-    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
-    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Corunan</leaderTitleMaker>
+    <pawnNameMaker>NamerHellenic_Male</pawnNameMaker>
+    <pawnNameMakerFemale>NamerHellenic_Female</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerHellenic_Ideo</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerHellenic_Deity</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">NamerHellenic_DeityType</deityTypeMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalSophian</festivalNameMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">NamerHellenic_Leader</leaderTitleMaker>
     <allowedPlaceTags>
       <li>OriginTribal</li>
     </allowedPlaceTags>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <MemeDef>
+    <defName>MinotaurPrimacy</defName>
+    <label>minotaur primacy</label>
+    <description>Minotaur have suffered enough under the hands of other xenos. It's time that the minotaurs take their revenge.</description>
+    <iconPath>UI/Memes/RBME_MinotaurPrimacy</iconPath>
+    <groupDef>Primacy</groupDef>
+    <impact>2</impact>
+    <renderOrder>55</renderOrder>
+    <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
+    <requireOne>
+      <li>
+        <li>PreferredXenotype</li>
+      </li>
+    </requireOne>
+    <consumableBuildings>
+      <li>Effigy</li>
+    </consumableBuildings>
+    <exclusionTags>
+      <li>Primacy</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->minotaur</li>
+        <li>memeAdjective->bovine</li>
+        <li>memeHyphenPrefix->bovine</li>
+        <li>memeConcept->the minotaur</li>
+        <li>memeLeaderNoun->minotaur</li>
+        <li>memeLeaderNoun->olympian</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_MinotaurPrimacy)        ->We owe our prayers to [deity0_name], the first exalted minotaur brought into existence. Envious, mortal humans sealed [deity0_name] in an endless labyrinth.</li>
+          <li>episode(uses=1,tag=meme_MinotaurPrimacy)  ->[deity0_name]'s long, mighty horns and herculean power intimidated the mortal humans, who sealed [deity0_name] in an endless, stony myre: the labyrinth.</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_MinotaurPrimacy)           ->As [deity0_name], the exalted minotaur, stepped hoof onto land, rumors of [deity0_possessive] fury quaked through mortal humans' bones.</li>
+          <li>conflict(tag=meme_MinotaurPrimacy)        ->Mortal minotaurs were drove into slavery and oppression by fleshbeasts- what we know today as "humans".</li>
+          <li>founderJoin(tag=meme_MinotaurPrimacy)     ->[deity0_name]'s believers had turned from few to many. And from many, to an army. Though many of their souls were felled by humans, their ancestors walk among us today as the gallant, fearless minotaur.</li>
+          <li>victory(tag=meme_MinotaurPrimacy)         ->[founderName] carries the blood of [deity0_name] and our ancient bovine martyrs, and vows to forever indulge [founder_possessive] minotaur in the finest frivolities: good food, good wine, and good lovin'.</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_MinotaurPrimacy)           ->The minotaur have knuckled under the hands of fleshbeasts for too long, be it as their slaves, their guardians or their mindless, obedient cattle. [founderName] said "enough".</li>
+          <li>story(uses=1,tag=meme_MinotaurPrimacy)    ->Through migration, endurance and sheer will, [founderName] carried [founder_possessive] fellow minotaur to freedom. For each of [founder_possessive] kin that [founder_pronoun] lost on the way, a human must fall.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_MinotaurPrimacy)         ->We minotaur accept our fate as slaves for mankind- and to what end? I believe</li>
+		  <li>lessonIntro(tag=meme_MinotaurPrimacy)         ->To those who look above for guidance, I ask you, do the gods cover their ears to our kind? Faith has failed us, but we will not fail us. I believe</li>
+		  <li>lessonIntro(tag=meme_MinotaurPrimacy)         ->Enough is enough. It is time for us to acknowledge</li>
+          <li>lesson(tag=meme_MinotaurPrimacy)              ->that the minotaur have countless generations of suffering to make mankind atone for</li>
+          <li>lesson(tag=meme_MinotaurPrimacy)              ->that a gluttony for power sheaths an underlying fear. Mankind's fear of the minotaur</li>
+		  <li>lesson(tag=meme_MinotaurPrimacy)              ->that we must walk our own path in life</li>
+          <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->Never shake hands with a fleshbeast without the other hand behind your back.</li>
+		  <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->Glory to the minotaur!</li>
+		  <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->We must live segregated from humanity, it is the only way.</li>
+		  <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->I do not wish to be equal with others. Nay. I wish for there to be no others.</li>
+		  <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->It's time for the minotaur to thrive.</li>
+		  <li>lessonReinforcement(tag=meme_MinotaurPrimacy) ->Our time is now to choose: "fight" or "flight".</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_MinotaurPrimacy)    ->There's evidence to suggest that archotechnology was once hidden in the depths of the ancient, minotaur labyrinths of Noxia. Surely, they would entrust us with this for good reason.</li>
+          <li>archistFact(tag=meme_MinotaurPrimacy)     ->Only the minotaur have the "brawn" to match archotechnology's "brain".</li>
+		  <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd], though we minotaur are but a vehicle for the archotech's amalgamation of universal sentience, we are the only ones who can protect it until that time comes.</li>
+          <!-- animist -->
+          <li>animistFact(tag=meme_MinotaurPrimacy)     ->The minotaur's connection with nature proves them as the sole candidate to nurture it. Other xenos only tarnish it's splendor.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Humanitism</ideoName>
+        <theme>humanity</theme>
+        <adjective>humanitist</adjective>
+        <member>humanitor</member>
+      </li>
+      <li>
+        <ideoName>Mankindism</ideoName>
+        <theme>mankind</theme>
+        <adjective>pro-man</adjective>
+        <member>mankindist</member>
+      </li>
+    </symbolPacks>
+    <ritualsToMake>1</ritualsToMake>
+    <replaceRitualsWithTags><li>CelebratedDate</li></replaceRitualsWithTags>
+    <replacementPatterns><li>SacrificeAnimal</li></replacementPatterns>
+  </MemeDef>
+  
+  </Defs>

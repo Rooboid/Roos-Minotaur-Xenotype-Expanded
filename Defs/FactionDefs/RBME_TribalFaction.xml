@@ -7,7 +7,7 @@
 	<pawnSingular>hellene</pawnSingular>
     <pawnsPlural>hellenes</pawnsPlural>
     <description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution rearticulating the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
-	<!-- <replacesFaction>TribeCivil</replacesFaction> -->
+	<replacesFaction>TribeCivil</replacesFaction>
     <colorSpectrum>
       <li>(223, 223, 223)</li>
       <li>(170, 185, 193)</li>
@@ -19,7 +19,7 @@
     <listOrderPriority>20</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>0</requiredCountAtGameStart>
-    <!-- <canMakeRandomly>true</canMakeRandomly> -->
+    <canMakeRandomly>true</canMakeRandomly>
 	<canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>World/Factions/RBME_TribalFaction</factionIconPath>
@@ -28,10 +28,9 @@
     <settlementNameMaker>NamerSettlementMinotaurTribe</settlementNameMaker>
     <allowedCultures><li>RBME_Hellenic</li></allowedCultures>
 	<requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li> <!-- TODO: Make this work in C -->
     </requiredMemes>
     <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 	  <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 	  <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
@@ -61,6 +60,18 @@
     <dialogFactionGreetingWarm>MinotaurFactionGreetingWarm</dialogFactionGreetingWarm>
     <dialogMilitaryAidSent>MinotaurMilitaryAidSent</dialogMilitaryAidSent>
     <backstoryFilters>
+	      <li>
+        <categories>
+          <li>MinotaurTribal</li>
+        </categories>
+        <commonality>7</commonality>
+      </li>
+	  	      <li>
+        <categories>
+          <li>Minotaur</li>
+        </categories>
+        <commonality>3</commonality>
+      </li>
       <li>
         <categories>
           <li>Tribal</li>
@@ -111,10 +122,7 @@
         <options>
           <RBME_Peltast>10</RBME_Peltast>
           <RBME_Hoplite>15</RBME_Hoplite>
-          <Tribal_Archer>8</Tribal_Archer>
           <RBME_Polemarch>5</RBME_Polemarch>
-          <Tribal_HeavyArcher>5</Tribal_HeavyArcher>
-          <Tribal_Berserker>2</Tribal_Berserker>
           <RBME_Anax>0.5</RBME_Anax>
           <RBME_Olympian>0.05</RBME_Olympian>
         </options>
@@ -144,12 +152,9 @@
         <kindDef>Combat</kindDef>
         <commonality>5</commonality>
         <options>
-          <Tribal_Breacher>5</Tribal_Breacher>
           <RBME_Archon>0.2</RBME_Archon>
           <RBME_Peltast>5</RBME_Peltast>
-          <Tribal_Archer>8</Tribal_Archer>
           <RBME_Hoplite>16</RBME_Hoplite>
-          <Tribal_HeavyArcher>10</Tribal_HeavyArcher>
           <RBME_Polemarch>5</RBME_Polemarch>
           <RBME_Anax>3</RBME_Anax>
           <RBME_Olympian>0.1</RBME_Olympian>
@@ -160,9 +165,7 @@
         <kindDef>Peaceful</kindDef>
         <options>
           <RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">5</RBME_Minotaur_Calf>
-          <Tribal_Archer>10</Tribal_Archer>
           <RBME_Sophist>2</RBME_Sophist>
-          <Tribal_HeavyArcher>5</Tribal_HeavyArcher>
           <RBME_Commoner>15</RBME_Commoner>
           <RBME_Hoplite>10</RBME_Hoplite>
           <RBME_Polemarch>3</RBME_Polemarch>
@@ -200,8 +203,6 @@
       <li>
         <kindDef>Settlement_RangedOnly</kindDef>
         <options>
-          <Tribal_Archer>10</Tribal_Archer>
-          <Tribal_HeavyArcher>7</Tribal_HeavyArcher>
           <RBME_Peltast>13</RBME_Peltast>
           <RBME_Archon>5</RBME_Archon>
         </options>

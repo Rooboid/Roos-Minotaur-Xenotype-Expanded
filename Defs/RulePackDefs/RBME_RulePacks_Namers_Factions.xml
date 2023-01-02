@@ -36,8 +36,9 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=3)->[MinoPre][MinoTribeSuf]</li>	
-		<li>r_name(p=1)->[SylB][MinotribeSuf]</li>
+        <li>r_name(p=7)->[MinoPre][MinoTribeSuf]</li>	
+		<li>r_name(p=3)->[SylB][MinotribeSuf]</li>
+		<li>r_name(p=1)->Noxia</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -58,25 +59,10 @@
   </RulePackDef>
 
   
-  	<!--====================== Tribal Minotaur ======================-->
-
-	<RulePackDef Name="NamerTribalMinotaurBase" Abstract="True">
-	    <include>
-		<li>NamerMinotaurBaseExpanded</li>
-		</include>
-		<rulePack>
-			<rulesStrings>
-				<li>r_name(p=5)->[firstName]</li>
-				<li>r_name(p=1)->[MinoTribeUnisex]</li>
-			</rulesStrings>
-		</rulePack>
-	</RulePackDef>
-  
-  
-  	<!--====================== Minotaur Forenames (Male) ======================-->
+  	<!--====================== Tribal Minotaur (Male) ======================-->
 		
-	<RulePackDef ParentName="NamerTribalMinotaurBase">
-		<defName>NamerTribalMinotaur_Male</defName>
+	<RulePackDef>
+		<defName>NamerHellenic_Male</defName>
 		<include>
 		<li>NamerMinotaurBaseExpanded</li>
 		</include>
@@ -88,15 +74,16 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>firstName->[MinoPre][MinoTribePawnMascSuf]</li>
+				<li>firstName(p=5)->[MinoPre][MinoTribePawnMascSuf]</li>
+				<li>firstName(p=1)->[MinoTribeUnisex]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
 		
-	<!--====================== Minotaur Forenames (Female) ======================-->
+	<!--====================== Tribal Minotaur (Female) ======================-->
 		
-	<RulePackDef ParentName="NamerTribalMinotaurBase">
-		<defName>NamerTribalMinotaur_Female</defName>
+	<RulePackDef>
+		<defName>NamerHellenic_Female</defName>
 		<include>
       <li>NamerMinotaurBaseExpanded</li>
 		</include>
@@ -108,7 +95,96 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>firstName->[MinoPre][MinoTribePawnFemSuf]</li>
+				<li>firstName(p=5)->[MinoPre][MinoTribePawnFemSuf]</li>
+				<li>firstName(p=1)->[MinoTribeUnisex]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+		<!--====================== Hellenic Ideology ======================-->
+		
+	<RulePackDef>
+		<defName>NamerHellenic_Ideo</defName>
+		<include>
+		<li>NamerMinotaurBaseExpanded</li>
+		<li>NamerIdeoGlobal</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName(p=30)->[MinoPre][MinoIdeoSuf]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+			<!--====================== Hellenic Deity ======================-->
+		
+	<RulePackDef>
+		<defName>NamerHellenic_Deity</defName>
+		<include>
+      <li>NamerMinotaurBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName(p=3)->[MinoDeity]</li>
+				<li>r_deityName(p=1)->[MinoPre][MinoTribePawnFemSuf]</li>
+				<li>r_deityName(p=1)->[MinoPre][MinoTribePawnMascSuf]</li>
+				<li>r_deityName(p=1)->[MinoTribeUnisex]</li>
+				
+				
+				<!-- Greek deities -->
+				
+				<li>MinoDeity->Hades</li>
+				<li>MinoDeity->Minos</li>
+				<li>MinoDeity->Poseidon</li>
+				<li>MinoDeity->Theseus</li>
+				<li>MinoDeity->Daedalus</li>
+				<li>MinoDeity->Asterion</li>
+				<li>MinoDeity->Hera</li>
+				<li>MinoDeity->Hestia</li>
+				<li>MinoDeity->Eros</li>
+				<li>MinoDeity->Apollo</li>
+				<li>MinoDeity->Artemis</li>
+				<li>MinoDeity->Hermes</li>
+				<li>MinoDeity->Athena</li>
+				<li>MinoDeity->Ares</li>
+				<li>MinoDeity->Aphrodite</li>
+				<li>MinoDeity->Dionysus</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+		<RulePackDef>
+		<defName>NamerHellenic_DeityType</defName>
+		<include>
+      <li>NamerMinotaurBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->[MinoGod]</li>
+				
+				<li>MinoGod->God</li>
+				<li>MinoGod->Titan</li>
+				<li>MinoGod->Primordial Deity</li>
+				<li>MinoGod->Giant</li>
+
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+			<RulePackDef>
+		<defName>NamerHellenic_Leader</defName>
+		<include>
+      <li>NamerMinotaurBaseExpanded</li>
+	  <li>LeaderTitleMaker_GlobalStructure</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle(p=30)->[MinoLeader]</li>
+				
+				<li>MinoLeader->Olympian</li>
+				<li>MinoLeader->Oracle</li>
+				<li>MinoLeader->Messenger to the Gods</li>
+
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

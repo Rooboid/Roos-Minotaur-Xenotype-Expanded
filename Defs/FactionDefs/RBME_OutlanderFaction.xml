@@ -10,6 +10,7 @@
       <li>(0.64, 0.8, 1)</li>
     </colorSpectrum>
 	<replacesFaction>OutlanderRough</replacesFaction>
+	<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 	<naturalEnemy>true</naturalEnemy>
 	<earliestRaidDays>15</earliestRaidDays>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
@@ -31,6 +32,7 @@
     <allowedCultures><li>Rustican</li></allowedCultures>
 	<requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li>
     </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
@@ -38,9 +40,9 @@
 	  <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
     </disallowedMemes>
     <structureMemeWeights>
-      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistEmbodied>
-      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">0.8</Structure_TheistAbstract>
-      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0.5</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">5</Structure_Ideological>
 	  <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Animist>
     </structureMemeWeights>
 	    <disallowedPrecepts>
@@ -58,6 +60,18 @@
     <dialogFactionGreetingWarm>MinotaurFactionGreetingWarm</dialogFactionGreetingWarm>
     <dialogMilitaryAidSent>MinotaurMilitaryAidSent</dialogMilitaryAidSent>
     <backstoryFilters>
+	      <li>
+        <categories>
+          <li>MinotaurOutlander</li>
+        </categories>
+        <commonality>7</commonality>
+      </li>
+	        <li>
+        <categories>
+          <li>Minotaur</li>
+        </categories>
+        <commonality>3</commonality>
+      </li>
       <li>
         <categories>
           <li>Outlander</li>

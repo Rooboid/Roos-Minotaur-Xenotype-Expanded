@@ -33,3 +33,5 @@ stables
 station
 town
 village
+cleruchy
+metropolis

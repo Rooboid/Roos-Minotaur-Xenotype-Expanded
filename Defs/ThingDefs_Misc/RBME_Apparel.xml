@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>RBME_Chiton</defName>
+		<label>chiton</label>
+		<description>A comfortable tunic that can be draped around the body in many different styles and  complimented with a belt.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_ChitonIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.3</generateCommonality>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MarketValue>140</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_Chiton</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+
+
+
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+  <defName>RBME_Panoply</defName>
+    <techLevel>Spacer</techLevel>
+	<label>panoply</label>
+    <description>A simple set of pants.</description>
+	<graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RBME_Panoply/RBME_PanoplyIC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	  <costList>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>20</Gold>
+      <Plasteel>100</Plasteel>
+    </costList>
+	<recipeMaker IsNull="True"/>
+    <statBases>
+	  <MarketValue>3000</MarketValue>
+      <WorkToMake>9999999</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>35</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <Insulation_Cold>55</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>23</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+	  <MeleeHitChance>-0.5</MeleeHitChance>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <apparel>
+	<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_Panoply/RBME_Panoply</wornGraphicPath>
+	<developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+		<li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+	   <tags>
+        <li>HerculeanApparel</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+	<smeltable>true</smeltable>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+	<tradeability>Sellable</tradeability>
+  </ThingDef>
+
+
+</Defs>
+
+
+
+

@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--============================== Tribal Minotaur - Childhood ============================-->
+	
+	<!--============================== Bathhouse Servant ============================-->
+	<!-- Good medical but no intellectual. -->
+	
+	<BackstoryDef>
+		<defName>RBME_BathServant</defName>
+		<title>bathhouse servant</title>
+		<titleShort>servant</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment in favour of academia. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. /n/nConsidering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Peasant ============================-->
+	<!-- Versatile tribal backstory. -->
+	
+	<BackstoryDef>
+		<defName>RBME_ChildPeasant</defName>
+		<title>peasant</title>
+		<titleShort>peasant</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] lead a carefree childhood in a Hellenic tribe. [PAWN_pronoun] and the other calves of the tribe would scurry, wrestle and playfight until sundown, only to arise the following day to repeat the same routine until they each grew up.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+	
+	<!--============================== Oiketēs  ============================-->
+	<!-- Nice basebuilder stat gains, little late-game value -->
+	
+	<BackstoryDef>
+		<defName>RBME_Oiketes</defName>
+		<title>oiketēs</title>
+		<titleShort>oiketēs</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was enslaved and treat like a possession by [PAWN_possessive] master. [PAWN_nameDef] undertook a myriad of duties throughout [PAWN_possessive] childhood, such as harvesting crops, tunnelling through clay and tailoring simple garments.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Psychopath>0</Psychopath>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<Kind>0</Kind>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+			<li>Artistic</li>
+			<li>Caring</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Tribal Minotaur - Adulthood ============================-->
+	
+	<!--============================== Philosopher ============================-->
+	<!-- Rare Intellectual and pacifist minotaur -->
+	
+	<BackstoryDef>
+		<defName>RBME_Philosopher</defName>
+		<title>philosopher</title>
+		<titleShort>philosopher</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>Under the guise of [PAWN_possessive] tutor, [PAWN_nameDef] spent much of [PAWN_possessive] time contemplating the whims and wonders of the universe. [PAWN_possessive] observations on minotaur anthropology may well be studied by others in the future.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<TooSmart>0</TooSmart>
+		</forcedTraits>
+		<disallowedTraits>
+			<Transhumanist>0</Transhumanist>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Violent</li>
+			<li>Shooting</li>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Hetaira ============================-->
+	<!-- Beautiful and Smart -->
+	
+	<BackstoryDef>
+		<defName>RBME_Hetaira</defName>
+		<title>hetaeros</title>
+		<titleFemale>hetaira</titleFemale>
+		<titleShort>hetaeros</titleShort>
+		<titleShortFemale>hetaira</titleShortFemale>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] lived [PAWN_possessive] life shrouded in mystery, travelling beside wealthy minotaur warriors as what many assumed to be their concubine. /n/nWord spread that these warriors coveted [PAWN_nameDef]’s intellectual and stimulating company on their excursions, but others theorised it was [PAWN_possessive] body that they were truly after.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>2</Beauty>
+			<Bisexual>0</Bisexual>
+		</forcedTraits>
+		<disallowedTraits>
+			<AnnoyingVoice>0</AnnoyingVoice>
+			<Ascetic>0</Ascetic>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Misthios ============================-->
+	<!-- Greedy but powerful -->
+	
+	<BackstoryDef>
+		<defName>RBME_Misthios</defName>
+		<title>misthios</title>
+		<titleFemale>misthia</titleFemale>
+		<titleShort>misthios</titleShort>
+		<titleShortFemale>misthia</titleShortFemale>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing their fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries; lush red wine and yards of radiant, soft silk.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Greedy>0</Greedy>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Oracle ============================-->
+	<!-- Ascetic and Psychopath, but poor stat gains -->
+	
+	<BackstoryDef>
+		<defName>RBME_Oracle</defName>
+		<title>oracle</title>
+		<titleShort>oracle</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] lived an ascetic life, deeming themselves as a means to relay communications from the Gods, and nothing more. Townsfolk often sought [PAWN_possessive] services to request guidance from above in exchange for a generous handful of gold coins.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<PsychicSensitivity>1</PsychicSensitivity>
+			<Psychopath>0</Psychopath>
+		</forcedTraits>
+		<disallowedTraits>
+			<Greedy>0</Greedy>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Heavyweight ============================-->
+	<!-- Brawler minotaur, but cannot fight fire -->
+	
+	<BackstoryDef>
+		<defName>RBME_Heavyweight</defName>
+		<title>heavyweight</title>
+		<titleShort>heavyweight</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] dominated the ring in a form of wrestling known as “Palé”. Young calves would squabble at the chance to watch [PAWN_nameDef] bulldoze [PAWN_possessive] opponents into the ground, imitating [PAWN_possessive] moves and cheering [PAWN_possessive] name. /n/nThe only thing that [PAWN_nameDef] fears, is what [PAWN_pronoun] cannot fight in the ring: fire.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurGuardian</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Brawler>0</Brawler>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<Delicate>0</Delicate>
+			<DrugDesire>-1</DrugDesire>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Chiliarch ============================-->
+	<!-- Excellent stats -->
+	
+	<BackstoryDef>
+		<defName>RBME_Chiliarch</defName>
+		<title>chiliarch</title>
+		<titleShort>chiliarch</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] commanded an army of over one thousand hoplites, each one willing to die at [PAWN_possessive] hand. Fleshbeasts too, kneeled in surrender under [PAWN_possessive] shadow, but [PAWN_nameDef] always had little sympathy for cowards, ensuring that they never felt the sunlight’s warmth ever again.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>9</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Nerves>1</Nerves>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<SpeedOffset>-1</SpeedOffset>
+			<Nudist>0</Nudist>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Rhetorician ============================-->
+	<!-- Nice social! Bad skilled labour -->
+	
+	<BackstoryDef>
+		<defName>RBME_Rhetorician</defName>
+		<title>rhetorician</title>
+		<titleShort>rhetorician</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] was the needle in the haystack of [PAWN_possessive] community, possessing gripping storytelling and social skills. While many minotaur folktales consist of little more than grunts and moos, [PAWN_nameDef]’s stories had flamboyance, they had drama, but most unusually, they even had words containing over five letters. /n/nEventually, though, [PAWN_nameDef] discovered that what made [PAWN_possessive] purse full wasn’t telling humble bar stories, but engaging in political diplomacy and persuasion.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>13</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-5</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-5</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>-5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-5</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Recluse>0</Recluse>
+			<Psychopath>0</Psychopath>
+			<Tough>0</Tough>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Bathhouse Attendant ============================-->
+	<!-- Very minor gains -->
+	
+	<BackstoryDef>
+		<defName>RBME_BathAttendant</defName>
+		<title>bathhouse attendant</title>
+		<titleShort>attendant</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] helped run and maintain the changing rooms of a glorious bathhouse. Because of it’s grandeur, the bathhouse was favoured by influential rulers, generals and politicians alike. [PAWN_nameDef] would quip that taking orders from someone was much more humorous when [PAWN_pronoun]’d seen what they kept below their waists.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Peasant ============================-->
+	<!-- Standard fare minotaur adult-->
+	
+	<BackstoryDef>
+		<defName>RBME_AdultPeasant</defName>
+		<title>peasant</title>
+		<titleShort>peasant</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] lived as a peasant in a Hellenic tribe. [PAWN_nameDef] spent [PAWN_possessive] days supporting the community as-and-when [PAWN_pronoun] was needed, taking on odd jobs in calf rearing, botany and manual labour.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-7</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Outlander Minotaur - Childhood ============================-->
+	
+	<!--============================== Young Academic ============================-->
+	<!-- Sylvie's backstory - incapable of manual labour but smart -->
+	
+	<BackstoryDef>
+		<defName>RBME_YoungAcademic</defName>
+		<title>bullish academic</title>
+		<titleShort>academic</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>Life in the sheer, unforgiving mountain range of Padova was harsh on the young [PAWN_nameDef]— but not as harsh as it was for the slaves that erected [PAWN_possessive] family home there. /n/nBeing the calf of two highly educated bovines gave [PAWN_nameDef] some rather unusual traits for a minotaur, such as [PAWN_possessive] academic prowess and total disdain for manual labour.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Abrasive>0</Abrasive>
+		</forcedTraits>
+		<disallowedTraits>
+			<Delicate>0</Delicate>
+			<TorturedArtist>0</TorturedArtist>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Traumatised Calf ============================-->
+	<!-- Saffron's backstory - physically strong but wholly incapable of social, caring and intellectual -->
+	
+	<BackstoryDef>
+		<defName>RBME_TraumatisedCalf</defName>
+		<title>traumatised calf</title>
+		<titleShort>traumatised</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>Not much is known of [PAWN_nameDef]’s childhood, other than the fact that a scolding was sometimes the only form of interaction [PAWN_pronoun] would receive from [PAWN_possessive] parents. A life-shattering rendered [PAWN_objective] mute — the incident forever sealed between [PAWN_possessive] lips.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Recluse>0</Recluse>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<Jealous>0</Jealous>
+			<Nudist>0</Nudist>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Outlander Minotaur - Adulthood ============================-->
+	
+	<!--============================== Astrophysicist ============================-->
+	<!-- Sylvie's adulthood, good gains but narrows down work types -->
+	<BackstoryDef>
+		<defName>RBME_Astrophysicist</defName>
+		<title>Astrophysicist</title>
+		<titleShort>scientist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] yearned to uncover the secrets of the stars, and to do that, [PAWN_pronoun] had to step hoof where many minotaur refused to step: human civilisation. /n/n[PAWN_pronoun] worked in a lab with a myriad of funny-looking fleshbeasts, but [PAWN_possessive] bovine temper and sarcasm prevented that rift between the two xenos from ever closing.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<TooSmart>0</TooSmart>
+		</forcedTraits>
+		<disallowedTraits>
+			<Beauty>-2</Beauty>
+			<BodyPurist>0</BodyPurist>
+			<Nerves>2</Nerves>
+			<Nerves>1</Nerves>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Galactic Inmate ============================-->
+	<!-- Saffron's backstory, increases melee but reduces other stats -->
+	
+	<BackstoryDef>
+		<defName>RBME_GalacticInmate</defName>
+		<title>galactic inmate</title>
+		<titleShort>inmate</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts. [PAWN_pronoun] was sold on the black market for [PAWN_possessive] strength and, someday, [PAWN_possessive] meat. Once transported to the slave ship, [PAWN_pronoun] bonded with a fellow inmate who [PAWN_pronoun] came to see as [PAWN_possessive] own parent. /n/nThe inmates on [PAWN_nameDef] ward were destined for a life of intergalactic slavery, but through biding their time, the two minotaur escaped onto the Rim.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<disallowedTraits>
+			<SpeedOffset>-2</SpeedOffset>
+			<Greedy>0</Greedy>
+			<Kind>0</Kind>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Knave ============================-->
+	<!-- Spawns with silver, good stats, but locked out of some good traits -->
+	
+	<BackstoryDef>
+		<defName>RBME_Knave</defName>
+		<title>knave</title>
+		<titleShort>knave</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what delights visitors carried in their satchels. /n/nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of a seven-foot minotaur.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>-2</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Kind>0</Kind>
+			<Wimp>0</Wimp>
+			<Delicate>0</Delicate>
+			<Ascetic>0</Ascetic>
+			<Undergrounder>0</Undergrounder>
+			<QuickSleeper>0</QuickSleeper>
+			<DrugDesire>-1</DrugDesire>
+			<Industriousness>2</Industriousness>
+			<SpeedOffset>-2</SpeedOffset>
+			<Nerves>-2</Nerves>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== General Minotaur - Childhood ============================-->
+	
+	<!--============================== Foundling ============================-->
+	<!-- Generally versatile backstory with weak stat gains -->
+	
+	<BackstoryDef>
+		<defName>RBME_Foundling</defName>
+		<title>foundling</title>
+		<titleShort>foundling</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] entered the world prematurely and stood at half of the size of [PAWN_possessive] fellow calves, leading [PAWN_possessive]’s father to disown [PAWN_objective] at birth.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+	
+	<!--============================== Seafarer ============================-->
+	<!-- Generally versatile backstory with strong stat gains -->
+	
+	<BackstoryDef>
+		<defName>RBME_Seafarer</defName>
+		<title>seafarer</title>
+		<titleShort>seafarer</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>Orphan of war [PAWN_nameDef] was stripped of all but the clothes on [PAWN_possessive] back. [PAWN_pronoun] was captured by [PAWN_possessive] assailants, but during the lengthy sail overseas, [PAWN_pronoun] bonded with, and was doted on, by the crew. [PAWN_pronoun] gained an admiration for seafaring, war and survival.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Undergrounder>0</Undergrounder>
+			<Psychopath>0</Psychopath>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Botanist ============================-->
+	<!-- Good with plants and cooking -->
+	
+	<BackstoryDef>
+		<defName>RBME_Botanist</defName>
+		<title>botanist</title>
+		<titleShort>botanist</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>The mystifying flora around [PAWN_nameDef] perplexed young [PAWN_objective], and understanding it was undoubtedly going to be a lifelong pursuit. A pursuit that [PAWN_nameDef] welcomed with open arms. And mouth, should [PAWN_possessive] findings be edible.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Undergrounder>0</Undergrounder>
+			<Pyromaniac>0</Pyromaniac>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== General Minotaur - Adulthood ============================-->
+	
+	<!--============================== Scrapper ============================-->
+	<!-- General violent adulthood -->
+	
+	<BackstoryDef>
+		<defName>RBME_Scrapper</defName>
+		<title>scrapper</title>
+		<titleShort>scrapper</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] speaks one language with total fluency, and that language is hand-to-hand combat. [PAWN_nameDef] once lead a bloody life in the clutches of a heinous clique.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Mullered ============================-->
+	<!-- The saying "bull in a china shop" now has it's own backstory! -->
+	
+	<BackstoryDef>
+		<defName>RBME_Mullered</defName>
+		<title>mullered</title>
+		<titleShort>drunkard</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>As the new day dawns, so does [PAWN_nameDef], typically hungover in the doorway of an inn. This is what [PAWN_nameDef] calls a “clever tactic”, blurting something else about “efficiency”, as [PAWN_pronoun] starts the day exactly where [PAWN_pronoun] aims to end it: where the alcohol is plentiful, and the minotaur are merry.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<DrugDesire>2</DrugDesire>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<Psychopath>0</Psychopath>
+			<NaturalMood>-2</NaturalMood>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Firefighting</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Bullsmith ============================-->
+	<!-- great crafting and mining gains in return for naff everything else -->
+	
+	<BackstoryDef>
+		<defName>RBME_Bullsmith</defName>
+		<title>bullsmith</title>
+		<titleShort>bullsmith</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] shapes weapons for minotaur hands, no matter how destitute they may be. [PAWN_nameDef] believes in arming all who may one day stand beside [PAWN_objective] in battle. /n/nNaturally, crafting weapons on the double requires [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>7</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Industriousness>-2</Industriousness>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Cooking</li>
+			<li>Shooting</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Peddler ============================-->
+	<!-- Nice all-rounder, but afflicted with "lazy" -->
+	
+	<BackstoryDef>
+		<defName>RBME_Peddler</defName>
+		<title>peddler</title>
+		<titleShort>peddler</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] traversed over land and sea, peddling [PAWN_possessive] collection of trinkets to willing buyers from all walks of life. /n/nThe dangers that came with the job didn’t frighten [PAWN_nameDef], for any interfering brigands were always willing to hand over their treasures upon persuasion from [PAWN_nameDef]’s mighty fists.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Industriousness>-1</Industriousness>
+		</forcedTraits>
+		<disallowedTraits>
+			<Undergrounder>0</Undergrounder>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Traitor ============================-->
+	<!-- Disables most work types in exchange for excellent shooting and melee -->
+		
+	<BackstoryDef>
+		<defName>RBME_Traitor</defName>
+		<title>traitor</title>
+		<titleShort>traitor</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>Fleshbeasts will part with a pretty penny in exchange for minotaur with unusual pelts — typically for the purpose of sacrificing them as a gift to their Gods. /n/nIt’s said in legend that “it takes a minotaur to take down a minotaur” and, [PAWN_nameDef] turned that sentiment into a line of business, capturing and selling their own kin in exchange for twinkling, golden pockets.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Kind>0</Kind>
+			<Brawler>0</Brawler>
+			<Ascetic>0</Ascetic>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+			<li>Crafting</li>
+			<li>Cooking</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Athlete ============================-->
+	<!-- Decent melee gains but incapable of certain artistic and animals -->
+		
+	<BackstoryDef>
+		<defName>RBME_Athlete</defName>
+		<title>athlete</title>
+		<titleShort>athlete</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>Many minotaur cultures celebrate the spectacle of their species’ power through sport. [PAWN_nameDef] trained perilously every day for the chance to participate in these very celebrations, demonstrating [PAWN_possessive] physical abilities for spectators aplenty.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+		<disallowedTraits>
+			<Industriousness>-2</Industriousness>
+			<TorturedArtist>0</TorturedArtist>
+			<Delicate>0</Delicate>
+		</disallowedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Animals</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Potter ============================-->
+	<!-- An artistic minotaur, at last -->
+	
+	<BackstoryDef>
+		<defName>RBME_Potter</defName>
+		<title>potter</title>
+		<titleShort>potter</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] scours the earth for clay to use in [PAWN_possessive] workshop, turning it into magnificent pottery that tells the tales of bygone minotaur heroes.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>9</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Artistic</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+
+	<!--============================== General Backstories (All Xenos) ============================-->
+	
+	<!--============================== Cryptoxenologist ============================-->
+	<!-- General violent adulthood -->
+	
+	<BackstoryDef>
+		<defName>RBME_Cryptoxenologist</defName>
+		<title>cryptoxenologist</title>
+		<titleShort>scientist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef]’s many accolades adorn the walls of [PAWN_possessive] laboratory, yet [PAWN_possessive] dubious reputation precedes them, rendering [PAWN_objective] a controversial figure in [PAWN_possessive] field. Self-classified as a ‘purveyor of cryptoxenos’, [PAWN_nameDef]’s fixation on legendary beasts and xenos borders on an illness.</baseDesc>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Cooking</li>
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<Neurotic>1</Neurotic>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Dauber ============================-->
+	<!-- Was originally for minotaur only, but is general enough that it can be used in other factions too -->
+	
+	<BackstoryDef>
+		<defName>RBME_Dauber</defName>
+		<title>dauber</title>
+		<titleShort>dauber</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef]’s dreams lied in the arts, be it painting, acting or sculpting. Be that as it may, [PAWN_nameDef] wasn’t necessarily very good at it, yet no one had the heart to break it to [PAWN_objective]. /n/n[PAWN_nameDef] was happy to just help out elder artists in their workshops by helping spin the potter’s wheel.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Artistic</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<FastLearner>0</FastLearner>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Milkmaid ============================-->
+	<!--Again, fitting for multiple factions while fleshing out minotaur lore (minolore if you will) -->
+	
+	<BackstoryDef>
+		<defName>RBME_Milkmaid</defName>
+		<title>milkman</title>
+		<titleFemale>milkmaid</titleFemale>
+		<titleShort>milkman</titleShort>
+		<titleShortFemale>milkmaid</titleShortFemale>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing milk for refinement, sale or distribution to minotaur calves for sustenance.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+			<li>Outlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Animals</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Minofanatic ============================-->
+	<!-- Based on a real individual I know lmao -->
+	
+	<BackstoryDef>
+		<defName>RBME_Minofanatic</defName>
+		<title>minofanatic</title>
+		<titleShort>minofanatic</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] is fascinated with the minotaur, and carries the dream of wooing a wonderful, bovine spouse to love and grow old with.</baseDesc>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<Masochist>0</Masochist>
+		</forcedTraits>
+	</BackstoryDef>
+	
+</Defs>
