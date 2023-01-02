@@ -33,6 +33,7 @@
 		</weaponClasses>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
+			<MeleeHitChance>-0.3</MeleeHitChance>
 		</equippedStatOffsets>
     <costStuffCount>70</costStuffCount>
 	<relicChance>1</relicChance>
