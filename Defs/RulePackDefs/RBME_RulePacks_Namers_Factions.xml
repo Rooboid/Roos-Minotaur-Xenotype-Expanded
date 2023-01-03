@@ -69,13 +69,13 @@
 		<rulePack>
 			<rulesRaw>
 				<li Class="Rule_NamePerson">
-					<keyword>firstName</keyword>
+					<keyword>name</keyword>
 					<gender>Male</gender>
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>firstName(p=5)->[MinoPre][MinoTribePawnMascSuf]</li>
-				<li>firstName(p=1)->[MinoTribeUnisex]</li>
+				<li>name(p=5)->[MinoPre][MinoTribePawnMascSuf]</li>
+				<li>name(p=1)->[MinoTribeUnisex]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -90,13 +90,13 @@
 		<rulePack>
 			<rulesRaw>
 				<li Class="Rule_NamePerson">
-					<keyword>firstName</keyword>
+					<keyword>name</keyword>
 					<gender>Female</gender>
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>firstName(p=5)->[MinoPre][MinoTribePawnFemSuf]</li>
-				<li>firstName(p=1)->[MinoTribeUnisex]</li>
+				<li>name(p=5)->[MinoPre][MinoTribePawnFemSuf]</li>
+				<li>name(p=1)->[MinoTribeUnisex]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

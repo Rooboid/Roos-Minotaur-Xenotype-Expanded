@@ -102,7 +102,6 @@
 	<category>Rural</category>
     <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairJ</texPath>
 		<styleTags>
-			<li>Minotaur</li>
 			<li>MinotaurTribe</li>
 			<li>Royal</li>
 			<li>Urban</li>
@@ -133,7 +132,6 @@
 	<category>Rural</category>
     <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairL</texPath>
 		<styleTags>
-			<li>Minotaur</li>
 			<li>MinotaurTribe</li>
 			<li>Royal</li>
 			<li>HairLong</li>
@@ -166,6 +164,7 @@
     <texPath>Things/Pawn/Humanlike/Hairs/RBME_HairN</texPath>
 		<styleTags>
 			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
 			<li>MinotaurWild</li>
 			<li>HairLong</li>
 		</styleTags>

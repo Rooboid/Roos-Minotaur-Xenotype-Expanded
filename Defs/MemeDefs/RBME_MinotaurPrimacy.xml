@@ -10,10 +10,15 @@
     <groupDef>Primacy</groupDef>
     <impact>2</impact>
     <renderOrder>55</renderOrder>
-    <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
+    <!-- <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride> -->
     <requireOne>
       <li>
         <li>PreferredXenotype</li>
+      </li>
+	  <li>
+        <li>Research_Slow</li>
+		<li>Research_VerySlow</li>
+		<li>Research_ExtremelySlow</li>
       </li>
     </requireOne>
     <consumableBuildings>
@@ -70,21 +75,12 @@
     </descriptionMaker>
     <symbolPacks>
       <li>
-        <ideoName>Humanitism</ideoName>
-        <theme>humanity</theme>
-        <adjective>humanitist</adjective>
-        <member>humanitor</member>
-      </li>
-      <li>
-        <ideoName>Mankindism</ideoName>
-        <theme>mankind</theme>
-        <adjective>pro-man</adjective>
-        <member>mankindist</member>
+        <ideoName>Taurism</ideoName>
+        <theme>taurus</theme>
+        <adjective>pro-mino</adjective>
+        <member>taurist</member>
       </li>
     </symbolPacks>
-    <ritualsToMake>1</ritualsToMake>
-    <replaceRitualsWithTags><li>CelebratedDate</li></replaceRitualsWithTags>
-    <replacementPatterns><li>SacrificeAnimal</li></replacementPatterns>
   </MemeDef>
   
   </Defs>
