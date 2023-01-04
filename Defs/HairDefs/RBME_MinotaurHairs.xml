@@ -42,7 +42,7 @@
 		<styleTags>
 			<li>Minotaur</li>
 			<li>MinotaurTribe</li>
-			<li>Royal</li>
+			<li>Urban</li>
 			<li>Tribal</li>
 			<li>HairLong</li>
 		</styleTags>
@@ -59,6 +59,7 @@
 		<styleTags>
 			<li>Minotaur</li>
 			<li>Punk</li>
+			<li>Urban</li>
 			<li>HairShort</li>
 		</styleTags>
 	 </HairDef>
@@ -74,6 +75,7 @@
 		<styleTags>
 			<li>Minotaur</li>
 			<li>MinotaurTribe</li>
+			<li>Urban</li>
 			<li>HairLong</li>
 		</styleTags>
 	 </HairDef>

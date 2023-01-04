@@ -59,7 +59,41 @@
   </RulePackDef>
 
   
-  	<!--====================== Tribal Minotaur (Male) ======================-->
+  <!--====================== Test ======================-->
+  
+    <RulePackDef>
+    <defName>NamerHellenic_Male</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Drow] </li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Drow</keyword>
+          <path>Names/Pawn/ForenamesTribeUnisex_Minotaur</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+      <RulePackDef>
+    <defName>NamerHellenic_Female</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Drow] </li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Drow</keyword>
+          <path>Names/Pawn/ForenamesTribeUnisex_Minotaur</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  
+  
+<!--   
 		
 	<RulePackDef>
 		<defName>NamerHellenic_Male</defName>
@@ -80,7 +114,7 @@
 		</rulePack>
 	</RulePackDef>
 		
-	<!--====================== Tribal Minotaur (Female) ======================-->
+	
 		
 	<RulePackDef>
 		<defName>NamerHellenic_Female</defName>
@@ -99,7 +133,7 @@
 				<li>name(p=1)->[MinoTribeUnisex]</li>
 			</rulesStrings>
 		</rulePack>
-	</RulePackDef>
+	</RulePackDef> -->
 	
 		<!--====================== Hellenic Ideology ======================-->
 		

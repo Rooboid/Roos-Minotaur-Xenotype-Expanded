@@ -98,7 +98,7 @@
     <baseTraderKinds>
       <li>Base_Neolithic_Standard</li>
     </baseTraderKinds>
-    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <allowedArrivalTemperatureRange>-20~45</allowedArrivalTemperatureRange>
     <raidCommonalityFromPointsCurve>
       <points>
         <li>(0, 1)</li> <!--Constant 1 at all points levels-->
@@ -107,10 +107,10 @@
     <raidLootMaker>TribeRaidLootMaker</raidLootMaker>
     <maxPawnCostPerTotalPointsCurve>
       <points>
-        <li>(0,35)</li>
+        <li>(0,45)</li>
         <li>(70, 50)</li>
-        <li>(800, 100)</li>
-        <li>(1300, 150)</li>
+        <li>(800, 120)</li>
+        <li>(1300, 170)</li>
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
@@ -123,14 +123,14 @@
           <RBME_Peltast>10</RBME_Peltast>
           <RBME_Hoplite>15</RBME_Hoplite>
           <RBME_Polemarch>5</RBME_Polemarch>
-          <RBME_Anax>0.5</RBME_Anax>
+          <RBME_Anax>0.3</RBME_Anax>
           <RBME_Olympian>0.05</RBME_Olympian>
         </options>
       </li>
       <li>
         <!-- Wild Minotaur Raid (Primarily Melee) -->
         <kindDef>Combat</kindDef>
-        <commonality>60</commonality>
+        <commonality>30</commonality>
         <options>
           <RBM_MinotaurFeral>15</RBM_MinotaurFeral>
           <RBME_Hoplite>10</RBME_Hoplite>
@@ -141,7 +141,7 @@
       <li>
         <!-- Hoplite Wave -->
         <kindDef>Combat</kindDef>
-        <commonality>20</commonality>
+        <commonality>40</commonality>
         <options>
           <RBME_Hoplite>10</RBME_Hoplite>
           <RBME_Anax>0.7</RBME_Anax>
@@ -152,7 +152,6 @@
         <kindDef>Combat</kindDef>
         <commonality>5</commonality>
         <options>
-          <RBME_Archon>0.2</RBME_Archon>
           <RBME_Peltast>5</RBME_Peltast>
           <RBME_Hoplite>16</RBME_Hoplite>
           <RBME_Polemarch>5</RBME_Polemarch>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs> 
 
-  <FactionDef ParentName="FactionBase">
+  <FactionDef ParentName="OutlanderFactionBase">
     <defName>OutlanderMinotaur</defName>
 	<label>minotaur outlander union</label>
+	<pawnSingular>outlander</pawnSingular>
+    <pawnsPlural>outlanders</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
     <description>An intimidating union of minotaur with an agelong hatred of humans, or as they deem them, ‘fleshbeasts’. Though generally hostile, neighbouring factions would do well to earn their favour, for they make monstrous enemies who don’t always play fair.</description>
     <colorSpectrum>
       <li>(0, 0.4, 0.94)</li>
@@ -15,9 +18,6 @@
 	<earliestRaidDays>15</earliestRaidDays>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>15</configurationListOrderPriority>
-    <pawnSingular>outlander</pawnSingular>
-    <pawnsPlural>outlanders</pawnsPlural>
-    <categoryTag>Outlander</categoryTag>
     <listOrderPriority>30</listOrderPriority>
     <settlementGenerationWeight>0.9</settlementGenerationWeight>
     <requiredCountAtGameStart>0</requiredCountAtGameStart>
@@ -29,9 +29,11 @@
     <techLevel>Industrial</techLevel>
     <factionNameMaker>NamerFactionMinotaurOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementMinotaurOutlander</settlementNameMaker>
-    <allowedCultures><li>Rustican</li></allowedCultures>
+    <allowedCultures>
+	<li>Rustican</li>
+	<li>Kriminul</li>
+	</allowedCultures>
 	<requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 	  <li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li>
     </requiredMemes>
     <disallowedMemes>
@@ -44,14 +46,19 @@
       <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
       <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">5</Structure_Ideological>
 	  <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Animist>
+	  <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
     </structureMemeWeights>
 	    <disallowedPrecepts>
-      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
     <xenotypeSet>
       <xenotypeChances>
         <RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">999</RBM_Minotaur>
+		<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+        <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
       </xenotypeChances>
     </xenotypeSet>
 	<dialogFactionGreetingHostile>MinotaurFactionGreetingHostile</dialogFactionGreetingHostile>

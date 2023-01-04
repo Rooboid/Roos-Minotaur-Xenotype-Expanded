@@ -6,6 +6,7 @@
 		<description>A comfortable tunic that can be draped around the body in many different styles and complimented with a belt.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_ChitonIC</texPath>
+			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -30,6 +31,7 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -41,12 +43,14 @@
 			</layers>
 			<tags>
 				<li>Medieval</li>
+				<li>Hellenic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
+		<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
@@ -65,7 +69,7 @@
   <defName>RBME_Panoply</defName>
     <techLevel>Spacer</techLevel>
 	<label>panoply</label>
-    <description>A fabled set of armour said to have been crafted by the hands of the Gods. Though it's secrets of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. /n/nThe best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
+    <description>A fabled set of armour said to have been crafted by the hands of the Gods. Though it's secrets of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -122,6 +126,7 @@
 	   <tags>
         <li>HerculeanApparel</li>
       </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
     <comps>
       <li Class="CompProperties_Biocodable"/>
@@ -131,6 +136,132 @@
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
 	<tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>RBME_HellenicHelmet</defName>
+    <label>hellenic helmet</label>
+    <description>A simple helmet that covers the majority of the face.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RBME_HellenicHelmet/RBME_HellenicHelmetIC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>55</costStuffCount>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>4500</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+	  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
+      <EquipDelay>1.7</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_HellenicHelmet/RBME_HellenicHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Hellenic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>RBME_RoyalHellenicHelmet</defName>
+    <label>royal hellenic helmet</label>
+    <description>A simple helmet that covers the majority of the face. The added crest symbolises the prestigious rank of the wearer.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RBME_RoyalHellenicHelmet/RBME_RoyalHellenicHelmetIC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>85</costStuffCount>
+		<costList>
+			<Cloth>15</Cloth>
+		</costList>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>4700</WorkToMake>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>2.7</Mass>
+      <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+	  <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.23</ArmorRating_Heat>
+      <EquipDelay>1.7</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+	<PainShockThreshold>0.05</PainShockThreshold>
+	<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+	</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <apparel>
+	<useWornGraphicMask>true</useWornGraphicMask>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_RoyalHellenicHelmet/RBME_RoyalHellenicHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>HellenicRoyal</li>
+		<li>Royal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	<thingCategories>
+      <li>HeadgearNoble</li>
+    </thingCategories>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
 

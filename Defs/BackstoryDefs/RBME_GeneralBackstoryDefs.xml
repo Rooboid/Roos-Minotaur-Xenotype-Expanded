@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--============================== General Backstories (All Xenos) ============================-->
+	
+	<!--============================== Cryptoxenologist ============================-->
+	<!-- Weirdo Adulthood -->
+	
+	<BackstoryDef>
+		<defName>RBME_Cryptoxenologist</defName>
+		<title>cryptoxenologist</title>
+		<titleShort>scientist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef]’s many accolades adorn the walls of [PAWN_possessive] laboratory, yet [PAWN_possessive] dubious reputation precedes them, rendering [PAWN_objective] a controversial figure in [PAWN_possessive] field. Self-classified as a ‘purveyor of cryptoxenos’, [PAWN_nameDef]’s fixation on legendary beasts and xenos borders on an illness.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>MinotaurOutlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Cooking</li>
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<Neurotic>1</Neurotic>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Dauber ============================-->
+	<!-- Was originally for minotaur only, but is general enough that it can be used in other factions too -->
+	
+	<BackstoryDef>
+		<defName>RBME_Dauber</defName>
+		<title>dauber</title>
+		<titleShort>dauber</titleShort>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef]’s dreams lied in the arts, be it painting, acting or sculpting. Be that as it may, [PAWN_nameDef] wasn’t necessarily very good at it, yet no one had the heart to break it to [PAWN_objective]. [PAWN_nameDef] was happy to just help out elder artists in their workshops by helping spin the potter’s wheel.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Artistic</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<FastLearner>0</FastLearner>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Milkmaid ============================-->
+	<!--Again, fitting for multiple factions while fleshing out minotaur lore (minolore if you will) -->
+	
+	<BackstoryDef>
+		<defName>RBME_Milkmaid</defName>
+		<title>milkman</title>
+		<titleFemale>milkmaid</titleFemale>
+		<titleShort>milkman</titleShort>
+		<titleShortFemale>milkmaid</titleShortFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing milk for refinement, sale or distribution to minotaur calves for sustenance.</baseDesc>
+		<spawnCategories>
+			<li>Minotaur</li>
+			<li>Outlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+	
+	<!--============================== Minofanatic ============================-->
+	<!-- Based on a real individual I know lmao -->
+	
+		<BackstoryDef>
+		<defName>RBME_Minofanatic</defName>
+		<title>minofanatic</title>
+		<titleShort>fanatic</titleShort>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] is fascinated with the minotaur, and carries the dream of wooing a wonderful, bovine spouse to love and grow old with.</baseDesc>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Masochist>0</Masochist>
+		</forcedTraits>
+	</BackstoryDef>
+
+
+</Defs>
