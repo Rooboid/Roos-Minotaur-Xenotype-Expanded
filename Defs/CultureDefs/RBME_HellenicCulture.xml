@@ -41,14 +41,14 @@
         <baseWeight>1</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
-      <li>
-        <tag>BeardTribal</tag>
-        <baseWeight>0.2</baseWeight>
+	   <li>
+        <tag>NaturalTattoo</tag>
+        <baseWeight>0.1</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
       <li>
         <tag>TattooFaceTribal</tag>
-        <baseWeight>0.05</baseWeight>
+        <baseWeight>0.03</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
       <li>

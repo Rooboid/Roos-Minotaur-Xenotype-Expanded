@@ -1,241 +1,254 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="FactionBase">
-    <defName>TribeMinotaur</defName>
-	<label>hellenic minotaur tribe</label>
-	<pawnSingular>hellene</pawnSingular>
-    <pawnsPlural>hellenes</pawnsPlural>
-    <description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution rearticulating the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
-	<replacesFaction>TribeCivil</replacesFaction>
-    <colorSpectrum>
-      <li>(223, 223, 223)</li>
-      <li>(170, 185, 193)</li>
-    </colorSpectrum>
-	<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>30</configurationListOrderPriority>	
-	<naturalEnemy>false</naturalEnemy>
-    <categoryTag>Tribal</categoryTag>
-    <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>1</settlementGenerationWeight>
-    <requiredCountAtGameStart>0</requiredCountAtGameStart>
-    <canMakeRandomly>true</canMakeRandomly>
-	<canSiege>false</canSiege>
-    <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>World/Factions/RBME_TribalFaction</factionIconPath>
-    <techLevel>Medieval</techLevel>
-    <factionNameMaker>NamerFactionMinotaurTribe</factionNameMaker>
-    <settlementNameMaker>NamerSettlementMinotaurTribe</settlementNameMaker>
-    <allowedCultures><li>RBME_Hellenic</li></allowedCultures>
-	<requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li> <!-- TODO: Make this work in C -->
-    </requiredMemes>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-    </disallowedMemes>
-    <structureMemeWeights>
-      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">10</Structure_TheistEmbodied>
-      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
-    </structureMemeWeights>
-	    <disallowedPrecepts>
-      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
-      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li> <!-- The Greek Gods loved a bit of vino -->
-	  <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li> <!-- The origin of the minotaur speaks for itself -->
-	  <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
-    </disallowedPrecepts>
-    <xenotypeSet>
-      <xenotypeChances>
-        <RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">1</RBM_Minotaur>
-      </xenotypeChances>
-    </xenotypeSet>
-	<dialogFactionGreetingHostile>MinotaurFactionGreetingHostile</dialogFactionGreetingHostile>
-    <dialogFactionGreetingHostileAppreciative>MinotaurFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
-    <dialogFactionGreetingWary>MinotaurFactionGreetingWary</dialogFactionGreetingWary>
-    <dialogFactionGreetingWarm>MinotaurFactionGreetingWarm</dialogFactionGreetingWarm>
-    <dialogMilitaryAidSent>MinotaurMilitaryAidSent</dialogMilitaryAidSent>
-    <backstoryFilters>
-	      <li>
-        <categories>
-          <li>MinotaurTribal</li>
-        </categories>
-        <commonality>7</commonality>
-      </li>
-	  	      <li>
-        <categories>
-          <li>Minotaur</li>
-        </categories>
-        <commonality>3</commonality>
-      </li>
-      <li>
-        <categories>
-          <li>Tribal</li>
-        </categories>
-        <commonality>0.5</commonality>
-      </li>
-      <li>
-        <categories>
-          <li>Offworld</li>
-        </categories>
-        <commonality>0.1</commonality>
-      </li>
-    </backstoryFilters>
-    <leaderTitle>olympian</leaderTitle>
-    <caravanTraderKinds>
-      <li>Caravan_Neolithic_BulkGoods</li>
-      <li>Caravan_Neolithic_WarMerchant</li>
-      <li>Caravan_Neolithic_Slaver</li>
-      <li>Caravan_Neolithic_ShamanMerchant</li>
-    </caravanTraderKinds>
-    <visitorTraderKinds>
-      <li>Visitor_Neolithic_Standard</li>
-    </visitorTraderKinds>
-    <baseTraderKinds>
-      <li>Base_Neolithic_Standard</li>
-    </baseTraderKinds>
-    <allowedArrivalTemperatureRange>-20~45</allowedArrivalTemperatureRange>
-    <raidCommonalityFromPointsCurve>
-      <points>
-        <li>(0, 1)</li> <!--Constant 1 at all points levels-->
-      </points>
-    </raidCommonalityFromPointsCurve>
-    <raidLootMaker>TribeRaidLootMaker</raidLootMaker>
-    <maxPawnCostPerTotalPointsCurve>
-      <points>
-        <li>(0,45)</li>
-        <li>(70, 50)</li>
-        <li>(800, 120)</li>
-        <li>(1300, 170)</li>
-        <li>(100000, 10000)</li>
-      </points>
-    </maxPawnCostPerTotalPointsCurve>
-    <pawnGroupMakers>
-      <li>
-        <!-- Standard Raid -->
-        <kindDef>Combat</kindDef>
-        <commonality>100</commonality>
-        <options>
-          <RBME_Peltast>10</RBME_Peltast>
-          <RBME_Hoplite>15</RBME_Hoplite>
-          <RBME_Polemarch>5</RBME_Polemarch>
-          <RBME_Anax>0.3</RBME_Anax>
-          <RBME_Olympian>0.05</RBME_Olympian>
-        </options>
-      </li>
-      <li>
-        <!-- Wild Minotaur Raid (Primarily Melee) -->
-        <kindDef>Combat</kindDef>
-        <commonality>30</commonality>
-        <options>
-          <RBM_MinotaurFeral>15</RBM_MinotaurFeral>
-          <RBME_Hoplite>10</RBME_Hoplite>
-          <RBME_Polemarch>5</RBME_Polemarch>
-          <RBME_Anax>0.2</RBME_Anax>
-        </options>
-      </li>
-      <li>
-        <!-- Hoplite Wave -->
-        <kindDef>Combat</kindDef>
-        <commonality>40</commonality>
-        <options>
-          <RBME_Hoplite>10</RBME_Hoplite>
-          <RBME_Anax>0.7</RBME_Anax>
-      </options>
-      </li>
-      <li>
-        <!-- Fateful Raid (High Difficulty) -->
-        <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
-        <options>
-          <RBME_Peltast>5</RBME_Peltast>
-          <RBME_Hoplite>16</RBME_Hoplite>
-          <RBME_Polemarch>5</RBME_Polemarch>
-          <RBME_Anax>3</RBME_Anax>
-          <RBME_Olympian>0.1</RBME_Olympian>
-      </options>
-      </li>
-      <li>
-        <!-- Peaceful -->
-        <kindDef>Peaceful</kindDef>
-        <options>
-          <RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">5</RBME_Minotaur_Calf>
-          <RBME_Sophist>2</RBME_Sophist>
-          <RBME_Commoner>15</RBME_Commoner>
-          <RBME_Hoplite>10</RBME_Hoplite>
-          <RBME_Polemarch>3</RBME_Polemarch>
-        </options>
-      </li>
-      <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <RBME_Sophist>1</RBME_Sophist>
-        </traders>
-        <carriers>
-          <Donkey>5</Donkey>
-          <Horse>4</Horse>
-          <Yak>3</Yak>
-          <Bison>1</Bison>
-        </carriers>
-        <guards>
-          <RBME_Commoner>2</RBME_Commoner>
-          <RBME_Hoplite>10</RBME_Hoplite>
-          <RBME_Polemarch>5</RBME_Polemarch>
-          <RBME_Anax>0.2</RBME_Anax>
-        </guards>
-      </li>
-      <li>
-        <kindDef>Settlement</kindDef>
-        <options>
-          <RBME_Archon>3</RBME_Archon>
-          <RBME_Sophist>2</RBME_Sophist>
-          <RBME_Commoner>7</RBME_Commoner>
-          <RBME_Hoplite>15</RBME_Hoplite>
-          <RBME_Polemarch>8</RBME_Polemarch>
-          <RBME_Anax>5</RBME_Anax>
-        </options>
-      </li>
-      <li>
-        <kindDef>Settlement_RangedOnly</kindDef>
-        <options>
-          <RBME_Peltast>13</RBME_Peltast>
-          <RBME_Archon>5</RBME_Archon>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Miners</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Tribal_Miner>1</Tribal_Miner>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Hunters</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Tribal_Hunter>1</Tribal_Hunter>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Loggers</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Tribal_Logger>1</Tribal_Logger>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Farmers</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Tribal_Farmer>1</Tribal_Farmer>
-        </options>
-      </li>
-    </pawnGroupMakers>
-    <settlementTexturePath>World/Factions/RBME_TribalFaction</settlementTexturePath>
-  </FactionDef>
+	<FactionDef ParentName="FactionBase">
+		<defName>TribeMinotaur</defName>
+		<label>hellenic minotaur tribe</label>
+		<pawnSingular>hellene</pawnSingular>
+		<pawnsPlural>hellenes</pawnsPlural>
+		<description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution rearticulating the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
+		<replacesFaction>TribeCivil</replacesFaction>
+		<colorSpectrum>
+			<li>(223, 223, 223)</li>
+			<li>(170, 185, 193)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+		<naturalEnemy>false</naturalEnemy>
+		<categoryTag>Tribal</categoryTag>
+		<listOrderPriority>20</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>0</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>World/Factions/RBME_TribalFaction</factionIconPath>
+		<techLevel>Medieval</techLevel>
+		<factionNameMaker>NamerFactionMinotaurTribe</factionNameMaker>
+		<settlementNameMaker>NamerSettlementMinotaurTribe</settlementNameMaker>
+		<allowedCultures><li>RBME_Hellenic</li></allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li><!-- TODO: Make this work in C -->
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">10</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+		</structureMemeWeights>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+		</disallowedPrecepts>
+		<xenotypeSet>
+			<xenotypeChances>
+				<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">1</RBM_Minotaur>
+			</xenotypeChances>
+		</xenotypeSet>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+				<allowedBiomes>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+					<li>ExtremeDesert</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+				<startingGoodwillByFactionDefs>
+					<OutlanderMinotaur>0~100</OutlanderMinotaur>
+				</startingGoodwillByFactionDefs>
+			</li>
+		</modExtensions>
+		<dialogFactionGreetingHostile>MinotaurFactionGreetingHostile</dialogFactionGreetingHostile>
+		<dialogFactionGreetingHostileAppreciative>MinotaurFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+		<dialogFactionGreetingWary>MinotaurFactionGreetingWary</dialogFactionGreetingWary>
+		<dialogFactionGreetingWarm>MinotaurFactionGreetingWarm</dialogFactionGreetingWarm>
+		<dialogMilitaryAidSent>MinotaurMilitaryAidSent</dialogMilitaryAidSent>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MinotaurTribal</li>
+				</categories>
+				<commonality>7</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Minotaur</li>
+				</categories>
+				<commonality>3</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.1</commonality>
+			</li>
+		</backstoryFilters>
+		<leaderTitle>olympian</leaderTitle>
+		<caravanTraderKinds>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_Slaver</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Neolithic_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Neolithic_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-20~45</allowedArrivalTemperatureRange>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 1)</li><!--Constant 1 at all points levels-->
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<raidLootMaker>TribeRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,45)</li>
+				<li>(70, 50)</li>
+				<li>(800, 120)</li>
+				<li>(1300, 170)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Standard Raid -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<RBME_Peltast>10</RBME_Peltast>
+					<RBME_Hoplite>15</RBME_Hoplite>
+					<RBME_Polemarch>5</RBME_Polemarch>
+					<RBME_Anax>0.3</RBME_Anax>
+					<RBME_Olympian>0.05</RBME_Olympian>
+				</options>
+			</li>
+			<li>
+				<!-- Wild Minotaur Raid (Primarily Melee) -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<RBM_MinotaurFeral>15</RBM_MinotaurFeral>
+					<RBME_Hoplite>10</RBME_Hoplite>
+					<RBME_Polemarch>5</RBME_Polemarch>
+					<RBME_Anax>0.2</RBME_Anax>
+				</options>
+			</li>
+			<li>
+				<!-- Hoplite Wave -->
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<RBME_Hoplite>10</RBME_Hoplite>
+					<RBME_Anax>0.7</RBME_Anax>
+				</options>
+			</li>
+			<li>
+				<!-- Fateful Raid (High Difficulty) -->
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<RBME_Peltast>5</RBME_Peltast>
+					<RBME_Hoplite>16</RBME_Hoplite>
+					<RBME_Polemarch>5</RBME_Polemarch>
+					<RBME_Anax>3</RBME_Anax>
+					<RBME_Olympian>0.1</RBME_Olympian>
+				</options>
+			</li>
+			<li>
+				<!-- Peaceful -->
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">5</RBME_Minotaur_Calf>
+					<RBME_Sophist>2</RBME_Sophist>
+					<RBME_Commoner>15</RBME_Commoner>
+					<RBME_Hoplite>10</RBME_Hoplite>
+					<RBME_Polemarch>3</RBME_Polemarch>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RBME_Sophist>1</RBME_Sophist>
+				</traders>
+				<carriers>
+					<Donkey>5</Donkey>
+					<Horse>4</Horse>
+					<Yak>3</Yak>
+					<Bison>1</Bison>
+				</carriers>
+				<guards>
+					<RBME_Commoner>2</RBME_Commoner>
+					<RBME_Hoplite>10</RBME_Hoplite>
+					<RBME_Polemarch>5</RBME_Polemarch>
+					<RBME_Anax>0.2</RBME_Anax>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<RBME_Archon>3</RBME_Archon>
+					<RBME_Sophist>2</RBME_Sophist>
+					<RBME_Commoner>7</RBME_Commoner>
+					<RBME_Hoplite>15</RBME_Hoplite>
+					<RBME_Polemarch>8</RBME_Polemarch>
+					<RBME_Anax>5</RBME_Anax>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<RBME_Peltast>13</RBME_Peltast>
+					<RBME_Archon>5</RBME_Archon>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Miner>1</Tribal_Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Hunter>1</Tribal_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Logger>1</Tribal_Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Farmer>1</Tribal_Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/Factions/RBME_TribalFaction</settlementTexturePath>
+	</FactionDef>
   
-  </Defs>
+</Defs>

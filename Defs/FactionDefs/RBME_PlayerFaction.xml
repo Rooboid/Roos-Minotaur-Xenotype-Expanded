@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--============================== Minotaur Player Factions ============================-->
+	<!-- Player Faction - Colony -->
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>RBME_MinotaurPlayerOutlander</defName>
+		<label>Minotaur Colony</label>
+		<description>A base of minotaur.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>RBME_PlayerMinotaurOutlanderPawn</basicMemberKind>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionMinotaurOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementMinotaurOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Minotaur</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>MinotaurOutlander</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/Factions/RBME_OutlanderFaction</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<TribeMinotaur>25~60</TribeMinotaur>
+					<OutlanderMinotaur>25~60</OutlanderMinotaur>
+				</startingGoodwillByFactionDefs>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	
+	<!-- Player Faction - Tribe -->
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>RBME_MinotaurPlayerTribe</defName>
+		<label>Minotaur Tribe</label>
+		<description>A Hellenic base of minotaur.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>RBME_PlayerMinotaurTribalPawn</basicMemberKind>
+		<categoryTag>Tribal</categoryTag>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<techLevel>Neolithic</techLevel>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionMinotaurOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementMinotaurOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>RBME_Hellenic</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Minotaur</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>MinotaurTribal</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+				<commonality>3</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.2</commonality>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/Factions/RBME_TribalFaction</factionIconPath>
+		<forageabilityFactor>1.7</forageabilityFactor>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>TribalStart</li>
+			<li>TribalStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<recipePrerequisiteTags>
+			<li>Tribal</li>
+		</recipePrerequisiteTags>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<TribeMinotaur>25~60</TribeMinotaur>
+					<OutlanderMinotaur>25~60</OutlanderMinotaur>
+				</startingGoodwillByFactionDefs>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	
+</Defs>

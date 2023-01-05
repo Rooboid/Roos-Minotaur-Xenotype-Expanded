@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!--============================== Royalty - Patches ============================-->
+	<!--============================== Vanilla Traits Expanded Patches ============================-->
 	<!--Additional content if Royalty is installed-->
 	
 	<!--Sophian Style added to Hellenic Tribe-->
@@ -318,6 +318,204 @@
 				<VTE_Submissive>0</VTE_Submissive>
 			</value>
 		</match>
+	</Operation>
+	
+		<!--============================== Vanilla Laser Guns Expanded Patches ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Add Laser weapons to Ringleader PawnDef-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Laser</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Ringleader"]/weaponTags</xpath>
+			<value>
+			<li>LaserGun</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Vanilla Armour Expanded Patches ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Add extra clothing and shoes to tribal minotaur-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Laser</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[@Name="MinotaurTribalBase"]/apparelTags</xpath>
+			<value>
+			<li>MedievalMilitary</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Seren Patches ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Add extra clothing and shoes to tribal minotaur-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+			<Seren MayRequire="Ludeon.RimWorld.Biotech">0.80</Seren>
+			</value>
+		</match>
+	</Operation>
+	
+		<!-- Allies the Minotaur factions with the Seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+			<li>SerenPlayerBase</li>
+			<li>SerenCivilBase</li>
+			<li>SerenRoughBase</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Allies the Minotaur Tribal factions with the Seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+			<value>
+			<SerenPlayerBase>0~50</SerenPlayerBase>
+			<SerenCivilBase>0~50</SerenCivilBase>
+			<SerenRoughBase>0~50</SerenRoughBase>
+			</value>
+		</match>
+	</Operation>
+	
+		<!-- Allies the Minotaur Outlander factions with the Seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribalMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+			<value>
+			<SerenPlayerBase>0~50</SerenPlayerBase>
+			<SerenCivilBase>0~50</SerenCivilBase>
+			<SerenRoughBase>0~50</SerenRoughBase>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Egyptian/Kemetic Factions and Culture ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Adds minotaur to Kemetic factions-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Egyptian/Kemetic Factions and Culture</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+			<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">0.025</RBM_Minotaur>
+			</value>
+		</match>
+	</Operation>
+	
+			<!-- Allies the Minotaur Outlander faction with the Kemetic factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Egyptian/Kemetic Factions and Culture</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+			<li>UpperKemet</li>
+			<li>LowerKemet</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+		<!--============================== Memes Expanded ============================-->
+	<!--Additional content if Royalty is installed-->
+	
+	<!--Add extra clothing and shoes to tribal minotaur-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/structureMemeWeights</xpath>
+			<value>
+			<VME_Structure_Bacchanalianism MayRequire="Ludeon.RimWorld.Ideology">10</VME_Structure_Bacchanalianism>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/disallowedMemes</xpath>
+			<value>
+			<li MayRequire="Ludeon.RimWorld.Ideology">VME_Bushido</li>
+			</value>
+		</match>
+		</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/disallowedMemes</xpath>
+			<value>
+			<li MayRequire="Ludeon.RimWorld.Ideology">VME_Egalitarian</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">VME_Pacifist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">VME_Bushido</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">VME_Healthcare</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Vanilla Framework Expanded Patches ============================-->
+	<!--Most of the Vanilla Framework Expanded functionality is in the Defs themselves-->
+	
+	<!--Attach buffs to unguligrade legs (HeDiff) as opposed to unguligrade legs (Gene)-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="RBM_UnguligradeLegs"]</xpath>
+		<value>
+			<statOffsets>
+			<StaggerDurationFactor>-0.3</StaggerDurationFactor>
+			<MoveSpeed>0.2</MoveSpeed>
+			<FilthRate>1.5</FilthRate>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+		</statOffsets>
+		</value>
+		</nomatch>
 	</Operation>
 	
 	
