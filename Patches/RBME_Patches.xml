@@ -366,7 +366,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
 			<value>
-			<Seren MayRequire="Ludeon.RimWorld.Biotech">0.80</Seren>
+			<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0.80</Seren_Base>
 			</value>
 		</match>
 	</Operation>
@@ -405,19 +405,19 @@
 	
 		<!-- Allies the Minotaur Outlander factions with the Seren factions -->
 	
-	<Operation Class="PatchOperationFindMod">
+ 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>[Alien/Race] Seren, from Stardust</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="TribalMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
 			<value>
 			<SerenPlayerBase>0~50</SerenPlayerBase>
 			<SerenCivilBase>0~50</SerenCivilBase>
 			<SerenRoughBase>0~50</SerenRoughBase>
 			</value>
 		</match>
-	</Operation>
+	</Operation> 
 	
 	<!--============================== Egyptian/Kemetic Factions and Culture ============================-->
 	<!--Additional content if Royalty is installed-->
@@ -517,6 +517,69 @@
 		</value>
 		</nomatch>
 	</Operation>
+	
+	<!--============================== Vanilla Apparel Expanded Patches ============================-->
+	<!-- Forces jumpsuits on RBME_PlayerMinotaurOutlanderPawn-->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="RBME_PlayerMinotaurOutlanderPawn"]/apparelRequired</xpath>
+		<value>
+		<apparelRequired>
+			<li>VAE_Apparel_Jumpsuit</li>
+		</apparelRequired>
+		</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Vanilla Apparel Expanded - Accessories Patches ============================-->
+	<!-- Adds Accessories to RBME_Harrier PawnKind-->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RBME_Harrier"]/apparelTags</xpath>
+		<value>
+		<li>VAEA_Utility_Industrial</li>
+		</value>
+		</match>
+		</Operation>
+		
+		<!-- Adds Accessories to RBME_Harrier PawnKind-->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
+		<value>
+		<li>VAEA_Utility_Neolithic</li>
+		</value>
+		</match>
+		</Operation>
+		
+				<!-- Adds Accessories to RBME_Peltast PawnKind-->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
+		<value>
+		<li>VAEA_Utility_Neolithic</li>
+		</value>
+		</match>
+		</Operation>
+	
+	
+	
 	
 	
 </Patch>

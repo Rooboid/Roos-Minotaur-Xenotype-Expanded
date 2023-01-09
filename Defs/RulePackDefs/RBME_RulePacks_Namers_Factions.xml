@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--====================== Minotaur Name Assets ======================-->
-  <!-- All Files -->
+	<!--====================== Minotaur Name Assets ======================-->
+	<!-- All Files -->
 
-  <RulePackDef>
-	<defName>NamerMinotaurBaseExpanded</defName>
-	<rulePack>
-      <rulesFiles>
-		<!-- General -->
-		<li>MinoPre->WordParts/Misc/HellenicPrefix</li>
-		<!-- Faction / Location Names -->
-        <li>MinoTribeSuf->WordParts/Factions/MinotaurTribeSuffix</li>
-		<li>MinoOutlander->Names/Factions/MinotaurOutlanderNames</li>		
-		<li>MinoTribeLocSuf->WordParts/Locations/LocationTribalSuffix_Minotaur</li>
-		<li>MinoOutlanderLocPre->WordParts/Locations/LocationColonyPrefix_Minotaur</li>
-		<li>MinoOutlanderLocSuf->WordParts/Locations/LocationColonySuffix_Minotaur</li>
-		<!-- Pawn Names (Tribe)-->
-		<li>MinoTribePawnFemSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeFemaleSuffix_Minotaur</li>
-		<li>MinoTribePawnMascSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeMaleSuffix_Minotaur</li>
-		<li>MinoTribeUnisex->Names/Pawn/ForenamesTribeUnisex_Minotaur</li>
-		<!-- Ideology Names-->
-		<li>MinoIdeoSuf->WordParts/Ideology/MinotaurIdeologySuffix</li>
-      </rulesFiles>
-	  </rulePack>
-  </RulePackDef>
+	<RulePackDef>
+		<defName>NamerMinotaurBaseExpanded</defName>
+		<rulePack>
+			<rulesFiles>
+				<!-- General -->
+				<li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+				<!-- Faction / Location Names -->
+				<li>MinoTribeSuf->WordParts/Factions/MinotaurTribeSuffix</li>
+				<li>MinoOutlander->Names/Factions/MinotaurOutlanderNames</li>
+				<li>MinoTribeLocSuf->WordParts/Locations/LocationTribalSuffix_Minotaur</li>
+				<li>MinoOutlanderLocPre->WordParts/Locations/LocationColonyPrefix_Minotaur</li>
+				<li>MinoOutlanderLocSuf->WordParts/Locations/LocationColonySuffix_Minotaur</li>
+				<!-- Pawn Names (Tribe)-->
+				<li>MinoTribePawnFemSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeFemaleSuffix_Minotaur</li>
+				<li>MinoTribePawnMascSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeMaleSuffix_Minotaur</li>
+				<li>MinoTribeUnisex->Names/Pawn/ForenamesTribeUnisex_Minotaur</li>
+				<!-- Ideology Names-->
+				<li>MinoIdeoSuf->WordParts/Ideology/MinotaurIdeologySuffix</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
   
-  <!--====================== Minotaur Tribes - influenced by ancient Greece ======================-->
-  <!-- Tribal Faction -->
+	<!--====================== Minotaur Tribes - influenced by ancient Greece ======================-->
+	<!-- Tribal Faction -->
 
-  <RulePackDef>
-    <defName>NamerFactionMinotaurTribe</defName>
-    <include>
-      <li>NamerMinotaurBaseExpanded</li>
-    </include>
-    <rulePack>
-      <rulesStrings>
-        <li>r_name(p=7)->[MinoPre][MinoTribeSuf]</li>	
-		<li>r_name(p=3)->[SylB][MinotribeSuf]</li>
-		<li>r_name(p=1)->Noxia</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+	<RulePackDef>
+		<defName>NamerFactionMinotaurTribe</defName>
+		<include>
+			<li>NamerMinotaurBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=7)->[MinoPre][MinoTribeSuf]</li>
+				<li>r_name(p=3)->[SylB][MinotribeSuf]</li>
+				<li>r_name(p=1)->Noxia</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
   
-  <!-- Tribal Faction - Settlements -->
+	<!-- Tribal Faction - Settlements -->
   
-    <RulePackDef>
-    <defName>NamerSettlementMinotaurTribe</defName>
-    <include>
-      <li>NamerMinotaurBaseExpanded</li>
-    </include>
-    <rulePack>
-      <rulesStrings>
-        <li>r_name(p=3)->[MinoPre][MinoTribeLocSuf]</li>
-        <li>r_name(p=1)->[SylB][MinoTribeLocSuf]</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementMinotaurTribe</defName>
+		<include>
+			<li>NamerMinotaurBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=3)->[MinoPre][MinoTribeLocSuf]</li>
+				<li>r_name(p=1)->[SylB][MinoTribeLocSuf]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 
   
-  <!--====================== Hellenic Names ======================-->
+	<!--====================== Hellenic Names ======================-->
    
 	<RulePackDef>
 		<defName>NamerHellenic_Male</defName>
 		<include>
-		<li>NamerMinotaurBaseExpanded</li>
+			<li>NamerMinotaurBaseExpanded</li>
 		</include>
 		<rulePack>
 			<rulesRaw>
@@ -85,7 +85,7 @@
 	<RulePackDef>
 		<defName>NamerHellenic_Female</defName>
 		<include>
-      <li>NamerMinotaurBaseExpanded</li>
+			<li>NamerMinotaurBaseExpanded</li>
 		</include>
 		<rulePack>
 			<rulesRaw>
@@ -99,15 +99,15 @@
 				<li>name(p=1)->[MinoTribeUnisex]</li>
 			</rulesStrings>
 		</rulePack>
-	</RulePackDef> 
+	</RulePackDef>
 	
-		<!--====================== Hellenic Ideology ======================-->
+	<!--====================== Hellenic Ideology ======================-->
 		
 	<RulePackDef>
 		<defName>NamerHellenic_Ideo</defName>
 		<include>
-		<li>NamerMinotaurBaseExpanded</li>
-		<li>NamerIdeoGlobal</li>
+			<li>NamerMinotaurBaseExpanded</li>
+			<li>NamerIdeoGlobal</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -116,12 +116,12 @@
 		</rulePack>
 	</RulePackDef>
 	
-			<!--====================== Hellenic Deity ======================-->
+	<!--====================== Hellenic Deity ======================-->
 		
 	<RulePackDef>
 		<defName>NamerHellenic_Deity</defName>
 		<include>
-      <li>NamerMinotaurBaseExpanded</li>
+			<li>NamerMinotaurBaseExpanded</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -153,10 +153,10 @@
 		</rulePack>
 	</RulePackDef>
 	
-		<RulePackDef>
+	<RulePackDef>
 		<defName>NamerHellenic_DeityType</defName>
 		<include>
-      <li>NamerMinotaurBaseExpanded</li>
+			<li>NamerMinotaurBaseExpanded</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -171,11 +171,11 @@
 		</rulePack>
 	</RulePackDef>
 	
-			<RulePackDef>
+	<RulePackDef>
 		<defName>NamerHellenic_Leader</defName>
 		<include>
-      <li>NamerMinotaurBaseExpanded</li>
-	  <li>LeaderTitleMaker_GlobalStructure</li>
+			<li>NamerMinotaurBaseExpanded</li>
+			<li>LeaderTitleMaker_GlobalStructure</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -190,74 +190,72 @@
 	</RulePackDef>
   
   
-    <!--====================== Minotaur Outlanders - Influenced by colder, worldwide countries and cultures ======================-->
+	<!--====================== Minotaur Outlanders - Influenced by colder, worldwide countries and cultures ======================-->
 	<!-- Outlander Faction -->
   
-    <RulePackDef>
-    <defName>NamerFactionMinotaurOutlander</defName>
-    <include>
-      <li>NamerMinotaurBaseExpanded</li>
-    </include>
-    <rulePack>
-      <rulesStrings>
-        <li>r_name(p=5)->[MinoOutlander]</li>
-		<li>r_name(p=4)->The [MinoOutlander]s</li>
-		<li>r_name(p=3)->The [MinoOutlander] [Community]</li>
-		<li>r_name(p=3)->The [MinoPre][MinoIdeoSuf] [Community]</li>
-		<li>r_name(p=1)->[MinoPre][MinoTribeSuf]</li>
-		<li>r_name(p=1)->Padova</li> 
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+	<RulePackDef>
+		<defName>NamerFactionMinotaurOutlander</defName>
+		<include>
+			<li>NamerMinotaurBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=5)->[MinoOutlander]</li>
+				<li>r_name(p=4)->The [MinoOutlander]s</li>
+				<li>r_name(p=3)->The [MinoOutlander] [Community]</li>
+				<li>r_name(p=3)->The [MinoPre][MinoIdeoSuf] [Community]</li>
+				<li>r_name(p=1)->[MinoPre][MinoTribeSuf]</li>
+				<li>r_name(p=1)->Padova</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
   
-  <!-- Outlander Faction - Settlements -->
+	<!-- Outlander Faction - Settlements -->
 
-  <RulePackDef>
-    <defName>NamerSettlementMinotaurOutlander</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>r_name(p=5)->[MinoOutlanderLocPre] [MinoOutlanderLocSuf]</li>
-        <li>r_name(p=2)->[townname_combo]</li>
-		<li>r_name(p=1)->[MinoPre][MinoTribeLocSuf]</li>
-		<li>r_name(p=1)->[MinoOutlander]</li>
+	<RulePackDef>
+		<defName>NamerSettlementMinotaurOutlander</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=5)->[MinoOutlanderLocPre] [MinoOutlanderLocSuf]</li>
+				<li>r_name(p=2)->[townname_combo]</li>
+				<li>r_name(p=1)->[MinoPre][MinoTribeLocSuf]</li>
+				<li>r_name(p=1)->[MinoOutlander]</li>
 
-        <li>topicalnoun->[Vegetable]</li>
-        <li>topicalnoun->[Game]</li>
-        <li>topicalnoun->[BodyPart]</li>
+				<li>topicalnoun->[Vegetable]</li>
+				<li>topicalnoun->[Game]</li>
+				<li>topicalnoun->[BodyPart]</li>
 
-        <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-        <li>townname_combo->[topicalnoun] [Community]</li>
-        <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
-        <li>townname_combo->[topicalnoun]'s [Community]</li>
-        <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
-        <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
-        <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-        <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
-        <li>townname_combo(p=3)->[Character]'s [Community]</li>
+				<li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+				<li>townname_combo->[topicalnoun] [Community]</li>
+				<li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+				<li>townname_combo->[topicalnoun]'s [Community]</li>
+				<li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
+				<li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+				<li>townname_combo(p=2)->[concept_positive] [Community]</li>
+				<li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+				<li>townname_combo(p=3)->[Character]'s [Community]</li>
 
-        <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
-        <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
-        <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
-        <li>nearnameinitial->[townname_wordgen]</li>
-        <li>nearnameinitial->[Community]</li>
+				<li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
+				<li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
+				<li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
+				<li>nearnameinitial->[townname_wordgen]</li>
+				<li>nearnameinitial->[Community]</li>
 
-        <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-        <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-        <li>townname_wordgen(p=2)->[SylE][MinoTribeLocSuf]</li>
-        <li>townname_wordgen(p=2)->[SylE][SylE][MinoTribeLocSuf]</li>
-        <li>townname_wordgen->[TerrainFeature][MinoTribeLocSuf]</li>
-        <li>townname_wordgen->[topicalnoun][MinoTribeLocSuf]</li>
-      </rulesStrings>
-      <rulesFiles>
-        <li>townname_fixed->Names/OutlanderTown</li>
-        <li>concept_positive->Words/Nouns/Concepts_Positive</li>
-      </rulesFiles>
-    </rulePack>
-  </RulePackDef>
+				<li>townname_wordgen(p=2)->[SylE][SylE]</li>
+				<li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+				<li>townname_wordgen(p=2)->[SylE][MinoTribeLocSuf]</li>
+				<li>townname_wordgen(p=2)->[SylE][SylE][MinoTribeLocSuf]</li>
+				<li>townname_wordgen->[TerrainFeature][MinoTribeLocSuf]</li>
+				<li>townname_wordgen->[topicalnoun][MinoTribeLocSuf]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>townname_fixed->Names/OutlanderTown</li>
+				<li>concept_positive->Words/Nouns/Concepts_Positive</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
   
-  <!--====================== Outlander Minotaur ======================-->
-  <!-- Outlander minotaur use "NamerMinotaurBase"- the standard namer in the base mod -->
-
-
+	<!--====================== Outlander Minotaur ======================-->
+	<!-- Outlander minotaur use "NamerMinotaurBase"- the standard namer in the base mod -->
 
 </Defs>

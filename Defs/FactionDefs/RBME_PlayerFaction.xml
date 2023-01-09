@@ -56,8 +56,8 @@
 		<modExtensions>
 			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
-					<TribeMinotaur>25~60</TribeMinotaur>
-					<OutlanderMinotaur>25~60</OutlanderMinotaur>
+					<TribeMinotaur>0~50</TribeMinotaur>
+					<OutlanderMinotaur>0~50</OutlanderMinotaur>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>
@@ -127,8 +127,8 @@
 		<modExtensions>
 			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
-					<TribeMinotaur>25~60</TribeMinotaur>
-					<OutlanderMinotaur>25~60</OutlanderMinotaur>
+					<TribeMinotaur>25~50</TribeMinotaur>
+					<OutlanderMinotaur>0~25</OutlanderMinotaur>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>

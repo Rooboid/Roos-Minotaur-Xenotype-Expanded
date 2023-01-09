@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-	<!--====================== Player - Minotaur Base Pawn ======================-->
+	<!--====================== Player - Minotaur Outlander Pawn ======================-->
+	<!-- Used for the RBME_MinotaurNomads Scenario -->
 	
-		<PawnKindDef ParentName="MinotaurOutlanderBase">
+	<PawnKindDef ParentName="MinotaurOutlanderBase">
 		<defName>RBME_PlayerMinotaurOutlanderPawn</defName>
 		<label>minotaur</label>
 		<nameMaker>NamerPersonMinotaur_Male</nameMaker>
@@ -12,9 +11,30 @@
 		<defaultFactionType>RBME_MinotaurPlayerOutlander</defaultFactionType>
 		<initialWillRange>0~0.7</initialWillRange>
 		<initialResistanceRange>1~10</initialResistanceRange>
-		</PawnKindDef>
+		<apparelMoney>50~450</apparelMoney>
+		<gearHealthRange>1~1</gearHealthRange>
+		<apparelRequired>
+			<li>Apparel_Pants</li>
+			<li>Apparel_CollarShirt</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<color>(230,130,61)</color>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<stuff>Synthread</stuff>
+				<color>(230,130,61)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
 		
-		<PawnKindDef ParentName="MinotaurTribalBase">
+	<!--====================== Player - Minotaur Tribal Pawn ======================-->
+	<!-- Used for the RBME_MinotaurTribe Scenario -->
+		
+	<PawnKindDef ParentName="MinotaurTribalBase">
 		<defName>RBME_PlayerMinotaurTribalPawn</defName>
 		<label>minotaur</label>
 		<nameMaker>NamerHellenic_Male</nameMaker>
@@ -22,10 +42,15 @@
 		<initialWillRange>0~0.7</initialWillRange>
 		<initialResistanceRange>1~10</initialResistanceRange>
 		<defaultFactionType>RBME_MinotaurPlayerTribe</defaultFactionType>
-		</PawnKindDef>
+		<apparelMoney>50~100</apparelMoney>
+		<gearHealthRange>1~1</gearHealthRange>
+		<apparelRequired>
+			<li>RBME_Chiton</li>
+		</apparelRequired>
+	</PawnKindDef>
 
 	<!--====================== Tribal Pawns - Parent ======================-->
-	
+	<!-- Used for pawns within a TribeMinotaur faction -->
 	
 	<PawnKindDef Name="MinotaurTribalBase" Abstract="True">
 		<!-- Core Stats -->
@@ -58,11 +83,11 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	
-	
+
 	<!--====================== Tribal Pawns - Peaceful ======================-->
 	
 	<!-- Archon -->
+	
 	<PawnKindDef ParentName="MinotaurTribalBase">
 		<!-- Name -->
 		<defName>RBME_Archon</defName>
@@ -191,9 +216,9 @@
 				<color>(55,110,215)</color>
 			</li>
 		</specificApparelRequirements>
-		<!-- Weapons -->
 	</PawnKindDef>
 	
+	<!-- Commoner -->
 	
 	<PawnKindDef ParentName="MinotaurTribalBase">
 		<!-- Name -->
@@ -230,8 +255,8 @@
 		</inventoryOptions>
 	</PawnKindDef>
 	
-	
 	<!--====================== Tribal Pawns - Fighters ======================-->
+	<!-- Used in TribeMinotaur raids -->
 	
 	<!-- Peltast -->
 		
@@ -393,7 +418,7 @@
 		</weaponTags>
 	</PawnKindDef>
 	
-	<!-- Anax - Big power spike -->
+	<!-- Anax -->
 		
 	<PawnKindDef ParentName="MinotaurTribalBase">
 		<!-- Name -->
@@ -434,7 +459,7 @@
 		</weaponTags>
 	</PawnKindDef>
 	
-	<!-- Olympian (Leader) -->
+	<!-- Olympian -->
 		
 	<PawnKindDef ParentName="MinotaurTribalBase">
 		<!-- Name -->
@@ -501,8 +526,8 @@
 		</techHediffsRequired>
 	</PawnKindDef>
 	
-	
 	<!--====================== Outlander Pawns - Parent ======================-->
+	<!-- Used within OutlanderMinotaur factions -->
 	
 	<PawnKindDef ParentName="OutlanderBase" Name="MinotaurOutlanderBase" Abstract="True">
 		<!-- Core Stats -->
@@ -529,11 +554,9 @@
 	</PawnKindDef>
 
 	<!--====================== Outlander Pawns - Peaceful ======================-->
-	<!-- Only one specific type, as faction also uses on Outlander faction PawnDefs -->
-	
+	<!-- Only one specific type, as faction mainly uses standard outlander PawnDefs -->
 	
 	<!-- Milkmaid -->
-		
 		
 	<PawnKindDef ParentName="MinotaurOutlanderBase">
 		<!-- Name -->
@@ -622,7 +645,7 @@
 	</PawnKindDef>
 	
 	<!--====================== Outlander Pawns - Fighter ======================-->
-	<!-- Only two specific types, as faction primarily uses on Outlander faction PawnDefs -->
+	<!-- Used within OutlanderMinotaur raids -->
 	
 	<!-- Ringleader -->
 	
@@ -726,7 +749,7 @@
 		</disallowedTraits>
 		<!-- Apparel -->
 		<apparelColor>(35,35,35)</apparelColor>
-		<apparelMoney>200~1500</apparelMoney>
+		<apparelMoney>1000~1700</apparelMoney>
 		<apparelTags>
 			<li>IndustrialBasic</li>
 			<li>IndustrialAdvanced</li>
@@ -745,15 +768,20 @@
 				<alternateTagChoices>
 					<li>
 						<tag>Gunlink</tag>
-						<chance>0.5</chance>
+						<chance>0.3</chance>
 					</li>
 				</alternateTagChoices>
 			</li>
 		</specificApparelRequirements>
 		<!-- Weapons -->
-		<combatPower>170</combatPower>
-		<weaponMoney>999999</weaponMoney>
+		<combatPower>150</combatPower>
+		<weaponMoney>3300</weaponMoney>
 		<weaponTags>
+			<li>Gun</li>
+			<li>GrenadeEMP</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+			<li>NeolithicMeleeDestructive</li>
 			<li>MinoTribeDecent</li>
 			<li>HerculeanWeapon</li>
 		</weaponTags>
@@ -762,11 +790,8 @@
 		</techHediffsRequired>
 	</PawnKindDef>
 	
-	
-	
 	<!--====================== Child Pawns ======================-->
-	<!-- Young pawns added to either faction -->
-	
+	<!-- Young pawns added to either minotaur faction -->
 	
 	<PawnKindDef ParentName="Villager_Child">
 		<defName>RBME_Minotaur_Calf</defName>
@@ -789,7 +814,4 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	
-
-	
 </Defs>

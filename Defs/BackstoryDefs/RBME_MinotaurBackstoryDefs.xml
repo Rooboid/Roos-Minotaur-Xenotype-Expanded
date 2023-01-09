@@ -12,6 +12,8 @@
 		<titleShort>servant</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment in favour of academia. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. Considering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -42,6 +44,8 @@
 		<titleShort>peasant</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>[PAWN_nameDef] lead a carefree childhood in a Hellenic tribe. [PAWN_pronoun] and the other calves of the tribe would scurry, wrestle and playfight until sundown, only to arise the following day to repeat the same routine until they each grew up.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -66,6 +70,8 @@
 		<titleShort>oiketes</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>[PAWN_nameDef] was enslaved and treat like a possession by [PAWN_possessive] master. [PAWN_nameDef] undertook a myriad of duties throughout [PAWN_possessive] childhood, such as harvesting crops, tunnelling through clay and tailoring simple garments.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -97,7 +103,7 @@
 		</workDisables>
 	</BackstoryDef>
 	
-		<!--============================== Silver Slave  ============================-->
+	<!--============================== Silver Slave  ============================-->
 	<!-- Similar to oiketes but without any forbidden work types. -->
 	
 	<BackstoryDef>
@@ -136,6 +142,8 @@
 		<titleShort>philosopher</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>Under the guise of [PAWN_possessive] tutor, [PAWN_nameDef] spent much of [PAWN_possessive] time contemplating the whims and wonders of the universe. [PAWN_possessive] observations on minotaur anthropology may well be studied by others in the future.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -162,7 +170,7 @@
 	</BackstoryDef>
 	
 	<!--============================== Hetaira ============================-->
-	<!-- Beautiful and Smart -->
+	<!-- Beautiful and smart -->
 	
 	<BackstoryDef>
 		<defName>RBME_Hetaira</defName>
@@ -172,6 +180,8 @@
 		<titleShortFemale>hetaira</titleShortFemale>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] lived [PAWN_possessive] life shrouded in mystery, travelling beside wealthy minotaur warriors as what many assumed to be their concubine. /n/nWord spread that these warriors coveted [PAWN_nameDef]’s intellectual and stimulating company on their excursions, but others theorised it was [PAWN_possessive] body that they were truly after.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -212,6 +222,8 @@
 		<titleShortFemale>misthia</titleShortFemale>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing their fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries; lush red wine and yards of radiant, soft silk.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -242,6 +254,8 @@
 		<titleShort>oracle</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] lived an ascetic life, deeming themselves as a means to relay communications from the Gods, and nothing more. Townsfolk often sought [PAWN_possessive] services to request guidance from above in exchange for a generous handful of gold coins.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -273,6 +287,8 @@
 		<titleShort>heavyweight</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] dominated the ring in a form of wrestling known as “Palé”. Young calves would squabble at the chance to watch [PAWN_nameDef] bulldoze [PAWN_possessive] opponents into the ground, imitating [PAWN_possessive] moves and cheering [PAWN_possessive] name. /n/nThe only thing that [PAWN_nameDef] fears, is what [PAWN_pronoun] cannot fight in the ring: fire.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurGuardian</li>
 		</spawnCategories>
@@ -307,6 +323,8 @@
 		<titleShort>chiliarch</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] commanded an army of over one thousand hoplites, each one willing to die at [PAWN_possessive] hand. Fleshbeasts too, kneeled in surrender under [PAWN_possessive] shadow, but [PAWN_nameDef] always had little sympathy for cowards, ensuring that they never felt the sunlight’s warmth ever again.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -346,6 +364,8 @@
 		<titleShort>rhetorician</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] was the needle in the haystack of [PAWN_possessive] community, possessing gripping storytelling and social skills. While many minotaur folktales consist of little more than grunts and moos, [PAWN_nameDef]’s stories had flamboyance, they had drama, but most unusually, they even had words containing over five letters. /n/nEventually, though, [PAWN_nameDef] discovered that what made [PAWN_possessive] purse full wasn’t telling humble bar stories, but engaging in political diplomacy and persuasion.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -398,6 +418,8 @@
 		<titleShort>attendant</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] helped run and maintain the changing rooms of a glorious bathhouse. Because of it’s grandeur, the bathhouse was favoured by influential rulers, generals and politicians alike. [PAWN_nameDef] would quip that taking orders from someone was much more humorous when [PAWN_pronoun]’d seen what they kept below their waists.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -429,6 +451,8 @@
 		<titleShort>peasant</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] lived as a peasant in a Hellenic tribe. [PAWN_nameDef] spent [PAWN_possessive] days supporting the community as-and-when [PAWN_pronoun] was needed, taking on odd jobs in calf rearing, botany and manual labour.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -468,7 +492,9 @@
 		<title>citharode</title>
 		<titleShort>citharode</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] played an instrument called the cithara for the entertainment of minotaur soldiers returning home after war. </baseDesc>
+		<baseDesc>[PAWN_nameDef] played an instrument called the cithara for the entertainment of minotaur soldiers returning home after war.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -495,6 +521,8 @@
 		<titleShort>academic</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>Life in the sheer, unforgiving mountain range of Padova was harsh on the young [PAWN_nameDef]— but not as harsh as it was for the slaves that erected [PAWN_possessive] family home there. /n/nBeing the calf of two highly educated bovines gave [PAWN_nameDef] some rather unusual traits for a minotaur, such as [PAWN_possessive] academic prowess and total disdain for manual labour.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -525,6 +553,8 @@
 		<titleShort>traumatised</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>Not much is known of [PAWN_nameDef]’s childhood, other than the fact that a scolding was sometimes the only form of interaction [PAWN_pronoun] would receive from [PAWN_possessive] parents. A life-shattering rendered [PAWN_objective] mute — the incident forever sealed between [PAWN_possessive] lips.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -549,8 +579,8 @@
 		</workDisables>
 	</BackstoryDef>
 	
-		<!--============================== Troublemaker ============================-->
-	<!-- General Minotaur Outlander Backstory -->
+	<!--============================== Troublemaker ============================-->
+	<!-- General Minotaur Outlander backstory -->
 	
 	<BackstoryDef>
 		<defName>RBME_Troublemaker</defName>
@@ -558,6 +588,8 @@
 		<titleShort>troublemaker</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>[PAWN_nameDef] made a hobby of pulling pranks on travelling humans. [PAWN_pronoun] would throw stones and pull faces at those who didn’t fall for [PAWN_possessive] tricks, before running off to find [PAWN_possessive] next victims.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -580,6 +612,8 @@
 		<titleShort>scientist</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] yearned to uncover the secrets of the stars, and to do that, [PAWN_pronoun] had to step hoof where many minotaur refused to step: human civilisation. /n/n[PAWN_pronoun] worked in a lab with a myriad of funny-looking fleshbeasts, but [PAWN_possessive] bovine temper and sarcasm prevented that rift between the two xenos from ever closing.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -608,7 +642,9 @@
 		<title>galactic inmate</title>
 		<titleShort>inmate</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts. [PAWN_pronoun] was sold on the black market for [PAWN_possessive] strength and, someday, [PAWN_possessive] meat. Once transported to the slave ship, [PAWN_pronoun] bonded with a fellow inmate who [PAWN_pronoun] came to see as [PAWN_possessive] own parent. /n/nThe inmates on [PAWN_nameDef] ward were destined for a life of intergalactic slavery, but through biding their time, the two minotaur escaped onto the Rim.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts. [PAWN_pronoun] was sold on the black market for [PAWN_possessive] strength and, someday, [PAWN_possessive] meat. /n/nThe inmates on [PAWN_nameDef]'s ship were destined for a life of intergalactic slavery, but through biding [PAWN_possessive] time, [PAWN_nameDef] made sure that [PAWN_pronoun] wasn't one of them, and escaped.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -649,6 +685,8 @@
 		<titleShort>knave</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what delights visitors carried in their satchels. /n/nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of a seven-foot minotaur.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
@@ -691,6 +729,8 @@
 		<titleShort>foundling</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>[PAWN_nameDef] entered the world prematurely and stood at half of the size of [PAWN_possessive] fellow calves, leading [PAWN_possessive]’s father to disown [PAWN_objective] at birth.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -713,6 +753,8 @@
 		<titleShort>seafarer</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>Orphan of war [PAWN_nameDef] was stripped of all but the clothes on [PAWN_possessive] back. [PAWN_pronoun] was captured by [PAWN_possessive] assailants, but during the lengthy sail overseas, [PAWN_pronoun] bonded with, and was doted on, by the crew. [PAWN_pronoun] gained an admiration for seafaring, war and survival.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -751,6 +793,8 @@
 		<titleShort>botanist</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>The mystifying flora around [PAWN_nameDef] perplexed young [PAWN_objective], and understanding it was undoubtedly going to be a lifelong pursuit. A pursuit that [PAWN_nameDef] welcomed with open arms. And mouth, should [PAWN_possessive] findings be edible.</baseDesc>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -794,6 +838,8 @@
 		<titleShort>rickshaw</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] pulled vehicles like an animal. Many of these [PAWN_nameDef]-drawn-carts carried members of nobility, who would strike [PAWN_objective] should [PAWN_pronoun] make the journey too rough.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -816,6 +862,8 @@
 		<titleShort>scrapper</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] speaks one language with total fluency, and that language is hand-to-hand combat. [PAWN_nameDef] once lead a bloody life in the clutches of a heinous clique.</baseDesc>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -848,6 +896,8 @@
 		<titleShort>drunkard</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>As the new day dawns, so does [PAWN_nameDef], typically hungover in the doorway of an inn. This is what [PAWN_nameDef] calls a “clever tactic”, blurting something else about “efficiency”, as [PAWN_pronoun] starts the day exactly where [PAWN_pronoun] aims to end it: where the alcohol is plentiful, and the minotaur are merry.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -878,7 +928,7 @@
 	</BackstoryDef>
 	
 	<!--============================== Bullsmith ============================-->
-	<!-- great crafting and mining gains in return for naff everything else -->
+	<!-- Great crafting and mining gains in return for naff everything else -->
 	
 	<BackstoryDef>
 		<defName>RBME_Bullsmith</defName>
@@ -886,6 +936,8 @@
 		<titleShort>bullsmith</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] shapes weapons for minotaur hands, no matter how destitute they may be. [PAWN_nameDef] believes in arming all who may one day stand beside [PAWN_objective] in battle. /n/nNaturally, crafting weapons on the double requires [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -928,6 +980,8 @@
 		<titleShort>peddler</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] traversed over land and sea, peddling [PAWN_possessive] collection of trinkets to willing buyers from all walks of life. /n/nThe dangers that came with the job didn’t frighten [PAWN_nameDef], for any interfering brigands were always willing to hand over their treasures upon persuasion from [PAWN_nameDef]’s mighty fists.</baseDesc>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -975,6 +1029,8 @@
 		<titleShort>traitor</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>Fleshbeasts will part with a pretty penny in exchange for minotaur with unusual pelts — typically for the purpose of sacrificing them as a gift to their Gods. /n/nIt’s said in legend that “it takes a minotaur to take down a minotaur” and, [PAWN_nameDef] turned that sentiment into a line of business, capturing and selling their own kin in exchange for twinkling, golden pockets.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -1016,6 +1072,8 @@
 		<titleShort>athlete</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>Many minotaur cultures celebrate the spectacle of their species’ power through sport. [PAWN_nameDef] trained perilously every day for the chance to participate in these very celebrations, demonstrating [PAWN_possessive] physical abilities for spectators aplenty.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -1054,6 +1112,8 @@
 		<titleShort>potter</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] scours the earth for clay to use in [PAWN_possessive] workshop, turning it into magnificent pottery that tells the tales of bygone minotaur heroes.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
@@ -1073,5 +1133,4 @@
 			<li>Artistic</li>
 		</requiredWorkTags>
 	</BackstoryDef>
-
 </Defs>

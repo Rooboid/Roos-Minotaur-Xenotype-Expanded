@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--====================== Minotaur Nomads ======================-->
+	<!-- Difficulty: Hard -->
+
+	<ScenarioDef>
+		<defName>RBME_MinotaurNomads</defName>
+		<label>Minotaur Nomads</label>
+		<description>Two enslaved minotaur break free from the shackles of captivity and start life anew with little more than the clothes on their backs. What they decide to do next will test their relationship and mettle like never before.</description>
+		<scenario>
+			<summary>Two minotaur secure their freedom on the rim.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RBME_MinotaurPlayerOutlander</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>2</pawnChoiceCount>
+					<customSummary>Start with just Minotaur.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<pawnKind>RBME_PlayerMinotaurOutlanderPawn</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<count>2</count>
+							<description>minotaur</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Fill their stomachs, Minotaur get very hungry -->
+				<li Class="ScenPart_SetNeedLevel">
+					<def>SetNeedLevel</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>1.0</chance>
+					<need>Food</need>
+					<levelRange>1.0</levelRange>
+				</li>
+				<!-- Player Starting Items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Silver</stuff>
+					<count>1</count>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>8</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>After years of biding your time in captivity — waiting, plotting — the perfect escape plan transpired without a hitch. Your hooves were bloodied to get where you are now, and there’s no turning back. \n\nAs the adrenaline begins to wear off from your mile-long charge to freedom, the brisk air comes in through your nostrils and snaps you back into reality. Your future lies in the hands of you and your partner now.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--====================== Minotaur Tribe ======================-->
+	<!-- Difficulty: Medium -->
+	
+	<ScenarioDef>
+		<defName>RBME_MinotaurTribe</defName>
+		<label>Minotaur Tribe</label>
+		<description>Following the bloodthirsty invasion of their village, four minotaur rise from the viscera and rubble of their once-harmonious home with a cross to bear. Rebuild their ransacked home in the name of peace, or strike down their foes in the name of revenge.</description>
+		<scenario>
+			<summary>Four minotaur rise from the ashes to rebuild their home.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RBME_MinotaurPlayerTribe</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>6</pawnChoiceCount>
+					<customSummary>Start with just Minotaur.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<pawnKind>RBME_PlayerMinotaurTribalPawn</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<count>2</count>
+							<description>minotaur</description>
+							<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<count>2</count>
+							<description>minotaur</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Player Starting Items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBME_EpsilonAxe</thingDef>
+					<stuff>Silver</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBME_Pelekys</thingDef>
+					<stuff>Silver</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBME_Sling</thingDef>
+					<stuff>Cloth</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>600</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Milk</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>FermentingBarrel</thingDef>
+					<count>5</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Silver</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Gold</thingDef>
+					<count>20</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Harp</thingDef>
+					<count>2</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>Flashstorm</incident>
+					<intervalDays>0.1</intervalDays>
+				</li>
+				<li Class="KCSG.ScenPart_AddStartingStructure">
+					<def>VFEC_AddStartingStructure</def>
+					<structureLabel>RBME_MinotaurTribalStart</structureLabel>
+					<nearMapCenter>True</nearMapCenter>
+					<chooseFrom>
+						<li>RBME_MinotaurTribalStart</li>
+					</chooseFrom>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Following the bloodthirsty invasion of your village, the four of you rise from the viscera and rubble of their once-harmonious home with a cross to bear. \n\nThough you may not have spoken to one another while times were peaceful, you now stand beside these strangers as brethren: all that your fallen village has left to carry its legacy, is you.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--====================== The Poverty Tourists ======================-->
+	<!-- Difficulty: Easy -->
+	
+	<ScenarioDef>
+		<defName>RBME_ThePovertyTourists</defName>
+		<label>The Poverty Tourists</label>
+		<description>A plucky monarch grows weary of the lap of luxury, and hastily embarks on a quest to live, struggle and thrive like the common man. They embark on this quest with their minotaur guardian, their ammunition- ah, and of course, their pearls. And, oh, how could they go anywhere without their hyperweave blanket…</description>
+		<scenario>
+			<summary>A monarch and their guardian embark on a thrilling quest.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with a monarch and a minotaur guardian.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<pawnKind>RBM_MinotaurGuardianHigh</pawnKind>
+						</li>
+						<li>
+							<xenotype>Baseliner</xenotype>
+							<pawnKind>RBM_ProtectedMonarch</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<count>1</count>
+							<description>a minotaur guardian</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<xenotype>Baseliner</xenotype>
+							<count>1</count>
+							<description>a monarch</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<visible>false</visible>
+					<method>DropPods</method>
+				</li>
+				<!-- Player Starting Items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBM_Labrys</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+					<quality>Masterwork</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>35</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Gold</thingDef>
+					<count>30</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Jade</thingDef>
+					<count>10</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>600</count>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>You grow weary of the lap of luxury and embark on a quest to live like the common man. \n\nYou and your minotaur guardian touch down safely onto new soil. You touch it, marvelling at the sight of soil that hasn’t been treated and tended to by your royal gardeners. Real soil. While you acclimatise to the wilderness around you, the royal ship above you departs, leaving you both stranded on this “slightly-less-amazing-now-that-I’m-stuck-here” soil. \n\nMother dearest said that the ship will be back for you in a month…and mother dearest never lies. \n\nRight?</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

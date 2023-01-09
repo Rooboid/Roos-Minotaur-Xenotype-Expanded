@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<FactionDef ParentName="FactionBase">
 		<defName>TribeMinotaur</defName>
 		<label>hellenic minotaur tribe</label>
 		<pawnSingular>hellene</pawnSingular>
 		<pawnsPlural>hellenes</pawnsPlural>
-		<description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution rearticulating the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
+		<description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution changing the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
 		<replacesFaction>TribeCivil</replacesFaction>
 		<colorSpectrum>
 			<li>(223, 223, 223)</li>
@@ -26,9 +25,12 @@
 		<techLevel>Medieval</techLevel>
 		<factionNameMaker>NamerFactionMinotaurTribe</factionNameMaker>
 		<settlementNameMaker>NamerSettlementMinotaurTribe</settlementNameMaker>
-		<allowedCultures><li>RBME_Hellenic</li></allowedCultures>
+		<allowedCultures>
+			<li>RBME_Hellenic</li>
+		</allowedCultures>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li><!-- TODO: Make this work in C -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li>
+			<!-- TODO: Make this work in C -->
 		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
@@ -114,7 +116,8 @@
 		<allowedArrivalTemperatureRange>-20~45</allowedArrivalTemperatureRange>
 		<raidCommonalityFromPointsCurve>
 			<points>
-				<li>(0, 1)</li><!--Constant 1 at all points levels-->
+				<li>(0, 1)</li>
+				<!--Constant 1 at all points levels-->
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<raidLootMaker>TribeRaidLootMaker</raidLootMaker>
@@ -148,7 +151,7 @@
 					<RBM_MinotaurFeral>15</RBM_MinotaurFeral>
 					<RBME_Hoplite>10</RBME_Hoplite>
 					<RBME_Polemarch>5</RBME_Polemarch>
-					<RBME_Anax>0.2</RBME_Anax>
+					<RBME_Anax>0.1</RBME_Anax>
 				</options>
 			</li>
 			<li>
@@ -177,10 +180,10 @@
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">5</RBME_Minotaur_Calf>
-					<RBME_Sophist>2</RBME_Sophist>
+					<RBME_Sophist>0.2</RBME_Sophist>
 					<RBME_Commoner>15</RBME_Commoner>
 					<RBME_Hoplite>10</RBME_Hoplite>
-					<RBME_Polemarch>3</RBME_Polemarch>
+					<RBME_Polemarch>2</RBME_Polemarch>
 				</options>
 			</li>
 			<li>
@@ -250,5 +253,4 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/Factions/RBME_TribalFaction</settlementTexturePath>
 	</FactionDef>
-  
 </Defs>

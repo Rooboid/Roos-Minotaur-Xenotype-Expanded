@@ -4,7 +4,7 @@
 	<!--============================== General Backstories (All Xenos) ============================-->
 	
 	<!--============================== Cryptoxenologist ============================-->
-	<!-- Weirdo Adulthood -->
+	<!-- Weirdo adulthood -->
 	
 	<BackstoryDef>
 		<defName>RBME_Cryptoxenologist</defName>
@@ -86,7 +86,7 @@
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing milk for refinement, sale or distribution to minotaur calves for sustenance.</baseDesc>
+		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing minotaur milk for refinement, sale or distribution.</baseDesc>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>Outlander</li>
@@ -132,6 +132,4 @@
 			<Masochist>0</Masochist>
 		</forcedTraits>
 	</BackstoryDef>
-
-
 </Defs>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <WeaponClassDef>
-    <defName>RBME_HerculeanClass</defName>
-    <label>herculean</label>
-  </WeaponClassDef>
+	<!--====================== WeaponClass ======================-->
+	<!-- TODO: is this in the RBM module? -->
 
+	<WeaponClassDef>
+		<defName>RBME_HerculeanClass</defName>
+		<label>herculean</label>
+	</WeaponClassDef>
 
 	<!--====================== Epsilon Axe ======================-->
 	
@@ -26,54 +28,54 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-		<li>MinoTribeDecent</li>
+			<li>MinoTribeDecent</li>
 		</weaponTags>
-			<weaponClasses>
+		<weaponClasses>
 			<li>RBME_HerculeanClass</li>
 		</weaponClasses>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
 			<MeleeHitChance>-0.3</MeleeHitChance>
 		</equippedStatOffsets>
-    <costStuffCount>70</costStuffCount>
-	<relicChance>1</relicChance>
-    <statBases>
-      <WorkToMake>8000</WorkToMake>
-      <Mass>3</Mass>
-    </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Demolish</li>
-		  <li>Cut</li>
-        </capacities>
-        <power>13.2</power>
-        <cooldownTime>2.3</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <displayPriority>450</displayPriority>
-    </recipeMaker>
-  </ThingDef>
+		<costStuffCount>70</costStuffCount>
+		<relicChance>1</relicChance>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Demolish</li>
+					<li>Cut</li>
+				</capacities>
+				<power>13.2</power>
+				<cooldownTime>2.3</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<displayPriority>450</displayPriority>
+		</recipeMaker>
+	</ThingDef>
   
-  	<!--====================== Pelekys ======================-->
+	<!--====================== Pelekys ======================-->
 	
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBME_Pelekys</defName>
@@ -88,55 +90,55 @@
 			<drawSize>0.8</drawSize>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
-    <costStuffCount>45</costStuffCount>
-	<relicChance>1</relicChance>
-    <statBases>
-      <WorkToMake>9000</WorkToMake>
-      <Mass>2.5</Mass>
-    </statBases>
-	<weaponTags>
-	<li>MinoTribeDecent</li>
-	</weaponTags>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-		  <li>Cut</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>1.9</cooldownTime>
-      </li>
-    </tools>
-	    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Proj_Pelekys</defaultProjectile>
-        <warmupTime>3.3</warmupTime>
-        <range>6.8</range>
-        <soundCast>Designate_Harvest</soundCast>
-        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-      </li>
-    </verbs>
-    <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <displayPriority>450</displayPriority>
-    </recipeMaker>
-  </ThingDef>
+		<costStuffCount>45</costStuffCount>
+		<relicChance>1</relicChance>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+		<weaponTags>
+			<li>MinoTribeDecent</li>
+		</weaponTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Proj_Pelekys</defaultProjectile>
+				<warmupTime>3.3</warmupTime>
+				<range>6.8</range>
+				<soundCast>Designate_Harvest</soundCast>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<displayPriority>450</displayPriority>
+		</recipeMaker>
+	</ThingDef>
 	
 	
 	<!-- PelekysProjectile -->
@@ -154,14 +156,13 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-		<damageDef>RangedStab</damageDef>
-		<damageAmountBase>21</damageAmountBase>
-		<stoppingPower>3</stoppingPower>
-		<armorPenetrationBase>0.35</armorPenetrationBase>
-		<speed>21</speed>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>21</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<speed>21</speed>
 		</projectile>
 	</ThingDef>
-	
 	
 	<!--====================== Sling ======================-->
 	
@@ -177,11 +178,11 @@
 			<texPath>Things/Item/Equipment/WeaponRanged/RBME_Sling/RBME_Sling</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		    <costStuffCount>30</costStuffCount>
-			<stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
-			</stuffCategories>
+		</stuffCategories>
 		<!-- Trading -->
 		<techLevel>Neolithic</techLevel>
 		<!-- Obtaining -->
@@ -189,13 +190,13 @@
 		<smeltable>false</smeltable>
 		<!-- Battle Data -->
 		<statBases>
-		<WorkToMake>3000</WorkToMake>
-		<Mass>1</Mass>
-		<AccuracyTouch>0.75</AccuracyTouch>
-		<AccuracyShort>0.80</AccuracyShort>
-		<AccuracyMedium>0.45</AccuracyMedium>
-		<AccuracyLong>0.23</AccuracyLong>
-		<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.23</AccuracyLong>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
 			<li>NeolithicRangedHeavy</li>
@@ -205,34 +206,34 @@
 		<weaponClasses>
 			<li>Ranged</li>
 		</weaponClasses>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>2</Crafting>
-      </skillRequirements>
-      <displayPriority>500</displayPriority>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Proj_Sling</defaultProjectile>
-        <warmupTime>2.8</warmupTime>
-        <range>16.3</range>
-        <soundCast>ThrowGrenade</soundCast>
-        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>rock</label>
-		<labelUsedInLogging>false</labelUsedInLogging>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>3</power>
-         <cooldownTime>1.1</cooldownTime>
-      </li>
-    </tools>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+			<displayPriority>500</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Proj_Sling</defaultProjectile>
+				<warmupTime>2.8</warmupTime>
+				<range>16.3</range>
+				<soundCast>ThrowGrenade</soundCast>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>rock</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.1</cooldownTime>
+			</li>
+		</tools>
 		<comps>
 			<li Class="CompProperties_TargetEffect_FleckOnTarget">
 				<fleckDef>DustPuffThick</fleckDef>
@@ -240,19 +241,19 @@
 		</comps>
 		
 	</ThingDef>
-	  <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>Proj_Sling</defName>
-    <label>rock</label>
-    <graphicData>
-      <texPath>Things/Projectile/RBME_ProjSling</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Blunt</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-      <stoppingPower>1.3</stoppingPower>
-      <armorPenetrationBase>0.05</armorPenetrationBase>
-      <speed>45</speed>
-    </projectile>
-  </ThingDef>
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Proj_Sling</defName>
+		<label>rock</label>
+		<graphicData>
+			<texPath>Things/Projectile/RBME_ProjSling</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Blunt</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<stoppingPower>1.3</stoppingPower>
+			<armorPenetrationBase>0.05</armorPenetrationBase>
+			<speed>45</speed>
+		</projectile>
+	</ThingDef>
 </Defs>

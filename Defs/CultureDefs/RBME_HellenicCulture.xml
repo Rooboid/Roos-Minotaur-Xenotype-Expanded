@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--============================== Hellenic Culture ============================-->
+	<!-- Used by TribeMinotaur factions -->
+
   <CultureDef>
     <defName>RBME_Hellenic</defName>
     <label>hellenic</label>
@@ -63,5 +66,4 @@
       </li>
     </styleItemTags>
   </CultureDef>
-  
   </Defs>

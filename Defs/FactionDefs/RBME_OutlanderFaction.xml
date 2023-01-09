@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<FactionDef ParentName="OutlanderFactionBase">
 		<defName>OutlanderMinotaur</defName>
 		<label>minotaur outlander union</label>
@@ -70,7 +69,7 @@
 					<li>TemperateForest</li>
 				</allowedBiomes>
 				<startingGoodwillByFactionDefs>
-					<TribeMinotaur>0~100</TribeMinotaur>
+					<TribeMinotaur>50~100</TribeMinotaur>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>
@@ -171,10 +170,10 @@
 				<kindDef>Combat</kindDef>
 				<commonality>2</commonality>
 				<options>
-					<RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
-					<RBM_ProtectedMonarch>2</RBM_ProtectedMonarch>
-					<RBM_MinotaurMarauder>1</RBM_MinotaurMarauder>
-					<RBME_Harrier>5</RBME_Harrier>
+					<RBM_MinotaurGuardianHigh>1</RBM_MinotaurGuardianHigh>
+					<RBM_ProtectedMonarch>0.2</RBM_ProtectedMonarch>
+					<RBM_MinotaurMarauder>7</RBM_MinotaurMarauder>
+					<RBME_Harrier>3</RBME_Harrier>
 				</options>
 			</li>
 			<li>
@@ -205,8 +204,8 @@
 					<RBME_Milkmaid>4</RBME_Milkmaid>
 					<RBM_MinotaurFighter>10</RBM_MinotaurFighter>
 					<Grenadier_Destructive>1.5</Grenadier_Destructive>
-					<Mercenary_Slasher>7</Mercenary_Slasher>
-					<RBME_Harrier>15</RBME_Harrier>
+					<Mercenary_Slasher>13</Mercenary_Slasher>
+					<RBME_Harrier>8</RBME_Harrier>
 				</guards>
 			</li>
 			<li>
@@ -238,10 +237,10 @@
 					<RBME_Minotaur_Calf>2</RBME_Minotaur_Calf>
 					<Town_Guard>10</Town_Guard>
 					<Grenadier_Destructive>2</Grenadier_Destructive>
-					<RBM_MinotaurMarauder>3</RBM_MinotaurMarauder>
+					<RBM_MinotaurMarauder>5</RBM_MinotaurMarauder>
 					<RBM_MinotaurFighter>10</RBM_MinotaurFighter>
-					<RBM_MinotaurGuardianLow>10</RBM_MinotaurGuardianLow>
-					<RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
+					<RBM_MinotaurGuardianLow>5</RBM_MinotaurGuardianLow>
+					<RBM_MinotaurGuardianHigh>0.5</RBM_MinotaurGuardianHigh>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
@@ -275,7 +274,8 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/Factions/RBME_OutlanderFaction</settlementTexturePath>
 		<permanentEnemyToEveryoneExcept>
-			<li>OutlanderCivil</li>
+			<li>RBME_MinotaurPlayerOutlander</li>
+			<li>RBME_MinotaurPlayerTribe</li>
 			<li>TribeRoughNeanderthal</li>
 			<li>OutlanderRoughPig</li>
 			<li>Sanguophages</li>
@@ -284,5 +284,4 @@
 			<li>Ancients</li>
 		</permanentEnemyToEveryoneExcept>
 	</FactionDef>
-  
 </Defs>
