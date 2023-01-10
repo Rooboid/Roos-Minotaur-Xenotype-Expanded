@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Fallout Traits Patches ============================-->
+	<!-- Adds traits to minotaur backstories -->
+	
+	<!-- Forced Traits -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_SilverSlave"]</xpath>
+			<value>
+				<forcedTraits>
+					<FT_Scrounger>0</FT_Scrounger>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_Chiliarch"]/forcedTraits/Nerves</xpath>
+			<value>
+				<FT_Intimidation>2</FT_Intimidation>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_TraumatisedCalf"]/forcedTraits/Recluse</xpath>
+			<value>
+				<FT_WreckingBall>0</FT_WreckingBall>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Knave"]</xpath>
+			<value>
+			<forcedTraits>
+				<FT_Blitz>0</FT_Blitz>
+			</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Rickshaw"]</xpath>
+			<value>
+				<forcedTraits>
+					<FT_StrongBack>0</FT_StrongBack>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Scrapper"]</xpath>
+			<value>
+				<forcedTraits>
+					<FT_BearArms>0</FT_BearArms>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Potter"]</xpath>
+			<value>
+			<forcedTraits>
+				<FT_Perfectionist>0</FT_Perfectionist>
+			</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--Disallowed Traits -->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Oiketes"]/disallowedTraits</xpath>
+			<value>
+				<FT_Intimidation>1</FT_Intimidation>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Hetaira"]/disallowedTraits</xpath>
+			<value>
+				<FT_Intimidation>1</FT_Intimidation>
+				<FT_IronFist>0</FT_IronFist>
+				<FT_Woodchucker>0</FT_Woodchucker>
+				<FT_Oblivious>0</FT_Oblivious>
+				<FT_Stupid>0</FT_Stupid>
+				<FT_IdiotSavant>0</FT_IdiotSavant>
+				<FT_Ghoulish>0</FT_Ghoulish>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Philosopher"]/disallowedTraits</xpath>
+			<value>
+				<FT_Oblivious>0</FT_Oblivious>
+				<FT_Stupid>0</FT_Stupid>
+				<FT_IdiotSavant>0</FT_IdiotSavant>
+				<FT_Ghoulish>0</FT_Ghoulish>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Oracle"]/disallowedTraits</xpath>
+			<value>
+				<FT_Ghoulish>0</FT_Ghoulish>
+				<FT_Blitz>0</FT_Blitz>
+				<FT_Scientific>0</FT_Scientific>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Chiliarch"]/disallowedTraits</xpath>
+			<value>
+				<FT_FrailBack>0</FT_FrailBack>
+			</value>
+		</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Heavyweight"]/disallowedTraits</xpath>
+			<value>
+				<FT_FrailBack>0</FT_FrailBack>
+			</value>
+		</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Rhetorician"]/disallowedTraits</xpath>
+			<value>
+				<FT_IdiotSavant>0</FT_IdiotSavant>
+				<FT_Intimidation>2</FT_Intimidation>
+				<FT_Inspiration>-1</FT_Inspiration>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_YoungAcademic"]/disallowedTraits</xpath>
+			<value>
+				<FT_IdiotSavant>0</FT_IdiotSavant>
+				<FT_Endurance>2</FT_Endurance>
+				<FT_Oblivious>0</FT_Oblivious>
+				<FT_Stupid>2</FT_Stupid>
+				<FT_Philanthropist>0</FT_Philanthropist>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_TraumatisedCalf"]/disallowedTraits</xpath>
+			<value>
+				<FT_Philanthropist>0</FT_Philanthropist>
+				<FT_HealingHands>0</FT_HealingHands>
+				<FT_Magnetic>0</FT_Magnetic>
+				<FT_Serendipitous>0</FT_Serendipitous>
+				<FT_Scientific>2</FT_Scientific>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Knave"]/disallowedTraits</xpath>
+			<value>
+				<FT_Inspiration>2</FT_Inspiration>
+				<FT_Inspiration>1</FT_Inspiration>
+				<FT_Artisan>0</FT_Artisan>
+				<FT_SpiritualHealer>0</FT_SpiritualHealer>
+				<FT_LifeGiver>2</FT_LifeGiver>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Botanist"]/disallowedTraits</xpath>
+			<value>
+				<FT_BountifulButcher>0</FT_BountifulButcher>
+				<FT_AnimalFriend>0</FT_AnimalFriend>
+			</value>
+		</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Mullered"]/disallowedTraits</xpath>
+			<value>
+				<FT_Blitz>0</FT_Blitz>
+			</value>
+		</match>
+	</Operation>
+
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Bullsmith"]/disallowedTraits</xpath>
+			<value>
+				<FT_GunNut>0</FT_GunNut>
+				<FT_Oblivious>0</FT_Oblivious>
+			</value>
+		</match>
+	</Operation>
+	
+					<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Peddler"]/disallowedTraits</xpath>
+			<value>
+				<FT_Philanthropist>0</FT_Philanthropist>
+				<FT_Generosity>1</FT_Generosity>
+				<FT_Generosity>2</FT_Generosity>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Traitor"]/disallowedTraits</xpath>
+			<value>
+				<FT_Philanthropist>0</FT_Philanthropist>
+				<FT_Generosity>1</FT_Generosity>
+				<FT_Generosity>2</FT_Generosity>
+				<FT_LifeGiver>0</FT_LifeGiver>
+				<FT_Inspiration>2</FT_Inspiration>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fallout Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Athlete"]/disallowedTraits</xpath>
+			<value>
+				<FT_FrailBack>0</FT_FrailBack>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

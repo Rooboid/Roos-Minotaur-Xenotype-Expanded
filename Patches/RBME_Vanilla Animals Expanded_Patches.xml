@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Animals Expanded Patches ============================-->
+	<!-- Adds animals to minotaur trade caravans -->
+	
+	<!-- Adds animal types to royal outlander minotaur traders -->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/pawnGroupMakers/li[7]/carriers</xpath>
+		<value>
+		<AEXP_Wildebeest>6</AEXP_Wildebeest>
+		<AEXP_Muskox>6</AEXP_Muskox>
+		</value>
+		</match>
+	</Operation>
+	
+	<!-- Adds animal types to standard outlander minotaur traders -->
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/pawnGroupMakers/li[6]/carriers</xpath>
+		<value>
+		<AEXP_Wildebeest>8</AEXP_Wildebeest>
+		<AEXP_Muskox>7</AEXP_Muskox>
+		</value>
+		</match>
+		</Operation>
+		
+		<!-- Adds animal types to tribal minotaur traders -->
+		
+					<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="TribeMinotaur"]/pawnGroupMakers/li[6]/carriers</xpath>
+		<value>
+		<AEXP_Wildebeest>3</AEXP_Wildebeest>
+		<AEXP_Muskox>6</AEXP_Muskox>
+		</value>
+		</match>
+		</Operation>
+
+</Patch>

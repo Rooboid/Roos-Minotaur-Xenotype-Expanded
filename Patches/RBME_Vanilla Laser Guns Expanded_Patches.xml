@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Laser Guns Expanded Patches ============================-->
+	<!--Additional content if Vanilla Laser Guns Expanded is installed-->
+	
+	<!-- Add Laser weapons to Ringleader PawnDef -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Laser</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Ringleader"]/weaponTags</xpath>
+			<value>
+			<li>LaserGun</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

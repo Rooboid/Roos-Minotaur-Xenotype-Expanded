@@ -65,7 +65,7 @@
 					<li>TemperateForest</li>
 				</allowedBiomes>
 				<startingGoodwillByFactionDefs>
-					<OutlanderMinotaur>0~100</OutlanderMinotaur>
+					<OutlanderMinotaur>50</OutlanderMinotaur>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>

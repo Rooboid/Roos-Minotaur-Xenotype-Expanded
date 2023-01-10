@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Ideology Expanded - Memes and Structures ============================-->
+	<!--Adds additional content if Vanilla Ideology Expanded - Memes and Structures is installed-->
+	
+	<!-- Gives tribal minotaurs the Bacchanalianism style -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/structureMemeWeights</xpath>
+			<value>
+				<VME_Structure_Bacchanalianism MayRequire="Ludeon.RimWorld.Ideology">10</VME_Structure_Bacchanalianism>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Prevents tribal minotaur factions from opting in to the Bushido meme -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/disallowedMemes</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">VME_Bushido</li>
+			</value>
+		</match>
+	</Operation>
+		
+	<!-- Prevents outlander minotaur factions from opting in to various memes -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/disallowedMemes</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">VME_Egalitarian</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">VME_Pacifist</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">VME_Bushido</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">VME_Healthcare</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

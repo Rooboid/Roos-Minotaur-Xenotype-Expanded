@@ -220,7 +220,7 @@
 					<incident>Flashstorm</incident>
 					<intervalDays>0.1</intervalDays>
 				</li>
-				<li Class="KCSG.ScenPart_AddStartingStructure">
+				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="KCSG.ScenPart_AddStartingStructure">
 					<def>VFEC_AddStartingStructure</def>
 					<structureLabel>RBME_MinotaurTribalStart</structureLabel>
 					<nearMapCenter>True</nearMapCenter>

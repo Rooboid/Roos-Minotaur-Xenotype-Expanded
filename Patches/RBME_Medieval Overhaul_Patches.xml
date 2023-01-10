@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Medieval Overhaul Patches ============================-->
+	<!-- Adds items to PawnKinds potential inventories -->
+	
+	<!-- Adds necklaces to RBME_Archon PawnKind -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/apparelRequired</xpath>
+			<value>
+				<li>DankPyon_Necklace_Jade</li>
+			</value>
+		</match>
+	</Operation>
+		
+	<!-- Adds thug clothing to RBME_Peltast PawnKind -->
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
+			<value>
+				<li>DankPyon_BrigandThug</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Adds fire grenades to RBME_Peltast PawnKind -->
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/weaponTags</xpath>
+			<value>
+				<li>DankPyon_Grenade_PotFire</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Make RBME_Sophist PawnKind sometimes carry books -->
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]/inventoryOptions/subOptionsChooseOne</xpath>
+			<value>
+				<li>
+					<thingDef>DankPyon_Book</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>DankPyon_Treatise_Social</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Make RBME_Peltast PawnKind sometimes carry food -->
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/inventoryOptions/subOptionsChooseOne</xpath>
+			<value>
+				<li>
+					<thingDef>DankPyon_MealBoneSoup</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>DankPyon_Bone</thingDef>
+					<countRange>5</countRange>
+				</li>
+				<li>
+					<thingDef>DankPyon_MealRations</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Make RBME_Milkmaid PawnKind sometimes carry food -->
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Milkmaid"]/inventoryOptions/subOptionsChooseOne</xpath>
+			<value>
+				<li>
+					<thingDef>DankPyon_SmokedMeat</thingDef>
+					<countRange>5</countRange>
+				</li>
+				<li>
+					<thingDef>DankPyon_MealCheese</thingDef>
+					<countRange>2</countRange>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

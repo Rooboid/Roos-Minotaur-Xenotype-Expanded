@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Weapons Expanded - Makeshift Patches ============================-->
+	<!-- Adds animals to minotaur trade caravans -->
+	
+	<!-- Add makeshift to RBME_Harrier PawnDef -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Makeshift</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Harrier"]/weaponTags</xpath>
+			<value>
+			<li>MakeshiftGun</li>
+			</value>
+		</match>
+	</Operation>
+	
+		<!-- Replaces RBM_MinotaurMarauder weapons to only be makeshift -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Makeshift</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurMarauder"]/weaponTags/li[1}</xpath>
+			<value>
+			<li>MakeshiftGun</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

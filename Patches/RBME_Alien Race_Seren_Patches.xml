@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== [Alien/Race] Seren, from Stardust Patches ============================-->
+	<!-- Adds a peace treaty between the minotaur and the Seren -->
+	
+	<!-- Add seren to archon PawnKind -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0.80</Seren_Base>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Allies the minotaur outlander faction with the seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+				<li>SerenPlayerBase</li>
+				<li>SerenCivilBase</li>
+				<li>SerenRoughBase</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Allies the minotaur outlander faction with the seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+			<value>
+				<SerenPlayerBase>0~50</SerenPlayerBase>
+				<SerenCivilBase>0~50</SerenCivilBase>
+				<SerenRoughBase>0~50</SerenRoughBase>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Allies the minotaur tribal faction with the seren factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+			<value>
+				<SerenPlayerBase>0~50</SerenPlayerBase>
+				<SerenCivilBase>0~50</SerenCivilBase>
+				<SerenRoughBase>0~50</SerenRoughBase>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

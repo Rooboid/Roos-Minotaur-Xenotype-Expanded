@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Traits Expanded Patches ============================-->
+	<!-- Adds traits to minotaur backstories -->
+	
+	<!-- Forced Traits -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_BathServant"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Neat>0</VTE_Neat>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_Oiketes"]/forcedTraits</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Submissive>0</VTE_Submissive>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_SilverSlave"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Schizoid>0</VTE_Schizoid>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Philosopher"]/forcedTraits</xpath>
+			<value>
+				<VTE_Rebel>0</VTE_Rebel>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_Misthios"]/forcedTraits</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Kleptomaniac>0</VTE_Kleptomaniac>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Heavyweight"]/forcedTraits</xpath>
+			<value>
+				<VTE_MartialArtist>0</VTE_MartialArtist>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Chiliarch"]/forcedTraits</xpath>
+			<value>
+				<VTE_Desensitized>0</VTE_Desensitized>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Rhetorician"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Snob>0</VTE_Snob>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_BathAttendant"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_AbsentMinded>0</VTE_AbsentMinded>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Citharode"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_FunLoving>0</VTE_FunLoving>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_GalacticInmate"]/forcedTraits</xpath>
+			<value>
+				<VTE_MartialArtist>0</VTE_MartialArtist>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Seafarer"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_ChildOfSea>0</VTE_ChildOfSea>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Botanist"]</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_Ecologist>0</VTE_Ecologist>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_Mullered"]/forcedTraits</xpath>
+			<value>
+				<forcedTraits>
+					<VTE_DrunkenMaster>0</VTE_DrunkenMaster>
+				</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Peddler"]/forcedTraits</xpath>
+			<value>
+				<VTE_Tycoon>0</VTE_Tycoon>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/BackstoryDef[defName="RBME_Astrophysicist"]/forcedTraits</xpath>
+			<value>
+			<forcedTraits>
+				<VTE_Prodigy>0</VTE_Prodigy>
+			</forcedTraits>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--Disallowed Traits -->
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Hetaira"]/disallowedTraits</xpath>
+			<value>
+				<VTE_Clumsy>0</VTE_Clumsy>
+				<VTE_Slob>0</VTE_Slob>
+				<VTE_BigBoned>0</VTE_BigBoned>
+				<VTE_Dunce>0</VTE_Dunce>
+				<VTE_Prude>0</VTE_Prude>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Philosopher"]/disallowedTraits</xpath>
+			<value>
+				<VTE_Dunce>0</VTE_Dunce>
+				<VTE_AbsentMinded>0</VTE_AbsentMinded>
+				<VTE_Submissive>0</VTE_Submissive>
+			</value>
+		</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Misthios"]/disallowedTraits</xpath>
+			<value>
+				<VTE_Groundbreaker>0</VTE_Groundbreaker>
+				<VTE_Coward>0</VTE_Coward>
+				<VTE_Submissive>0</VTE_Submissive>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Oracle"]/disallowedTraits</xpath>
+			<value>
+				<VTE_Vengeful>0</VTE_Vengeful>
+				<VTE_Dunce>0</VTE_Dunce>
+				<VTE_Submissive>0</VTE_Submissive>
+			</value>
+		</match>
+	</Operation>
+	
+			<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Chiliarch"]/disallowedTraits</xpath>
+			<value>
+				<VTE_Coward>0</VTE_Coward>
+				<VTE_AbsentMinded>0</VTE_AbsentMinded>
+				<VTE_Submissive>0</VTE_Submissive>
+			</value>
+		</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_TraumatisedCalf"]/disallowedTraits</xpath>
+			<value>
+				<VTE_FunLoving>0</VTE_FunLoving>
+				<VTE_Coward>0</VTE_Coward>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_Traitor"]/disallowedTraits</xpath>
+			<value>
+				<VTE_AnimalLover>0</VTE_AnimalLover>
+				<VTE_Submissive>0</VTE_Submissive>
+			</value>
+		</match>
+	</Operation>
+
+
+</Patch>

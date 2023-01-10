@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Vanilla Apparel Expanded - Accessories Patches ============================-->
+	<!-- Adds accessories to various PawnKinds -->
+	
+	<!-- Adds Accessories to RBME_Harrier PawnKind-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded - Accessories</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Harrier"]/apparelTags</xpath>
+			<value>
+				<li>VAEA_Utility_Industrial</li>
+			</value>
+		</match>
+	</Operation>
+		
+	<!-- Adds Accessories to RBME_Peltast PawnKind-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded - Accessories</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
+			<value>
+				<li>VAEA_Utility_Neolithic</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>
