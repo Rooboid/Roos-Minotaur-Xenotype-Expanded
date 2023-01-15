@@ -216,6 +216,13 @@
 				<color>(55,110,215)</color>
 			</li>
 		</specificApparelRequirements>
+				<xenotypeSet>
+			<xenotypeChances>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.30</Genie>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.10</Sanguophage>
+				<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">0.50</RBM_Minotaur>
+			</xenotypeChances>
+		</xenotypeSet>
 	</PawnKindDef>
 	
 	<!-- Commoner -->

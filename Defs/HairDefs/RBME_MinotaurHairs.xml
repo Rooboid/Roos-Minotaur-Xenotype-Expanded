@@ -354,4 +354,21 @@
 			<li>HairShort</li>
 		</styleTags>
 	</HairDef>
+	
+		<!-- Braids -->
+  
+	<HairDef>
+		<defName>RBME_Braids</defName>
+		<label>RBME Braids</label>
+		<styleGender>Any</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBME_HairAA</texPath>
+		<styleTags>
+			<li>Minotaur</li>
+			<li>MinotaurTribe</li>
+			<li>Tribal</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
 </Defs>

@@ -18,6 +18,48 @@
 		</match>
 	</Operation>
 	
+		<!-- Add seren to sophist PawnKind -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0.50</Seren_Base>
+			</value>
+		</match>
+	</Operation>
+	
+		<!-- Stops seren from spawning in minotaur tribal factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0</Seren_Base>
+			</value>
+		</match>
+	</Operation>
+	
+			<!-- Stops seren from spawning in minotaur outlander factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Alien/Race] Seren, from Stardust</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0</Seren_Base>
+			</value>
+		</match>
+	</Operation>
+	
 	<!-- Allies the minotaur outlander faction with the seren factions -->
 	
 	<Operation Class="PatchOperationFindMod">
@@ -44,7 +86,7 @@
 			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
 			<value>
 				<SerenPlayerBase>0~50</SerenPlayerBase>
-				<SerenCivilBase>0~50</SerenCivilBase>
+				<SerenCivilBase>0~75</SerenCivilBase>
 				<SerenRoughBase>0~50</SerenRoughBase>
 			</value>
 		</match>
@@ -60,7 +102,7 @@
 			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
 			<value>
 				<SerenPlayerBase>0~50</SerenPlayerBase>
-				<SerenCivilBase>0~50</SerenCivilBase>
+				<SerenCivilBase>0~75</SerenCivilBase>
 				<SerenRoughBase>0~50</SerenRoughBase>
 			</value>
 		</match>

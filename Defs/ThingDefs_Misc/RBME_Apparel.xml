@@ -27,7 +27,7 @@
 			<WorkToMake>2500</WorkToMake>
 			<Mass>0.5</Mass>
 			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>0.33</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
 		</statBases>
@@ -73,7 +73,7 @@
   <defName>RBME_Panoply</defName>
     <techLevel>Spacer</techLevel>
 	<label>panoply</label>
-    <description>A fabled set of armour said to have been crafted by the hands of the Gods. Though it's secrets of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
+    <description>A fabled set of armour said to have been crafted by the hands of Gods. Though the secrets its of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -103,7 +103,6 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.12</MoveSpeed>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-	  <MeleeHitChance>-0.5</MeleeHitChance>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -274,7 +273,3 @@
 	<colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 </Defs>
-
-
-
-

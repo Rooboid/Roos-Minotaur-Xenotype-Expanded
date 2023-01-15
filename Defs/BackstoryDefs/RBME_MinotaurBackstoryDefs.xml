@@ -112,6 +112,7 @@
 		<titleShort>slave</titleShort>
 		<slot>Childhood</slot>
 		<baseDesc>[PAWN_nameDef] was pushed down the mines at an early age in search of silver that would “bring prosperity and luxury to all”. Ultimately, [PAWN_nameDef] never got to see such luxuries and was forcibly kept down the mines for most of [PAWN_possessive] childhood.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
 		</spawnCategories>
@@ -129,6 +130,41 @@
 				<value>-5</value>
 			</li>
 		</skillGains>
+	</BackstoryDef>
+	
+	<!--============================== Military Calf  ============================-->
+	<!-- Melee Childhood -->
+	
+	<BackstoryDef>
+		<defName>RBME_MilitaryCalf</defName>
+		<title>military calf</title>
+		<titleShort>soldier</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>As quickly as [PAWN_nameDef] moved from crawling to walking, [PAWN_pronoun] was enlisted to train in the military, as many minotaur calves were. [PAWN_possessive] days started at the crack of dawn and were strict, harsh and physically demanding, which gave [PAWN_nameDef] an incredible sense of self-discipline.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<QuickSleeper>0</QuickSleeper>
+		</forcedTraits>
+		<disallowedTraits>
+			<Wimp>0</Wimp>
+			<Nerves>-2</Nerves>
+			<Nerves>-1</Nerves>
+			<Industriousness>-2</Industriousness>
+			<NightOwl>0</NightOwl>
+		</disallowedTraits>
 	</BackstoryDef>
 	
 	<!--============================== Tribal Minotaur - Adulthood ============================-->

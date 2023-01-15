@@ -4,7 +4,7 @@
 	<!--====================== Tribal Start Complex ======================-->
 	<!-- Spawned at the start of the Tribal Minotaur Scenario -->
 
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
   <defName>RBME_MinotaurTribalStart</defName>
   <spawnConduits>false</spawnConduits>
   <layouts>

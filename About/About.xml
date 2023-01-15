@@ -6,5 +6,52 @@
 		<li>1.4</li>
 </supportedVersions>
 <packageId>Rooboid.Minotaur.Expanded</packageId>
-<description>Description</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>VanillaExpanded.VanillaTraitsExpanded</li>
+		<li>Rooboid.Minotaur</li>
+		<li>fuglypump.fallouttraits</li>
+		<li>odysseylotus.seren</li>
+	</loadAfter>
+		<modDependencies>
+		<li>
+			<packageId>Rooboid.Minotaur</packageId>
+			<displayName>Roo's Minotaur Xenotype</displayName>
+			<downloadUrl>https://steamcommunity.com/id/rooboid/myworkshopfiles/</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid/myworkshopfiles/</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+<description>Welcome the minotaur to the Rim with open arms in this expanded module of Roo's Minotaur Xenotype. Battle or befriend multiple minotaur factions, build your own army of bovine hoplites and flesh out your pawns with brand new backstories and apparel.
+
+This mod must be loaded after the core module: Roo's Minotaur Xenotype
+
+&lt;size=25&gt;• Features&lt;/size&gt;
+
+• 35+ minotaur related backstories.
+• 25 high-quality hairstyles.
+• 3 brand new and exciting starting scenarios.
+• 5+ pieces of ancient Greek apparel and weaponry.
+• 2 minotaur factions with unique raids and pawn types.
+• Various DLC add-ons: icons, memes and a new culture.
+• Integrated compatibility for various great mods.
+
+&lt;size=25&gt;• For More…&lt;/size&gt;
+
+If you’re looking for more Rimworld mods, especially hair mods, check out my Steam Workshop profile:
+https://steamcommunity.com/id/rooboid/myworkshopfiles/
+Or if you want to request your own mod features and follow my work, check out my Patreon:
+https://www.patreon.com/Rooboid
+
+&lt;size=25&gt;• Credits&lt;/size&gt;
+
+&lt;size=20&gt;Mod:&lt;/size&gt;
+• Graphics and XML: Rooboid
+• C# and emotional support: Zelan
+
+&lt;size=20&gt;Patreon:&lt;/size&gt;
+Mangulwort, panatakan yen, Alexandre, Galen, Only, Greg Bunger, D-Train, 1Sopel6, WoolyPie, Dodo, Josh and Prince</description>
 </ModMetaData>

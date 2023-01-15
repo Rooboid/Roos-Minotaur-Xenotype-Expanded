@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!-- Seperated -->
+	<!--============================== Roo's Minotaur Xenotype Patches ============================-->
+	<!-- Stops minotaur from using their name generator so that Hellenic factions still function as intended -->
+
+	<!-- Prevent name maker -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/XenotypeDef[defName="RBM_Minotaur"]/chanceToUseNameMaker</xpath>
+			<value>
+					<chanceToUseNameMaker>0</chanceToUseNameMaker>
+			</value>
+		</match>
+	</Operation>
 	
 </Patch>

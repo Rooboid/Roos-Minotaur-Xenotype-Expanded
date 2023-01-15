@@ -48,6 +48,18 @@
 		</match>
 	</Operation>
 	
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/BackstoryDef[defName="RBME_MilitaryCalf"]/forcedTraits/QuickSleeper</xpath>
+			<value>
+					<VTE_Vengeful>0</VTE_Vengeful>
+			</value>
+		</match>
+	</Operation>
+	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>

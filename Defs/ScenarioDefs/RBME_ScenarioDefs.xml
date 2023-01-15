@@ -303,10 +303,10 @@
 					<thingDef>MealSurvivalPack</thingDef>
 					<count>35</count>
 				</li>
-				<li Class="ScenPart_StartingThing_Defined">
+					<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Pemmican</thingDef>
-					<count>200</count>
+					<thingDef>Silver</thingDef>
+					<count>1000</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
