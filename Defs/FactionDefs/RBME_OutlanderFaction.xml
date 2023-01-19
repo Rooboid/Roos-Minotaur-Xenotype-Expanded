@@ -170,7 +170,7 @@
 				<kindDef>Combat</kindDef>
 				<commonality>2</commonality>
 				<options>
-					<RBM_MinotaurGuardianHigh>1</RBM_MinotaurGuardianHigh>
+					<RBM_MinotaurGuardianHigh>0.5</RBM_MinotaurGuardianHigh>
 					<RBM_ProtectedMonarch>0.2</RBM_ProtectedMonarch>
 					<RBM_MinotaurMarauder>7</RBM_MinotaurMarauder>
 					<RBME_Harrier>3</RBME_Harrier>
@@ -181,6 +181,16 @@
 				<options>
 					<Villager>20</Villager>
 					<RBME_Minotaur_Calf>2</RBME_Minotaur_Calf>
+					<RBME_Milkmaid>5</RBME_Milkmaid>
+					<Town_Guard>10</Town_Guard>
+					<Town_Councilman>5</Town_Councilman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RBM_ProtectedMonarch>2</RBM_ProtectedMonarch>
+					<RBM_MinotaurGuardianHigh>0.2</RBM_MinotaurGuardianHigh>
 					<RBME_Milkmaid>5</RBME_Milkmaid>
 					<Town_Guard>10</Town_Guard>
 					<Town_Councilman>5</Town_Councilman>
@@ -223,7 +233,7 @@
 				</carriers>
 				<guards>
 					<RBM_MinotaurFighter>2</RBM_MinotaurFighter>
-					<RBM_MinotaurGuardianHigh>5</RBM_MinotaurGuardianHigh>
+					<RBM_MinotaurGuardianHigh>0.2</RBM_MinotaurGuardianHigh>
 					<RBM_MinotaurGuardianLow>10</RBM_MinotaurGuardianLow>
 					<RBME_Harrier>2</RBME_Harrier>
 				</guards>
@@ -272,7 +282,7 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<settlementTexturePath>World/Factions/RBME_OutlanderFaction</settlementTexturePath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<permanentEnemyToEveryoneExcept>
 			<li>RBME_MinotaurPlayerOutlander</li>
 			<li>RBME_MinotaurPlayerTribe</li>

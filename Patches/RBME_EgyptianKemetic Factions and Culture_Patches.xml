@@ -18,7 +18,7 @@
 			</value>
 		</match>
 	</Operation>
-	
+	s
 	<!-- Allies the minotaur tribal faction with the kemetic factions -->
 	
 	<Operation Class="PatchOperationFindMod">
@@ -33,6 +33,5 @@
 			</value>
 		</match>
 	</Operation>
-	
 
 </Patch>

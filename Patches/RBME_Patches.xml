@@ -4,7 +4,7 @@
 	<!--============================== Roo's Minotaur Xenotype Patches ============================-->
 	<!-- Stops minotaur from using their name generator so that Hellenic factions still function as intended -->
 
-	<!-- Prevent name maker -->
+	<!-- Reduce chance of using name maker (so the Hellenic namer still works) -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -13,7 +13,91 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/XenotypeDef[defName="RBM_Minotaur"]/chanceToUseNameMaker</xpath>
 			<value>
-					<chanceToUseNameMaker>0</chanceToUseNameMaker>
+					<chanceToUseNameMaker>0.4</chanceToUseNameMaker>
+			</value>
+		</match>
+	</Operation>
+	
+		<!-- Change minotaur guardian (high)'s default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurGuardianHigh"]/defaultFactionType</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+			</value>
+		</match>
+	</Operation>
+	
+			<!-- Change minotaur guardian (low)'s default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurGuardianLow"]/defaultFactionType</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+			</value>
+		</match>
+	</Operation>
+	
+				<!-- Change feral minotaur's default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurFeral"]/defaultFactionType</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+			</value>
+		</match>
+	</Operation>
+	
+					<!-- Change protected monarch's default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_ProtectedMonarch"]/defaultFactionType</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Change minotaur marauder's default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurMarauder"]/defaultFactionType</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Change minotaur fighter's default faction -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Roo's Minotaur Xenotype</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurFighter"]</xpath>
+			<value>
+					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>

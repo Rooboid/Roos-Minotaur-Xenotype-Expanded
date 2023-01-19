@@ -34,31 +34,6 @@
 		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Traits Expanded</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/BackstoryDef[defName="RBME_SilverSlave"]</xpath>
-			<value>
-				<forcedTraits>
-					<VTE_Schizoid>0</VTE_Schizoid>
-				</forcedTraits>
-			</value>
-		</match>
-	</Operation>
-	
-		<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Traits Expanded</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/BackstoryDef[defName="RBME_MilitaryCalf"]/forcedTraits/QuickSleeper</xpath>
-			<value>
-					<VTE_Vengeful>0</VTE_Vengeful>
-			</value>
-		</match>
-	</Operation>
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -218,23 +193,23 @@
 		</match>
 	</Operation>
 	
-		<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/BackstoryDef[defName="RBME_Astrophysicist"]/forcedTraits</xpath>
 			<value>
-			<forcedTraits>
-				<VTE_Prodigy>0</VTE_Prodigy>
-			</forcedTraits>
+				<forcedTraits>
+					<VTE_Prodigy>0</VTE_Prodigy>
+				</forcedTraits>
 			</value>
 		</match>
 	</Operation>
 	
 	<!--Disallowed Traits -->
 	
-		<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -250,7 +225,7 @@
 		</match>
 	</Operation>
 	
-			<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -264,7 +239,7 @@
 		</match>
 	</Operation>
 	
-				<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -278,7 +253,7 @@
 		</match>
 	</Operation>
 	
-		<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -292,7 +267,7 @@
 		</match>
 	</Operation>
 	
-			<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -306,7 +281,7 @@
 		</match>
 	</Operation>
 	
-				<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -319,7 +294,7 @@
 		</match>
 	</Operation>
 	
-		<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Traits Expanded</li>
 		</mods>
@@ -331,6 +306,5 @@
 			</value>
 		</match>
 	</Operation>
-
 
 </Patch>

@@ -66,7 +66,7 @@
 			<xpath>Defs/BackstoryDef[defName="RBME_Rickshaw"]</xpath>
 			<value>
 				<forcedTraits>
-					<FT_StrongBack>0</FT_StrongBack>
+					<FT_StrongBack>1</FT_StrongBack>
 				</forcedTraits>
 			</value>
 		</match>

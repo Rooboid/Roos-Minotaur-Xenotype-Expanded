@@ -139,8 +139,8 @@
 					<RBME_Peltast>10</RBME_Peltast>
 					<RBME_Hoplite>15</RBME_Hoplite>
 					<RBME_Polemarch>5</RBME_Polemarch>
-					<RBME_Anax>0.3</RBME_Anax>
-					<RBME_Olympian>0.05</RBME_Olympian>
+					<RBME_Anax>0.05</RBME_Anax>
+					<RBME_Olympian>0.02</RBME_Olympian>
 				</options>
 			</li>
 			<li>
@@ -151,7 +151,7 @@
 					<RBM_MinotaurFeral>15</RBM_MinotaurFeral>
 					<RBME_Hoplite>10</RBME_Hoplite>
 					<RBME_Polemarch>5</RBME_Polemarch>
-					<RBME_Anax>0.1</RBME_Anax>
+					<RBME_Anax>0.07</RBME_Anax>
 				</options>
 			</li>
 			<li>
@@ -160,19 +160,20 @@
 				<commonality>40</commonality>
 				<options>
 					<RBME_Hoplite>10</RBME_Hoplite>
-					<RBME_Anax>0.7</RBME_Anax>
+					<RBME_Polemarch>1</RBME_Polemarch>
+					<RBME_Anax>0.05</RBME_Anax>
 				</options>
 			</li>
 			<li>
 				<!-- Fateful Raid (High Difficulty) -->
 				<kindDef>Combat</kindDef>
-				<commonality>5</commonality>
+				<commonality>2</commonality>
 				<options>
 					<RBME_Peltast>5</RBME_Peltast>
 					<RBME_Hoplite>16</RBME_Hoplite>
 					<RBME_Polemarch>5</RBME_Polemarch>
 					<RBME_Anax>3</RBME_Anax>
-					<RBME_Olympian>0.1</RBME_Olympian>
+					<RBME_Olympian>0.5</RBME_Olympian>
 				</options>
 			</li>
 			<li>
@@ -184,6 +185,7 @@
 					<RBME_Commoner>15</RBME_Commoner>
 					<RBME_Hoplite>10</RBME_Hoplite>
 					<RBME_Polemarch>2</RBME_Polemarch>
+					<RBME_Anax>0.05</RBME_Anax>
 				</options>
 			</li>
 			<li>
@@ -251,6 +253,6 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<settlementTexturePath>World/Factions/RBME_TribalFaction</settlementTexturePath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 	</FactionDef>
 </Defs>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--====================== Death Achievements ======================-->
+	<!-- Kill 10 minotaur outlanders -->
+
+	<AchievementsExpanded.AchievementDef>
+		<defName>RBME_SpilledMilk</defName>
+		<label>Don't Cry Over Spilled Milk</label>
+		<description>Kill ten minotaur outlanders</description>
+		
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Human</raceDef>
+			<factionDefs><li>OutlanderMinotaur</li></factionDefs>
+			<count>10</count>
+		</tracker>
+	
+		<texPath>UI/Achievements/RBME_SpilledMilk</texPath>
+		<points>20</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<!-- Kill 10 minotaur tribals -->
+
+	<AchievementsExpanded.AchievementDef>
+		<defName>RBME_RiverStyx</defName>
+		<label>Down the River Styx</label>
+		<description>Kill ten minotaur from the hellenic minotaur faction</description>
+		
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Human</raceDef>
+			<factionDefs><li>TribeMinotaur</li></factionDefs>
+			<count>20</count>
+		</tracker>
+
+		<texPath>UI/Achievements/RBME_RiverStyx</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<!-- Kill an Olympian -->
+
+	<AchievementsExpanded.AchievementDef>
+		<defName>RBME_Tartarus</defName>
+		<label>Tartarus</label>
+		<description>Kill an olympian</description>
+		
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Human</raceDef>
+			<kindDef>RBME_Olympian</kindDef>
+			<count>1</count>
+		</tracker>
+
+		<texPath>UI/Achievements/RBME_Tartarus</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<!-- Kill a Ringleader -->
+
+	<AchievementsExpanded.AchievementDef>
+		<defName>RBME_Matador</defName>
+		<label>Matador</label>
+		<description>Kill a ringleader</description>
+		
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Human</raceDef>
+			<kindDef>RBME_Ringleader</kindDef>
+			<count>1</count>
+		</tracker>
+
+		<texPath>UI/Achievements/RBME_Matador</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+
+</Defs>

@@ -146,11 +146,23 @@
 		</techHediffsTags>
 		<techHediffsChance>0.15</techHediffsChance>
 		<inventoryOptions>
-			<skipChance>0.3</skipChance>
+			<skipChance>0.96</skipChance>
 			<subOptionsChooseOne>
 				<li>
 					<thingDef>Gold</thingDef>
-					<countRange>10</countRange>
+					<countRange>50</countRange>
+				</li>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>150</countRange>
+				</li>
+				<li>
+					<thingDef>MealLavish</thingDef>
+					<countRange>2</countRange>
+				</li>
+				<li>
+					<thingDef>Jade</thingDef>
+					<countRange>15</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
@@ -646,6 +658,10 @@
 				<li>
 					<thingDef>Hay</thingDef>
 					<countRange>10</countRange>
+				</li>
+				<li>
+					<thingDef>Milk</thingDef>
+					<countRange>5</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>

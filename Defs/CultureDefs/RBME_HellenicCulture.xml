@@ -18,9 +18,9 @@
     <allowedPlaceTags>
       <li>OriginTribal</li>
     </allowedPlaceTags>
-    <iconPath>UI/Icons/CulrureIcons/RBME_HellenicCulture</iconPath>
+    <iconPath>UI/Icons/CultureIcons/RBME_HellenicCulture</iconPath>
     <preferredWeaponClasses>
-      <noble>RBME_HerculeanClass</noble>
+      <noble>RBM_HerculeanClass</noble>
       <despised>Ultratech</despised>
     </preferredWeaponClasses>
     <styleItemTags>

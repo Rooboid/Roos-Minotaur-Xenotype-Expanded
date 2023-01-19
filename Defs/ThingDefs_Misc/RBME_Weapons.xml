@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--====================== WeaponClass ======================-->
-	<!-- TODO: is this in the RBM module? -->
-
-	<WeaponClassDef>
-		<defName>RBME_HerculeanClass</defName>
-		<label>herculean</label>
-	</WeaponClassDef>
-
 	<!--====================== Epsilon Axe ======================-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
@@ -31,7 +23,7 @@
 			<li>MinoTribeDecent</li>
 		</weaponTags>
 		<weaponClasses>
-			<li>RBME_HerculeanClass</li>
+			<li>RBM_HerculeanClass</li>
 		</weaponClasses>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
