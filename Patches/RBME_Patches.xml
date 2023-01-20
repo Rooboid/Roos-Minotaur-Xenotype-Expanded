@@ -13,7 +13,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/XenotypeDef[defName="RBM_Minotaur"]/chanceToUseNameMaker</xpath>
 			<value>
-					<chanceToUseNameMaker>0.4</chanceToUseNameMaker>
+					<chanceToUseNameMaker>0</chanceToUseNameMaker>
 			</value>
 		</match>
 	</Operation>

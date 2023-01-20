@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="OutlanderFactionBase">
+	<FactionDef ParentName="FactionBase">
 		<defName>OutlanderMinotaur</defName>
 		<label>minotaur outlander union</label>
 		<pawnSingular>outlander</pawnSingular>
@@ -23,14 +23,12 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>ringleader</leaderTitle>
 		<factionIconPath>World/Factions/RBME_OutlanderFaction</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<factionNameMaker>NamerFactionMinotaurOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementMinotaurOutlander</settlementNameMaker>
 		<allowedCultures>
-			<li>Rustican</li>
-			<li>Kriminul</li>
+			<li>RBME_Bovine</li>
 		</allowedCultures>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li>
@@ -140,6 +138,7 @@
 					<Mercenary_Gunner>10</Mercenary_Gunner>
 					<Mercenary_Elite>10</Mercenary_Elite>
 					<RBME_Harrier>5</RBME_Harrier>
+					<RBME_Ringleader>0.4</RBME_Ringleader>
 				</options>
 			</li>
 			<li>
@@ -152,6 +151,7 @@
 					<RBM_MinotaurFighter>7</RBM_MinotaurFighter>
 					<Mercenary_Elite>9</Mercenary_Elite>
 					<RBME_Harrier>10</RBME_Harrier>
+					<RBME_Ringleader>0.1</RBME_Ringleader>
 				</options>
 			</li>
 			<li>
@@ -163,6 +163,7 @@
 					<RBM_MinotaurFighter>2</RBM_MinotaurFighter>
 					<Mercenary_Elite>1</Mercenary_Elite>
 					<RBME_Harrier>5</RBME_Harrier>
+					<RBME_Ringleader>0.5</RBME_Ringleader>
 				</options>
 			</li>
 			<li>
@@ -174,6 +175,7 @@
 					<RBM_ProtectedMonarch>0.2</RBM_ProtectedMonarch>
 					<RBM_MinotaurMarauder>7</RBM_MinotaurMarauder>
 					<RBME_Harrier>3</RBME_Harrier>
+					<RBME_Ringleader>0.1</RBME_Ringleader>
 				</options>
 			</li>
 			<li>
@@ -184,6 +186,7 @@
 					<RBME_Milkmaid>5</RBME_Milkmaid>
 					<Town_Guard>10</Town_Guard>
 					<Town_Councilman>5</Town_Councilman>
+					<RBME_Ringleader>0.1</RBME_Ringleader>
 				</options>
 			</li>
 			<li>
@@ -216,6 +219,7 @@
 					<Grenadier_Destructive>1.5</Grenadier_Destructive>
 					<Mercenary_Slasher>13</Mercenary_Slasher>
 					<RBME_Harrier>8</RBME_Harrier>
+					<RBME_Ringleader>0.1</RBME_Ringleader>
 				</guards>
 			</li>
 			<li>
@@ -251,6 +255,7 @@
 					<RBM_MinotaurFighter>10</RBM_MinotaurFighter>
 					<RBM_MinotaurGuardianLow>5</RBM_MinotaurGuardianLow>
 					<RBM_MinotaurGuardianHigh>0.5</RBM_MinotaurGuardianHigh>
+					<RBME_Ringleader>1</RBME_Ringleader>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

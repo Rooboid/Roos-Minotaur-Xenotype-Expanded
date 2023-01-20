@@ -22,9 +22,9 @@
 	<!-- Kill 10 minotaur tribals -->
 
 	<AchievementsExpanded.AchievementDef>
-		<defName>RBME_RiverStyx</defName>
-		<label>Down the River Styx</label>
-		<description>Kill ten minotaur from the hellenic minotaur faction</description>
+		<defName>RBME_StyxandStones</defName>
+		<label>Styx and Stones</label>
+		<description>Kill ten minotaur from the hellenic minotaur tribe</description>
 		
 		<tracker Class="AchievementsExpanded.KillTracker">
 			<raceDef>Human</raceDef>
@@ -32,7 +32,7 @@
 			<count>20</count>
 		</tracker>
 
-		<texPath>UI/Achievements/RBME_RiverStyx</texPath>
+		<texPath>UI/Achievements/RBME_StyxandStones</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	

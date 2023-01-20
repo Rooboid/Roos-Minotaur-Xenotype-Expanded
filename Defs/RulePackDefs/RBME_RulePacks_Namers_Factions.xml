@@ -153,6 +153,8 @@
 		</rulePack>
 	</RulePackDef>
 	
+	<!--====================== Hellenic Deity Type ======================-->
+	
 	<RulePackDef>
 		<defName>NamerHellenic_DeityType</defName>
 		<include>
@@ -170,6 +172,8 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	
+	<!--====================== Hellenic Leader ======================-->
 	
 	<RulePackDef>
 		<defName>NamerHellenic_Leader</defName>
@@ -252,6 +256,20 @@
 				<li>townname_fixed->Names/OutlanderTown</li>
 				<li>concept_positive->Words/Nouns/Concepts_Positive</li>
 			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<!--====================== Bovine Leader ======================-->
+	
+		<RulePackDef>
+		<defName>NamerBovine_Leader</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->[MinoLeader]</li>
+				
+				<li>MinoLeader->Ringleader</li>
+
+			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
   

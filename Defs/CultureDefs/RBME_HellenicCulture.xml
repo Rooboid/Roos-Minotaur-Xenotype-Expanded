@@ -66,4 +66,76 @@
       </li>
     </styleItemTags>
   </CultureDef>
+  
+  	<!--============================== Bovine Culture ============================-->
+	<!-- Used by OutlanderMinotaur factions -->
+
+  <CultureDef>
+    <defName>RBME_Bovine</defName>
+    <label>bovine</label>
+    <description>A brutish and chaotic culture commonly adopted by modern minotaur.</description>
+    <pawnNameMaker>NamerPersonMinotaur_Male</pawnNameMaker>
+    <pawnNameMakerFemale>NamerPersonMinotaur_Female</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoKriminul</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerHellenic_Deity</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">NamerBovine_Leader</leaderTitleMaker>
+    <allowedPlaceTags>
+      <li>OriginSpacer</li>
+    </allowedPlaceTags>
+	    <thingStyleCategories>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <category>Rustic</category>
+        <priority>1</priority>
+      </li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">
+        <category>Spikecore</category>
+        <priority>1</priority>
+      </li>
+    </thingStyleCategories>
+    <iconPath>UI/Icons/CultureIcons/RBME_HellenicCulture</iconPath>
+    <styleItemTags>
+      <li>
+        <tag>Minotaur</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	  <li>
+        <tag>Urban</tag>
+        <baseWeight>0.5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	  	  <li>
+        <tag>Punk</tag>
+        <baseWeight>0.2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	   <li>
+        <tag>NaturalTattoo</tag>
+        <baseWeight>0.05</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	        <li>
+        <tag>TattooBodyBovine</tag>
+        <baseWeight>0.3</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	        <li>
+        <tag>TattooBodyPunk</tag>
+        <baseWeight>0.1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
   </Defs>
