@@ -556,7 +556,7 @@
 		<title>bullish academic</title>
 		<titleShort>academic</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Life in the sheer, unforgiving mountain range of Padova was harsh on the young [PAWN_nameDef]— but not as harsh as it was for the slaves that erected [PAWN_possessive] family home there. \n\nBeing the calf of two highly educated bovines gave [PAWN_nameDef] some rather unusual traits for a minotaur, such as [PAWN_possessive] academic prowess and total disdain for manual labour.</baseDesc>
+		<baseDesc>Life in the sheer, unforgiving mountain range of Padova was harsh on the young [PAWN_nameDef] — but not as harsh as it was for the slaves that erected [PAWN_possessive] family home there. \n\nBeing the calf of two highly educated bovines gave [PAWN_nameDef] some rather unusual traits for a minotaur, such as [PAWN_possessive] academic prowess and total disdain for manual labour.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>

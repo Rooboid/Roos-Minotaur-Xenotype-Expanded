@@ -29,8 +29,7 @@
 			<li>RBME_Hellenic</li>
 		</allowedCultures>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MinotaurPrimacy</li>
-			<!-- TODO: Make this work in C -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>

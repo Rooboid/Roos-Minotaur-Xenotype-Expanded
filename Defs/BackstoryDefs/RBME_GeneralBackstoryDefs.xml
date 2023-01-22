@@ -86,7 +86,7 @@
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing minotaur milk for refinement, sale or distribution.</baseDesc>
+		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing milk for refinement, sale and distribution.</baseDesc>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>Outlander</li>
