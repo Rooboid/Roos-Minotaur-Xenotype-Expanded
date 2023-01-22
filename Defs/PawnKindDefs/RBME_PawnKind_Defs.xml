@@ -610,6 +610,9 @@
 		<!-- Apparel -->
 		<apparelMoney>50~450</apparelMoney>
 		<gearHealthRange>1~1</gearHealthRange>
+		<apparelRequired>
+			<li>RBME_Cowbell</li>
+		</apparelRequired>
 		<specificApparelRequirements Inherit="False">
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -798,7 +801,7 @@
 		</specificApparelRequirements>
 		<!-- Weapons -->
 		<combatPower>150</combatPower>
-		<weaponMoney>3300</weaponMoney>
+		<weaponMoney>35~1750</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li>GrenadeEMP</li>

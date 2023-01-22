@@ -74,8 +74,8 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>name(p=5)->[MinoPre][MinoTribePawnMascSuf] [MinoTribeUnisex]</li>
-				<li>name(p=1)->[MinoTribeUnisex] [MinoPre][MinoTribePawnMascSuf]</li>
+				<li>name->[MinoPre][MinoTribePawnMascSuf] [MinoTribeUnisex]</li>
+				<li>name->[MinoTribeUnisex] [MinoPre][MinoTribePawnMascSuf]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -95,8 +95,8 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>name(p=5)->[MinoPre][MinoTribePawnFemSuf] [MinoTribeUnisex]</li>
-				<li>name(p=1)->[MinoTribeUnisex] [MinoPre][MinoTribePawnFemSuf]</li>
+				<li>name->[MinoPre][MinoTribePawnFemSuf] [MinoTribeUnisex]</li>
+				<li>name->[MinoTribeUnisex] [MinoPre][MinoTribePawnFemSuf]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -107,7 +107,6 @@
 		<defName>NamerHellenic_Ideo</defName>
 		<include>
 			<li>NamerMinotaurBaseExpanded</li>
-			<li>NamerIdeoGlobal</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -179,7 +178,6 @@
 		<defName>NamerHellenic_Leader</defName>
 		<include>
 			<li>NamerMinotaurBaseExpanded</li>
-			<li>LeaderTitleMaker_GlobalStructure</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -261,7 +259,7 @@
 	
 	<!--====================== Bovine Leader ======================-->
 	
-		<RulePackDef>
+	<RulePackDef>
 		<defName>NamerBovine_Leader</defName>
 		<rulePack>
 			<rulesStrings>

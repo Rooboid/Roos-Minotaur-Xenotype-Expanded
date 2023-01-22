@@ -73,7 +73,7 @@
   <CultureDef>
     <defName>RBME_Bovine</defName>
     <label>bovine</label>
-    <description>A brutish and chaotic culture commonly adopted by modern minotaur.</description>
+    <description>A brutish and chaotic culture commonly adopted by modern minotaur unions.</description>
     <pawnNameMaker>NamerPersonMinotaur_Male</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonMinotaur_Female</pawnNameMakerFemale>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoKriminul</ideoNameMaker>
@@ -94,7 +94,7 @@
         <priority>1</priority>
       </li>
     </thingStyleCategories>
-    <iconPath>UI/Icons/CultureIcons/RBME_HellenicCulture</iconPath>
+    <iconPath>UI/Icons/CultureIcons/RBME_BovineCulture</iconPath>
     <styleItemTags>
       <li>
         <tag>Minotaur</tag>

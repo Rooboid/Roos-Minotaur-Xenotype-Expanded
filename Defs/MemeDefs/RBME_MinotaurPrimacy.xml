@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<MemeDef>
+	<MemeDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>MinotaurPrimacy</defName>
 		<label>minotaur primacy</label>
 		<description>Minotaur have suffered enough under the hands of other xenos. It's time that the minotaurs take their revenge.</description>
@@ -66,7 +66,7 @@
 					<li>archistFact(tag=meme_MinotaurPrimacy)     ->Only the minotaur have the "brawn" to match archotechnology's "brain".</li>
 					<li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd], though we minotaur are but a vehicle for the archotech's amalgamation of universal sentience, we are the only ones who can protect it until that time comes.</li>
 					<!-- animist -->
-					<li>animistFact(tag=meme_MinotaurPrimacy)     ->The minotaur's connection with nature proves them as the sole candidate to nurture it. Other xenos only tarnish it's splendor.</li>
+					<li>animistFact(tag=meme_MinotaurPrimacy)     ->The minotaur's connection with nature proves them as the sole candidate to nurture it. Other xenos only tarnish its splendor.</li>
 				</rulesStrings>
 			</rules>
 		</descriptionMaker>

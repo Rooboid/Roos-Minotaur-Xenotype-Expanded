@@ -19,6 +19,12 @@
 	</loadAfter>
 		<modDependencies>
 		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
 			<packageId>Rooboid.Minotaur</packageId>
 			<displayName>Roo's Minotaur Xenotype</displayName>
 			<downloadUrl>https://steamcommunity.com/id/rooboid/myworkshopfiles/</downloadUrl>

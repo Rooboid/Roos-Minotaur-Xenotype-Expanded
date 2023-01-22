@@ -209,7 +209,7 @@
 					<thingDef>Steel</thingDef>
 					<count>200</count>
 				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
+				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Harp</thingDef>
 					<count>2</count>
