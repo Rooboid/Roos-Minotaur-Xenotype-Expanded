@@ -4,7 +4,6 @@
 		<defName>RBME_Ideoligion_MinotaurA</defName>
 		<iconPath>UI/Icons/IdeoIcons/RBME_IdeoIconA</iconPath>
 		<memes>
-			<li>MinotaurPrimacy</li>
 			<li>Loyalist</li>
 		</memes>
 	</IdeoIconDef>
