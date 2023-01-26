@@ -294,7 +294,7 @@
 		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
 		<costList>
-			<Steel>25</Steel>
+			<Steel>10</Steel>
 		</costList>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>

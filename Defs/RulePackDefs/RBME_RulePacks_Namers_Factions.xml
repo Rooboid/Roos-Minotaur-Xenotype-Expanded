@@ -74,8 +74,8 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>name->[MinoPre][MinoTribePawnMascSuf] [MinoTribeUnisex]</li>
-				<li>name->[MinoTribeUnisex] [MinoPre][MinoTribePawnMascSuf]</li>
+				<li>r_name->[MinoPre][MinoTribePawnMascSuf] [MinoTribeUnisex]</li>
+				<li>r_name->[MinoTribeUnisex] [MinoPre][MinoTribePawnMascSuf]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -95,8 +95,8 @@
 				</li>
 			</rulesRaw>
 			<rulesStrings>
-				<li>name->[MinoPre][MinoTribePawnFemSuf] [MinoTribeUnisex]</li>
-				<li>name->[MinoTribeUnisex] [MinoPre][MinoTribePawnFemSuf]</li>
+				<li>r_name->[MinoPre][MinoTribePawnFemSuf] [MinoTribeUnisex]</li>
+				<li>r_name->[MinoTribeUnisex] [MinoPre][MinoTribePawnFemSuf]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
