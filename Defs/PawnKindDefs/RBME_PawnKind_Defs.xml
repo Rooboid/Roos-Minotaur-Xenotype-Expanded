@@ -25,7 +25,6 @@
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
-				<stuff>Synthread</stuff>
 				<color>(230,130,61)</color>
 			</li>
 		</specificApparelRequirements>
@@ -43,7 +42,7 @@
 		<initialResistanceRange>1~10</initialResistanceRange>
 		<defaultFactionType>RBME_MinotaurPlayerTribe</defaultFactionType>
 		<apparelMoney>50~100</apparelMoney>
-		<gearHealthRange>1~1</gearHealthRange>
+		<gearHealthRange>0.8~1</gearHealthRange>
 		<apparelRequired>
 			<li>RBME_Chiton</li>
 		</apparelRequired>
@@ -96,9 +95,9 @@
 		<chemicalAddictionChance>0.08</chemicalAddictionChance>
 		<invNutrition>0</invNutrition>
 		<itemQuality>Excellent</itemQuality>
-		<initialWillRange>0~0.7</initialWillRange>
+		<initialWillRange>0~7</initialWillRange>
 		<initialResistanceRange>10~23</initialResistanceRange>
-		<humanPregnancyChance>0</humanPregnancyChance>
+		<humanPregnancyChance>0.02</humanPregnancyChance>
 		<minGenerationAge>25</minGenerationAge>
 		<maxGenerationAge>70</maxGenerationAge>
 		<isFighter>False</isFighter>
@@ -106,13 +105,10 @@
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
 		<skills>
 			<li>
-				<skill>Shooting</skill>
-				<range>5~10</range>
+				<skill>Intellectual</skill>
+				<range>10~15</range>
 			</li>
 		</skills>
 		<!-- Apparel -->
@@ -128,16 +124,9 @@
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
-				<apparelLayer>OnSkin</apparelLayer>
 				<color>(200,170,50)</color>
 			</li>
 		</specificApparelRequirements>
-		<!-- Weapons -->
-		<combatPower>70</combatPower>
-		<weaponMoney>90~99999</weaponMoney>
-		<weaponTags>
-			<li>Herculeanweapon</li>
-		</weaponTags>
 		<!-- HeDiffs -->
 		<techHediffsMoney>50~690</techHediffsMoney>
 		<techHediffsTags>
@@ -146,7 +135,7 @@
 		</techHediffsTags>
 		<techHediffsChance>0.15</techHediffsChance>
 		<inventoryOptions>
-			<skipChance>0.96</skipChance>
+			<skipChance>0.97</skipChance>
 			<subOptionsChooseOne>
 				<li>
 					<thingDef>Gold</thingDef>
@@ -164,15 +153,30 @@
 					<thingDef>Jade</thingDef>
 					<countRange>15</countRange>
 				</li>
+				<li>
+					<thingDef>RBM_Midaspear</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>RBM_Labrys</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>RBM_Oxenammer</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>RBM_Bullslinger</thingDef>
+					<countRange>1</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>
-				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.40</Genie>
-				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.30</Sanguophage>
-				<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">0.10</RBM_Minotaur>
-				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0.20</Highmate>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.20</Genie>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.50</Sanguophage>
+				<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">0.40</RBM_Minotaur>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
@@ -185,6 +189,7 @@
 		<label>sophist</label>
 		<!-- Core Data -->
 		<isFighter>False</isFighter>
+		<trader>true</trader>
 		<chemicalAddictionChance>0.1</chemicalAddictionChance>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>2~20</initialResistanceRange>
@@ -228,7 +233,7 @@
 				<color>(55,110,215)</color>
 			</li>
 		</specificApparelRequirements>
-				<xenotypeSet>
+		<xenotypeSet>
 			<xenotypeChances>
 				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.30</Genie>
 				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.10</Sanguophage>
@@ -270,6 +275,10 @@
 					<thingDef>Milk</thingDef>
 					<countRange>5</countRange>
 				</li>
+				<li>
+					<thingDef>Hay</thingDef>
+					<countRange>10</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
@@ -285,8 +294,8 @@
 		<label>peltast</label>
 		<!-- Core Data -->
 		<isFighter>True</isFighter>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>10~25</initialResistanceRange>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>4~25</initialResistanceRange>
 		<!-- Stats -->
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -342,8 +351,8 @@
 		<label>hoplite</label>
 		<!-- Core Data -->
 		<isFighter>True</isFighter>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>8~27</initialResistanceRange>
+		<initialWillRange>0~7</initialWillRange>
+		<initialResistanceRange>3~27</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<!-- Stats -->
 		<requiredWorkTags>
@@ -394,7 +403,7 @@
 		<label>polemarch</label>
 		<!-- Core Data -->
 		<isFighter>True</isFighter>
-		<initialWillRange>0~1</initialWillRange>
+		<initialWillRange>5~10</initialWillRange>
 		<initialResistanceRange>8~27</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<!-- Stats -->
@@ -446,8 +455,8 @@
 		<labelPlural>anaxes</labelPlural>
 		<!-- Core Data -->
 		<isFighter>True</isFighter>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>5~40</initialResistanceRange>
+		<initialWillRange>8~15</initialWillRange>
+		<initialResistanceRange>3~40</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<itemQuality>Excellent</itemQuality>
 		<!-- Stats -->
@@ -488,7 +497,7 @@
 		<isFighter>True</isFighter>
 		<factionLeader>true</factionLeader>
 		<factionHostileOnDeath>true</factionHostileOnDeath>
-		<initialWillRange>0~1</initialWillRange>
+		<initialWillRange>5~30</initialWillRange>
 		<initialResistanceRange>12~52</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<itemQuality>Excellent</itemQuality>
@@ -588,8 +597,8 @@
 		<invFoodDef>Milk</invFoodDef>
 		<itemQuality>Excellent</itemQuality>
 		<initialWillRange>0~5</initialWillRange>
-		<initialResistanceRange>5~15</initialResistanceRange>
-		<humanPregnancyChance>0.05</humanPregnancyChance>
+		<initialResistanceRange>0~17</initialResistanceRange>
+		<humanPregnancyChance>0.07</humanPregnancyChance>
 		<minGenerationAge>25</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<!-- Stats -->
@@ -682,7 +691,7 @@
 		<!-- Core Data -->
 		<isFighter>true</isFighter>
 		<factionLeader>true</factionLeader>
-		<initialWillRange>0~0.5</initialWillRange>
+		<initialWillRange>0~20</initialWillRange>
 		<initialResistanceRange>10~25</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<itemQuality>Excellent</itemQuality>
@@ -751,7 +760,7 @@
 		<label>harrier</label>
 		<!-- Core Data -->
 		<isFighter>True</isFighter>
-		<initialWillRange>0~1</initialWillRange>
+		<initialWillRange>0~10</initialWillRange>
 		<initialResistanceRange>8~20</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<itemQuality>Excellent</itemQuality>

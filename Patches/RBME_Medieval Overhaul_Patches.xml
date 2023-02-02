@@ -53,16 +53,21 @@
 			<li>Medieval Overhaul</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]/inventoryOptions/subOptionsChooseOne</xpath>
+			<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]</xpath>
 			<value>
-				<li>
-					<thingDef>DankPyon_Book</thingDef>
-					<countRange>1</countRange>
-				</li>
-				<li>
-					<thingDef>DankPyon_Treatise_Social</thingDef>
-					<countRange>1</countRange>
-				</li>
+				<inventoryOptions>
+					<skipChance>0.85</skipChance>
+					<subOptionsChooseOne>
+						<li>
+							<thingDef>DankPyon_Book</thingDef>
+							<countRange>1</countRange>
+						</li>
+						<li>
+							<thingDef>DankPyon_Treatise_Social</thingDef>
+							<countRange>1</countRange>
+						</li>
+					</subOptionsChooseOne>
+				</inventoryOptions>
 			</value>
 		</match>
 	</Operation>

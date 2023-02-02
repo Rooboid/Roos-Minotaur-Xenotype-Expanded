@@ -137,6 +137,7 @@
 					<Mercenary_Slasher>7</Mercenary_Slasher>
 					<Mercenary_Gunner>10</Mercenary_Gunner>
 					<Mercenary_Elite>10</Mercenary_Elite>
+					<RBM_MinotaurFighter>3</RBM_MinotaurFighter>
 					<RBME_Harrier>5</RBME_Harrier>
 					<RBME_Ringleader>0.4</RBME_Ringleader>
 				</options>

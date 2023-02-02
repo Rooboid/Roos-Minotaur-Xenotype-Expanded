@@ -106,12 +106,18 @@
 				<value>-3</value>
 			</li>
 		</skillGains>
+		<possessions>
+			<li>
+				<key>RBME_Cowbell</key>
+				<value>1</value>
+			</li>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Minofanatic ============================-->
 	<!-- Based on a real individual I know lmao -->
 	
-		<BackstoryDef>
+	<BackstoryDef>
 		<defName>RBME_Minofanatic</defName>
 		<title>minofanatic</title>
 		<titleShort>fanatic</titleShort>

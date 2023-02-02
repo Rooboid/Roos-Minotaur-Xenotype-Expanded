@@ -24,8 +24,8 @@
 		<mods>
 			<li>Vanilla Weapons Expanded - Makeshift</li>
 		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurMarauder"]/weaponTags/li[1}</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurMarauder"]/weaponTags</xpath>
 			<value>
 			<li>MakeshiftGun</li>
 			</value>

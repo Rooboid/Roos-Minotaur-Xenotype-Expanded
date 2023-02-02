@@ -11,7 +11,7 @@
 		<title>bathhouse servant</title>
 		<titleShort>servant</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment in favour of academia. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. Considering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
+		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment in favour of academia. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. \n\nConsidering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -20,7 +20,7 @@
 		<skillGains>
 			<li>
 				<key>Social</key>
-				<value>2</value>
+				<value>3</value>
 			</li>
 			<li>
 				<key>Medicine</key>
@@ -167,10 +167,57 @@
 		</disallowedTraits>
 	</BackstoryDef>
 	
+		<!--============================== Herbalist  ============================-->
+		<!-- Similar to Botanist but less restrictions -->
+	
+	<BackstoryDef>
+		<defName>RBME_Herbalist</defName>
+		<title>herbalist</title>
+		<titleShort>herbalist</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] gathered healing herbs for a wackadoo physician, who cured minotaur far and wide of their battle wounds and ailments. [PAWN_nameDef] learned well under [PAWN_possessive] master’s counsel and became a walking encyclopaedia of local verdure.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+	
+		<!--============================== Young Messenger  ============================-->
+	
+	<BackstoryDef>
+		<defName>RBME_YoungMessenger</defName>
+		<title>young messenger</title>
+		<titleShort>young messenger</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] trotted back and forth, delivering messages from pining lovers, homesick soldiers and worried parents. \n\nNot all of these letters found their recipient intact, however, as [PAWN_nameDef] quite enjoyed prizing open envelopes and catching up on the town’s gossip, before amateurishly resealing them and praying not to be found guilty.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>MinotaurTribe</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+	
 	<!--============================== Tribal Minotaur - Adulthood ============================-->
 
 	<!--============================== Philosopher ============================-->
-	<!-- Rare Intellectual and pacifist minotaur -->
+	<!-- Rare intellectual and pacifist minotaur -->
 	
 	<BackstoryDef>
 		<defName>RBME_Philosopher</defName>
@@ -764,7 +811,7 @@
 		<title>foundling</title>
 		<titleShort>foundling</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] entered the world prematurely and stood at half of the size of [PAWN_possessive] fellow calves, leading [PAWN_possessive]’s father to disown [PAWN_objective] at birth.</baseDesc>
+		<baseDesc>[PAWN_nameDef] entered the world prematurely and stood at half of the size of [PAWN_possessive] fellow calves, leading [PAWN_possessive] father to disown [PAWN_objective] at birth.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -828,7 +875,7 @@
 		<title>botanist</title>
 		<titleShort>botanist</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>The mystifying flora around [PAWN_nameDef] perplexed young [PAWN_objective], and understanding it was undoubtedly going to be a lifelong pursuit. A pursuit that [PAWN_nameDef] welcomed with open arms. And mouth, should [PAWN_possessive] findings be edible.</baseDesc>
+		<baseDesc>The mystifying flora around [PAWN_nameDef] perplexed [PAWN_objective], and understanding it was undoubtedly going to be a lifelong pursuit. A pursuit that [PAWN_nameDef] welcomed with open arms. And mouth, should [PAWN_possessive] findings be edible.</baseDesc>
 		<bodyTypeMale>Fat</bodyTypeMale>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>
@@ -931,7 +978,7 @@
 		<title>mullered</title>
 		<titleShort>drunkard</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>As the new day dawns, so does [PAWN_nameDef], typically hungover in the doorway of an inn. This is what [PAWN_nameDef] calls a “clever tactic”, blurting something else about “efficiency”, as [PAWN_pronoun] starts the day exactly where [PAWN_pronoun] aims to end it: where the alcohol is plentiful, and the minotaur are merry.</baseDesc>
+		<baseDesc>As a new day dawned, so did [PAWN_nameDef], typically hungover in the doorway of an inn. This is what [PAWN_nameDef] called a “clever tactic”: starting the day exactly where [PAWN_pronoun] aimed to end it: where the alcohol was plentiful and the minotaur were merry.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -971,7 +1018,7 @@
 		<title>bullsmith</title>
 		<titleShort>bullsmith</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] shapes weapons for minotaur hands, no matter how destitute they may be. [PAWN_nameDef] believes in arming all who may one day stand beside [PAWN_objective] in battle. \n\nNaturally, crafting weapons on the double requires [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
+		<baseDesc>[PAWN_nameDef] shaped weapons for [PAWN_possessive] fellow minotaur, no matter how destitute they may be. [PAWN_nameDef] believed in arming all those who may one day stand beside [PAWN_objective] in battle. \n\nNaturally, crafting weapons on the double required [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -1147,7 +1194,7 @@
 		<title>potter</title>
 		<titleShort>potter</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] scours the earth for clay to use in [PAWN_possessive] workshop, turning it into magnificent pottery that tells the tales of bygone minotaur heroes.</baseDesc>
+		<baseDesc>[PAWN_nameDef] scoured the earth for clay to use in [PAWN_possessive] workshop. [PAWN_pronoun] turned it into magnificent pieces of pottery that told the tales of bygone minotaur heroes.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -1158,11 +1205,11 @@
 		<skillGains>
 			<li>
 				<key>Artistic</key>
-				<value>9</value>
+				<value>7</value>
 			</li>
 			<li>
 				<key>Mining</key>
-				<value>6</value>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>

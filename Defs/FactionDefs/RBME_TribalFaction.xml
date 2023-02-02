@@ -78,7 +78,7 @@
 				<categories>
 					<li>MinotaurTribal</li>
 				</categories>
-				<commonality>7</commonality>
+				<commonality>5</commonality>
 			</li>
 			<li>
 				<categories>
@@ -90,13 +90,13 @@
 				<categories>
 					<li>Tribal</li>
 				</categories>
-				<commonality>0.5</commonality>
+				<commonality>3</commonality>
 			</li>
 			<li>
 				<categories>
 					<li>Offworld</li>
 				</categories>
-				<commonality>0.1</commonality>
+				<commonality>0.2</commonality>
 			</li>
 		</backstoryFilters>
 		<leaderTitle>olympian</leaderTitle>
@@ -104,7 +104,6 @@
 			<li>Caravan_Neolithic_BulkGoods</li>
 			<li>Caravan_Neolithic_WarMerchant</li>
 			<li>Caravan_Neolithic_Slaver</li>
-			<li>Caravan_Neolithic_ShamanMerchant</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Neolithic_Standard</li>
@@ -179,12 +178,14 @@
 				<!-- Peaceful -->
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">5</RBME_Minotaur_Calf>
-					<RBME_Sophist>0.2</RBME_Sophist>
+					<RBME_Minotaur_Calf MayRequire="Ludeon.RimWorld.Biotech">0.3</RBME_Minotaur_Calf>
 					<RBME_Commoner>15</RBME_Commoner>
+					<RBME_Sophist>5</RBME_Sophist>
 					<RBME_Hoplite>10</RBME_Hoplite>
 					<RBME_Polemarch>2</RBME_Polemarch>
 					<RBME_Anax>0.05</RBME_Anax>
+					<RBME_Archon>7</RBME_Archon>
+					<RBME_Olympian>0.02</RBME_Olympian>
 				</options>
 			</li>
 			<li>
@@ -193,10 +194,10 @@
 					<RBME_Sophist>1</RBME_Sophist>
 				</traders>
 				<carriers>
-					<Donkey>5</Donkey>
-					<Horse>4</Horse>
-					<Yak>3</Yak>
-					<Bison>1</Bison>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
 					<RBME_Commoner>2</RBME_Commoner>
@@ -208,19 +209,20 @@
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<RBME_Archon>3</RBME_Archon>
-					<RBME_Sophist>2</RBME_Sophist>
+					<RBME_Sophist>3</RBME_Sophist>
 					<RBME_Commoner>7</RBME_Commoner>
 					<RBME_Hoplite>15</RBME_Hoplite>
 					<RBME_Polemarch>8</RBME_Polemarch>
 					<RBME_Anax>5</RBME_Anax>
+					<RBME_Olympian>0.1</RBME_Olympian>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
 					<RBME_Peltast>13</RBME_Peltast>
-					<RBME_Archon>5</RBME_Archon>
+					<RBME_Anax>5</RBME_Anax>
+					<RBME_Olympian>0.2</RBME_Olympian>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

@@ -3,7 +3,7 @@
 
 	<!--====================== Epsilon Axe ======================-->
 	
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>RBME_EpsilonAxe</defName>
 		<label>epsilon axe</label>
 		<description>A skullshattering axe used widely by minotaur savages. It is so large that, even though a regular baseliner may indeed be able to pick it up, only pawns with the Herculean gene are strong enough to swing it in battle.</description>
@@ -161,7 +161,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBME_Sling</defName>
 		<label>sling</label>
-		<description>A timeless weapon comprised of a fibre pouch and a retention cord. /nAmmunition, such as small stones and lead bullets, can be lobbed at a great force with this weapon.</description>
+		<description>A timeless weapon comprised of a fibre pouch and a retention cord. \nAmmunition, such as small stones and lead bullets, can be lobbed at a great force with this weapon.</description>
 		<possessionCount>1</possessionCount>
 		<rotateInShelves>false</rotateInShelves>
 		<uiIconScale>0.8</uiIconScale>
