@@ -30,6 +30,12 @@
 			<downloadUrl>https://steamcommunity.com/id/rooboid/myworkshopfiles/</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid/myworkshopfiles/</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<downloadUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/?curator_clanid=25160263</downloadUrl>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/?curator_clanid=25160263</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 <description>Welcome the minotaur to the Rim with open arms with this expanded module of Roo's Minotaur Xenotype. Battle or befriend multiple minotaur factions, build your own army of bovine hoplites and flesh out your pawns with brand new backstories and apparel.
 
@@ -44,13 +50,6 @@ This mod must be loaded after the core module: Roo's Minotaur Xenotype
 • 2 minotaur factions with unique raids and pawn types.
 • Various DLC add-ons such as custom ideology icons and cultures.
 • Integrated compatibility with various great mods.
-
-&lt;size=25&gt;• For More…&lt;/size&gt;
-
-If you’re looking for more Rimworld mods, especially hair mods, check out my Steam Workshop profile:
-https://steamcommunity.com/id/rooboid/myworkshopfiles/
-Or if you want to request your own mod features and follow my work, check out my Patreon:
-https://www.patreon.com/Rooboid
 
 &lt;size=25&gt;• Credits&lt;/size&gt;
 

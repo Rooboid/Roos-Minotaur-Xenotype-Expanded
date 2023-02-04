@@ -27,12 +27,12 @@
 		</weaponClasses>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
-			<MeleeHitChance>-0.3</MeleeHitChance>
+			<MeleeHitChance>-0.1</MeleeHitChance>
 		</equippedStatOffsets>
-		<costStuffCount>70</costStuffCount>
+		<costStuffCount>100</costStuffCount>
 		<relicChance>1</relicChance>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>20000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<stuffCategories>
@@ -43,9 +43,8 @@
 				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
-					<li>Poke</li>
 				</capacities>
-				<power>8</power>
+				<power>9</power>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -54,8 +53,8 @@
 					<li>Demolish</li>
 					<li>Cut</li>
 				</capacities>
-				<power>13.2</power>
-				<cooldownTime>2.3</cooldownTime>
+				<power>28</power>
+				<cooldownTime>3</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -144,14 +143,15 @@
 		<useHitPoints>False</useHitPoints>
 		<neverMultiSelect>True</neverMultiSelect>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/RBME_Pelekys/RBME_Pelekys</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Equipment/WeaponMelee/RBME_Pelekys/RBME_PelekysProjectile</texPath>
+			<graphicClass>Graphic_Flicker</graphicClass>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>21</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<armorPenetrationBase>0.32</armorPenetrationBase>
 			<speed>21</speed>
 		</projectile>
 	</ThingDef>
@@ -209,7 +209,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Proj_Sling</defaultProjectile>
-				<warmupTime>2.8</warmupTime>
+				<warmupTime>2.2</warmupTime>
 				<range>16.3</range>
 				<soundCast>ThrowGrenade</soundCast>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
