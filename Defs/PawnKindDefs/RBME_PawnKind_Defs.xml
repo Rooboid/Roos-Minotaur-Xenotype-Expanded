@@ -261,7 +261,7 @@
 		<gearHealthRange>0.2~1.2</gearHealthRange>
 		<!-- Weapons -->
 		<combatPower>10</combatPower>
-		<weaponMoney>0~150</weaponMoney>
+		<weaponMoney>45~150</weaponMoney>
 		<weaponTags>
 			<li>MinotribeBasic</li>
 			<li>Neolithic</li>
@@ -810,7 +810,7 @@
 		</specificApparelRequirements>
 		<!-- Weapons -->
 		<combatPower>150</combatPower>
-		<weaponMoney>35~1750</weaponMoney>
+		<weaponMoney>115~1750</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li>GrenadeEMP</li>
