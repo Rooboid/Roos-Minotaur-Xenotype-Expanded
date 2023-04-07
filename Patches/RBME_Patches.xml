@@ -102,4 +102,19 @@
 		</match>
 	</Operation>
 	
+		<!-- Make Empire not hostile to minotaur starting factions -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+					<li>RBME_MinotaurPlayerTribe</li>
+					<li>RBME_MinotaurPlayerOutlander</li>
+			</value>
+		</match>
+	</Operation>
+	
 </Patch>

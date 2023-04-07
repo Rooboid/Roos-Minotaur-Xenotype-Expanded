@@ -35,13 +35,13 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<apparel>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_Chiton</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -157,21 +157,21 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<costStuffCount>55</costStuffCount>
+		<costStuffCount>65</costStuffCount>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>4500</WorkToMake>
+			<WorkToMake>6000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2.5</Mass>
-			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
 			<EquipDelay>1.7</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -217,7 +217,7 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<costStuffCount>85</costStuffCount>
+		<costStuffCount>90</costStuffCount>
 		<costList>
 			<Cloth>15</Cloth>
 		</costList>
@@ -226,19 +226,19 @@
 			<li>Armor</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>4700</WorkToMake>
-			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>6700</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>2.7</Mass>
-			<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.23</ArmorRating_Heat>
-			<EquipDelay>1.7</EquipDelay>
+			<ArmorRating_Sharp>0.23</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.12</ArmorRating_Heat>
+			<EquipDelay>1.8</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<PainShockThreshold>0.04</PainShockThreshold>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<recipeMaker>

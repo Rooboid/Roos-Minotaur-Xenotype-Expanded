@@ -1,0 +1,85 @@
+Compatibilities:
+
+-------------------------------- Roo's Minotaur Xenotype: --------------------------------
+
+Vanilla Expanded Framework: https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013
+- Unguiligrade are added as brand new body parts instead of just a buff.
+- Minotaur are slightly bigger than other pawns.
+
+Mod Icons: https://steamcommunity.com/sharedfiles/filedetails/?id=2937699914
+- A mod icon appears on loading screens for this mod. Thanks to Arquebus for granting permission to use the dll in this mod!
+
+Fallout Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1209071221
+- Minotaur backstories have a chance of forcing certain fallout traits.
+
+Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=traits+expanded
+- Specific VE traits can appear in minotaur backstories.
+
+Vanilla Achievements Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657
+- 8 achievements added:
+- Added an individual achievement for obtaining each fabled weapon.
+- Added an achievement for obtaining 1000 milk.
+
+Medical System Expansion 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586
+- Unguiligrade legs no longer cause minotaur to have no bones in their legs.
+
+RJW:
+- Pawns in heat due to the Estrous Cycle gene have an increased "hand-holding" frequency.
+
+Melee Animations: https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802
+- Instrument weapons have been given tweak data, and will be animated in battle - Credit to Epicguru.
+
+[AB] Xenotype: Pillux: https://steamcommunity.com/sharedfiles/filedetails/?id=2952613836
+- The Pillux will have the Estrous Cycle and Skin Tone genes added by Roo's Minotaur Xenotype - Credit to Alleyballey.
+
+Facial Animations Xenotype Compatibility: https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635
+- Facial animations are supported for the minotaur - Credit to Leaguenet.
+
+-------------------------------- Roo's Minotaur Xenotype Expanded: --------------------------------
+
+Vanilla Expanded Framework: https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013
+- The Minotaur Tribe starting scenario will start with a custom settlement on the map.
+
+Vanilla Achievements Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657
+- 4 achievements added:
+- 2 achievements added for slaying a certain number of minotaur pawns from each added faction.
+- 2 achievements added for slaying the strongest Pawn types of each faction.
+
+Mod Icons: https://steamcommunity.com/sharedfiles/filedetails/?id=2937699914
+- A mod icon appears on loading screens for this mod. Thanks to Arquebus for granting permission to use the dll in this mod!
+
+Fallout Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1209071221
+- Minotaur backstories have a chance of forcing certain fallout traits.
+
+[Alien/Race] Seren, from Stardust: https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783&searchtext=seren
+- Seren may appear as Archons in the Minotaur faction, since they're smart.
+- The Seren, from Stardust mod adds two new, wholesome starting scenarios called 'Seren-Minotaur Cooperation' and 'Orphaned Seren' when running alongside this mod.
+
+Egyptian/Kemetic Factions and Culture: https://steamcommunity.com/sharedfiles/filedetails/?id=2903339862
+- The Hellenic Minotaur faction are aligned with both the Upper and Lower Kemet factions.
+
+Medieval Overhaul: https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067
+- Hellenic Minotaur will use and carry Medieval Overhaul items, such as books and weapons.
+
+Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
+- Specific traits can appear in Minotaur backstories.
+
+Vanilla Animals Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948
+- The Hellenic Minotaur Faction may have wildebeest and musk oxen in their trade caravans.
+
+Vanilla Apparel Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817&searchtext=apparel+expanded
+- The Minotaur Nomads scenario forces your starting pawns to wear inmate jumpsuits.
+- Harriers and Peltasts may wear backpacks.
+
+Vanilla Ideology Expanded - Memes and Structures: https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500
+- The Hellenic Minotaur faction will have a Bacchanalianism structure.
+
+Vanilla Weapons Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354&searchtext=weapons+expanded
+- Ringleaders are inclined to use laser weapons.
+- Harriers and Mauauders may use makeshift weapons.
+
+More Religious Origins: https://steamcommunity.com/sharedfiles/filedetails/?id=2620745910
+- The Hellenic Minotaur faction will have a Hellenic structure.
+
+Hair Modding Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=2947607004
+- Alpha masks added to new hairstyles.

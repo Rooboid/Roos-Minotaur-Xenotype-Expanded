@@ -4,30 +4,30 @@
 	<!--============================== Vanilla Apparel Expanded Patches ============================-->
 	<!-- Forces jumpsuits on RBME_PlayerMinotaurOutlanderPawn -->
 	
-		<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Apparel Expanded</li>
 		</mods>
 		<match Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RBME_PlayerMinotaurOutlanderPawn"]/apparelRequired</xpath>
-		<value>
-		<apparelRequired>
-			<li>VAE_Apparel_Jumpsuit</li>
-		</apparelRequired>
-		</value>
+			<xpath>Defs/PawnKindDef[defName="RBME_PlayerMinotaurOutlanderPawn"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired>
+					<li>VAE_Apparel_Jumpsuit</li>
+				</apparelRequired>
+			</value>
 		</match>
 	</Operation>
 	
-			<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Apparel Expanded</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-		<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
-		<value>
-		<li>VAEA_Utility_Neolithic</li>
-		</value>
+			<xpath>Defs/PawnKindDef[defName="RBME_Peltast"]/apparelTags</xpath>
+			<value>
+				<li>VAEA_Utility_Neolithic</li>
+			</value>
 		</match>
-		</Operation>
+	</Operation>
 
 </Patch>
