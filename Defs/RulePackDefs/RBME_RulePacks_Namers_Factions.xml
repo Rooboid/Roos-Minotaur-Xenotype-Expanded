@@ -107,7 +107,6 @@
 		<defName>NamerHellenic_Ideo</defName>
 		<include>
 			<li>NamerMinotaurBaseExpanded</li>
-			<li>NamerIdeoGlobal</li>
 		</include>
 		<rulePack>
 			<rulesStrings>

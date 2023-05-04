@@ -13,12 +13,12 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/XenotypeDef[defName="RBM_Minotaur"]/chanceToUseNameMaker</xpath>
 			<value>
-					<chanceToUseNameMaker>0</chanceToUseNameMaker>
+				<chanceToUseNameMaker>0</chanceToUseNameMaker>
 			</value>
 		</match>
 	</Operation>
 	
-		<!-- Change minotaur guardian (high)'s default faction -->
+	<!-- Change minotaur guardian (high)'s default faction -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -27,12 +27,12 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurGuardianHigh"]/defaultFactionType</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
 	
-			<!-- Change minotaur guardian (low)'s default faction -->
+	<!-- Change minotaur guardian (low)'s default faction -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -41,12 +41,12 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurGuardianLow"]/defaultFactionType</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
 	
-				<!-- Change feral minotaur's default faction -->
+	<!-- Change feral minotaur's default faction -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -55,12 +55,12 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurFeral"]/defaultFactionType</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
 	
-					<!-- Change protected monarch's default faction -->
+	<!-- Change protected monarch's default faction -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -69,7 +69,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/PawnKindDef[defName="RBM_ProtectedMonarch"]/defaultFactionType</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
@@ -83,7 +83,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurMarauder"]/defaultFactionType</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
@@ -97,12 +97,12 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/PawnKindDef[defName="RBM_MinotaurFighter"]</xpath>
 			<value>
-					<defaultFactionType>OutlanderMinotaur</defaultFactionType>
+				<defaultFactionType>OutlanderMinotaur</defaultFactionType>
 			</value>
 		</match>
 	</Operation>
 	
-		<!-- Make Empire not hostile to minotaur starting factions -->
+	<!-- Make Empire not hostile to minotaur starting factions -->
 	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -111,8 +111,23 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 			<value>
-					<li>RBME_MinotaurPlayerTribe</li>
-					<li>RBME_MinotaurPlayerOutlander</li>
+				<li>RBME_MinotaurPlayerTribe</li>
+				<li>RBME_MinotaurPlayerOutlander</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Misc Patches ============================-->
+	<!-- Add NamerIdeoGlobal to NamerHellenic_Ideo Rule Pack -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RulePackDef[defName="NamerHellenic_Ideo"]/include</xpath>
+			<value>
+			<li>NamerIdeoGlobal</li>
 			</value>
 		</match>
 	</Operation>
