@@ -58,7 +58,6 @@
 		</rulePack>
 	</RulePackDef>
 
-  
 	<!--====================== Hellenic Names ======================-->
    
 	<RulePackDef>
@@ -79,9 +78,7 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
-		
 	
-		
 	<RulePackDef>
 		<defName>NamerHellenic_Female</defName>
 		<include>
