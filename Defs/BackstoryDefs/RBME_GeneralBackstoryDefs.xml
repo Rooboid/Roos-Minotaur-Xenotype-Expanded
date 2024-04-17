@@ -19,14 +19,8 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>10</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-5</value>
-			</li>
+			<Intellectual>10</Intellectual>
+			<Social>-5</Social>
 		</skillGains>
 		<workDisables>
 			<li>ManualDumb</li>
@@ -61,10 +55,7 @@
 			<li>ImperialCommon</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>-5</value>
-			</li>
+			<Artistic>-5</Artistic>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Artistic</li>
@@ -93,24 +84,12 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>-3</value>
-			</li>
+			<Cooking>5</Cooking>
+			<Animals>5</Animals>
+			<Melee>-3</Melee>
 		</skillGains>
 		<possessions>
-			<li>
-				<key>RBME_Cowbell</key>
-				<value>1</value>
-			</li>
+			<RBME_Cowbell>1</RBME_Cowbell>
 		</possessions>
 	</BackstoryDef>
 	
@@ -129,10 +108,7 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
+			<Social>5</Social>
 		</skillGains>
 		<forcedTraits>
 			<Masochist>0</Masochist>

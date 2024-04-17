@@ -18,14 +18,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>2</value>
-			</li>
+			<Social>3</Social>
+			<Medicine>2</Medicine>
 		</skillGains>
 		<workDisables>
 			<li>Intellectual</li>
@@ -50,14 +44,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>2</value>
-			</li>
+			<Melee>4</Melee>
+			<Social>2</Social>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -76,18 +64,9 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Construction</key>
-				<value>2</value>
-			</li>
+			<Crafting>5</Crafting>
+			<Mining>4</Mining>
+			<Construction>2</Construction>
 		</skillGains>
 		<forcedTraits>
 			<Psychopath>0</Psychopath>
@@ -117,18 +96,9 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Mining</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-5</value>
-			</li>
+			<Mining>7</Mining>
+			<Intellectual>-5</Intellectual>
+			<Social>-5</Social>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -146,14 +116,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>3</value>
-			</li>
+			<Melee>5</Melee>
+			<Shooting>3</Shooting>
 		</skillGains>
 		<forcedTraits>
 			<QuickSleeper>0</QuickSleeper>
@@ -182,14 +146,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>4</value>
-			</li>
+			<Plants>4</Plants>
+			<Medicine>4</Medicine>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -207,10 +165,7 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
+			<Social>5</Social>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -231,10 +186,7 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>10</value>
-			</li>
+			<Intellectual>10</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<TooSmart>0</TooSmart>
@@ -269,14 +221,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>5</value>
-			</li>
+			<Intellectual>6</Intellectual>
+			<Artistic>5</Artistic>
 		</skillGains>
 		<forcedTraits>
 			<Beauty>2</Beauty>
@@ -311,14 +257,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>10</value>
-			</li>
+			<Shooting>7</Shooting>
+			<Melee>10</Melee>
 		</skillGains>
 		<forcedTraits>
 			<Greedy>0</Greedy>
@@ -343,14 +283,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>3</value>
-			</li>
+			<Social>5</Social>
+			<Artistic>3</Artistic>
 		</skillGains>
 		<forcedTraits>
 			<PsychicSensitivity>1</PsychicSensitivity>
@@ -376,10 +310,7 @@
 			<li>MinotaurGuardian</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>10</value>
-			</li>
+			<Melee>10</Melee>
 		</skillGains>
 		<forcedTraits>
 			<Brawler>0</Brawler>
@@ -412,18 +343,9 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>9</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>10</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
+			<Shooting>9</Shooting>
+			<Melee>10</Melee>
+			<Social>5</Social>
 		</skillGains>
 		<forcedTraits>
 			<Nerves>1</Nerves>
@@ -453,34 +375,13 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>13</value>
-			</li>
-			<li>
-				<key>Construction</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>-5</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>-5</value>
-			</li>
+			<Social>13</Social>
+			<Construction>-5</Construction>
+			<Cooking>-5</Cooking>
+			<Mining>-5</Mining>
+			<Crafting>-5</Crafting>
+			<Plants>-5</Plants>
+			<Animals>-5</Animals>
 		</skillGains>
 		<disallowedTraits>
 			<Recluse>0</Recluse>
@@ -507,18 +408,9 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>3</value>
-			</li>
+			<Social>3</Social>
+			<Crafting>3</Crafting>
+			<Medicine>3</Medicine>
 		</skillGains>
 		<requiredWorkTags>
 			<li>ManualDumb</li>
@@ -540,30 +432,12 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Construction</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>-7</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>-3</value>
-			</li>
+			<Cooking>5</Cooking>
+			<Plants>5</Plants>
+			<Construction>7</Construction>
+			<Crafting>3</Crafting>
+			<Intellectual>-7</Intellectual>
+			<Artistic>-3</Artistic>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -582,14 +456,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>5</value>
-			</li>
+			<Artistic>5</Artistic>
+			<Crafting>5</Crafting>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -610,10 +478,7 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
+			<Intellectual>6</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<Abrasive>0</Abrasive>
@@ -642,10 +507,7 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
+			<Melee>5</Melee>
 		</skillGains>
 		<forcedTraits>
 			<Recluse>0</Recluse>
@@ -677,10 +539,7 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>3</value>
-			</li>
+			<Melee>3</Melee>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -701,10 +560,7 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
+			<Intellectual>6</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<TooSmart>0</TooSmart>
@@ -732,22 +588,10 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>10</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>-4</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>-4</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>-4</value>
-			</li>
+			<Melee>10</Melee>
+			<Cooking>-4</Cooking>
+			<Artistic>-4</Artistic>
+			<Plants>-4</Plants>
 		</skillGains>
 		<forcedTraits>
 			<Tough>0</Tough>
@@ -774,18 +618,9 @@
 			<li>MinotaurOutlander</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>-2</value>
-			</li>
+			<Crafting>5</Crafting>
+			<Melee>8</Melee>
+			<Medicine>-2</Medicine>
 		</skillGains>
 		<disallowedTraits>
 			<Kind>0</Kind>
@@ -820,10 +655,7 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>-3</value>
-			</li>
+			<Melee>-3</Melee>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -844,22 +676,10 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>3</value>
-			</li>
+			<Melee>3</Melee>
+			<Plants>3</Plants>
+			<Cooking>3</Cooking>
+			<Crafting>3</Crafting>
 		</skillGains>
 		<disallowedTraits>
 			<Undergrounder>0</Undergrounder>
@@ -884,22 +704,10 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>3</value>
-			</li>
+			<Plants>6</Plants>
+			<Cooking>3</Cooking>
+			<Intellectual>3</Intellectual>
+			<Medicine>3</Medicine>
 		</skillGains>
 		<disallowedTraits>
 			<Undergrounder>0</Undergrounder>
@@ -929,10 +737,7 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
+			<Melee>5</Melee>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -953,14 +758,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-5</value>
-			</li>
+			<Melee>5</Melee>
+			<Social>-5</Social>
 		</skillGains>
 		<workDisables>
 			<li>Caring</li>
@@ -987,14 +786,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>3</value>
-			</li>
+			<Melee>5</Melee>
+			<Cooking>3</Cooking>
 		</skillGains>
 		<forcedTraits>
 			<DrugDesire>2</DrugDesire>
@@ -1027,18 +820,9 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>7</value>
-			</li>
+			<Melee>5</Melee>
+			<Crafting>7</Crafting>
+			<Mining>7</Mining>
 		</skillGains>
 		<disallowedTraits>
 			<Industriousness>-2</Industriousness>
@@ -1071,22 +855,10 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
+			<Melee>5</Melee>
+			<Crafting>8</Crafting>
+			<Artistic>4</Artistic>
+			<Social>5</Social>
 		</skillGains>
 		<forcedTraits>
 			<Industriousness>-1</Industriousness>
@@ -1120,14 +892,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>10</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>6</value>
-			</li>
+			<Shooting>10</Shooting>
+			<Melee>6</Melee>
 		</skillGains>
 		<disallowedTraits>
 			<Kind>0</Kind>
@@ -1163,14 +929,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>5</value>
-			</li>
+			<Melee>7</Melee>
+			<Shooting>5</Shooting>
 		</skillGains>
 		<forcedTraits>
 			<SpeedOffset>2</SpeedOffset>
@@ -1203,14 +963,8 @@
 			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>4</value>
-			</li>
+			<Artistic>7</Artistic>
+			<Mining>4</Mining>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Artistic</li>

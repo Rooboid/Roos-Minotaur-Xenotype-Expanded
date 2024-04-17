@@ -3,7 +3,7 @@
 <name>Roo's Minotaur Xenotype Expanded</name>
 <author>Rooboid, Zelan</author>
 <supportedVersions>
-		<li>1.4</li>
+		<li>1.5</li>
 </supportedVersions>
 <packageId>Rooboid.Minotaur.Expanded</packageId>
 	<loadAfter>
