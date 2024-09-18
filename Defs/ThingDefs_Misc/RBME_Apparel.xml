@@ -326,7 +326,6 @@
 			<tags>
 				<li>Hellenic</li>
 			</tags>
-			<hatRenderedAboveBody>true</hatRenderedAboveBody>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
