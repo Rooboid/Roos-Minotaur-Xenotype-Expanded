@@ -46,6 +46,17 @@
 		<apparelRequired>
 			<li>RBME_Chiton</li>
 		</apparelRequired>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+					<alternateTagChoices>
+					<li>
+						<tag>RBME_HellenicHelmet</tag>
+						<chance>10</chance>
+					</li>
+					</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
 	</PawnKindDef>
 
 	<!--====================== Tribal Pawns - Parent ======================-->
@@ -377,7 +388,7 @@
 				<alternateTagChoices>
 					<li>
 						<tag>RBME_HellenicHelmet</tag>
-						<chance>0.05</chance>
+						<chance>0.1</chance>
 					</li>
 				</alternateTagChoices>
 			</li>

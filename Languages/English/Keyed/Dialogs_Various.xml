@@ -2,10 +2,10 @@
 <LanguageData>
 
  <!-- Minotaur Faction Comms Overrides -->
-  <MinotaurFactionGreetingHostile>{0} questions your gall to make contact with {0_objective}, huffs into the receiver and disconnects.</MinotaurFactionGreetingHostile>
-  <MinotaurFactionGreetingHostileAppreciative>{0} refuses to engage in conversation until your faction proves its worthiness. {0} suggests that you release any of {0_possessive} faction's prisoners or deliver a hefty sum of haygrass to one of {0_possessive} settlements. \n\nBefore you can respond, {0} terminates the communication with a huff.</MinotaurFactionGreetingHostileAppreciative>
+  <MinotaurFactionGreetingHostile>Upon merely hearing the sound of your voice, {0} seems to smash the receiver into a thousand tiny pieces with {0_possessive} fist.</MinotaurFactionGreetingHostile>
+  <MinotaurFactionGreetingHostileAppreciative>{0}'s angry grunt rattles the receiver. {0_pronoun} suggests that you earn {0_possessive} faction's trust — either by releasing {0_possessive} prisoners or delivering a hefty sum of haygrass to {0_possessive} settlements — before you contact {0_objective} again. \n\nBefore you can respond, {0} huffs into the receiver and disconnects.</MinotaurFactionGreetingHostileAppreciative>
   <MinotaurFactionGreetingWary>{0} takes a moment to identify {NEGOTIATOR_labelShort}'s voice, before questioning what {0_pronoun} can do for you.</MinotaurFactionGreetingWary>
-  <MinotaurFactionGreetingWarm>{0} greets {NEGOTIATOR_labelShort} with a moo, {NEGOTIATOR_labelShort} makes an attempt to moo in response. {0} is ready to offer {0_possessive} support in any way {0_pronoun} can.</MinotaurFactionGreetingWarm>
+  <MinotaurFactionGreetingWarm>{0} greets {NEGOTIATOR_labelShort} with a pleasant moo. {0_pronoun} is ready to offer {0_possessive} support to you in any way {0_pronoun} can.</MinotaurFactionGreetingWarm>
   <MinotaurMilitaryAidSent>{0} assures you that victory is in sight, and sends {0_possessive} fighters to you.</MinotaurMilitaryAidSent>
   
   </LanguageData>

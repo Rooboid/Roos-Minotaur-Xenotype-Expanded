@@ -6,7 +6,7 @@
 		<pawnSingular>outlander</pawnSingular>
 		<pawnsPlural>outlanders</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
-		<description>An intimidating union of minotaur with an agelong hatred of humans, or as they deem them, ‘fleshbeasts’. Though generally hostile, neighbouring factions would do well to earn their favour, for they make monstrous enemies who don’t always play fair.</description>
+		<description>An intimidating union of minotaur with an eternity-long hatred of humans — or as they call them — ‘fleshbeasts’. Though generally hostile, neighbouring factions would do well to earn their favour, for they can be monstrous enemies who don’t always play fair.</description>
 		<colorSpectrum>
 			<li>(0, 0.4, 0.94)</li>
 			<li>(0.64, 0.8, 1)</li>
@@ -37,6 +37,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
 		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0.5</Structure_TheistEmbodied>

@@ -94,7 +94,7 @@
 	</BackstoryDef>
 	
 	<!--============================== Minofanatic ============================-->
-	<!-- Based on a real individual I know lmao -->
+	<!-- Based on a real individual I know -->
 	
 	<BackstoryDef>
 		<defName>RBME_Minofanatic</defName>
@@ -103,7 +103,7 @@
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] is fascinated with the minotaur, and carries the dream of wooing a wonderful, bovine spouse to love and grow old with.</baseDesc>
+		<baseDesc>[PAWN_nameDef] is fascinated with minotaurs, and carries the dream of wooing a beautiful, bovine spouse to love and grow old with.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 		</spawnCategories>

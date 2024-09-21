@@ -5,7 +5,7 @@
 		<label>hellenic minotaur tribe</label>
 		<pawnSingular>hellene</pawnSingular>
 		<pawnsPlural>hellenes</pawnsPlural>
-		<description>This ancient tribe of Minotaur are said to have dwelled on the Rim before records began. \n\nDespite evolution changing the world around them, they have forever remained the same: earthshaping meatheads in pursuit of land, power and life's indulgent pleasures through earning the goodwill of their gods.</description>
+		<description>This ancient minotaur tribe are said to have dwelled on the Rim before records even began. \n\nThough the world around these minotaurs continues to change, they will forever remain the same: earthshaping meatheads in pursuit of land, power and hedonistic pleasures — all of which depend on the generosity of their Gods.</description>
 		<replacesFaction>TribeCivil</replacesFaction>
 		<colorSpectrum>
 			<li>(223, 223, 223)</li>
@@ -37,6 +37,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
 		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">10</Structure_TheistEmbodied>

@@ -7,7 +7,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>RBME_Chiton</defName>
 		<label>chiton</label>
-		<description>A comfortable tunic that can be draped around the body in many different styles and complimented with a belt.</description>
+		<description>A comfortable tunic that can be draped around the body in many different styles and complemented with a belt.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Chiton/RBME_ChitonIC</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -73,7 +73,7 @@
 		<defName>RBME_Panoply</defName>
 		<techLevel>Spacer</techLevel>
 		<label>panoply</label>
-		<description>A fabled set of armour said to have been crafted by the hands of Gods. Though the secrets its of creation lie with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is from a distance with a lucky bullet.</description>
+		<description>A fabled set of armour said to have been crafted by the hands of the Gods. Though the secrets its of creation lie only with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is with a lucky bullet and a prayer.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -128,6 +128,7 @@
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 			<tags>
 				<li>HerculeanApparel</li>
+				<li>RBG_Mirrored</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>

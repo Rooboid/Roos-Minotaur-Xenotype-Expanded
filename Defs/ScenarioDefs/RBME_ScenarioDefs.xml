@@ -18,7 +18,7 @@
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
 					<pawnChoiceCount>2</pawnChoiceCount>
-					<customSummary>Start with just Minotaur.</customSummary>
+					<customSummary>Start with two minotaurs and a small amount of supplies.</customSummary>
 					<overrideKinds>
 						<li>
 							<xenotype>RBM_Minotaur</xenotype>
@@ -89,7 +89,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>After years of biding your time in captivity — waiting, plotting — the perfect escape plan transpired without a hitch. Your hooves were bloodied to get where you are now, and there’s no turning back. \n\nAs the adrenaline begins to wear off from your mile-long charge to freedom, the brisk air comes in through your nostrils and snaps you back into reality. Your future lies in the hands of you and your partner now.</text>
+					<text>After years of biding your time in captivity — waiting, plotting, tempering your rage — your escape plan transpired without a hitch. Your hooves were bloodied to get where you are now, and there’s no turning back from here. \n\nAs the adrenaline begins to wear off from your mile-long charge to freedom, the brisk air comes in through your nostrils and snaps you back into reality. Your future lies in the hands of you and your trusted partner.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
@@ -102,7 +102,7 @@
 	<ScenarioDef>
 		<defName>RBME_MinotaurTribe</defName>
 		<label>Minotaur Tribe</label>
-		<description>Following the bloodthirsty invasion of their village, four minotaur rise from the viscera and rubble of their once-harmonious home with a cross to bear. Rebuild their ransacked home in the name of peace, or strike down their foes in the name of revenge.</description>
+		<description>Following the invasion of their once-harmonious village, four minotaurs rise from the rubble with a cross to bear. Rebuild their ransacked community in the name of peace, or strike down their foes in the name of revenge.</description>
 		<scenario>
 			<summary>Four minotaur rise from the ashes to rebuild their home.</summary>
 			<playerFaction>
@@ -114,7 +114,7 @@
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
 					<pawnChoiceCount>6</pawnChoiceCount>
-					<customSummary>Start with just Minotaur.</customSummary>
+					<customSummary>Start with four minotaurs.</customSummary>
 					<overrideKinds>
 						<li>
 							<xenotype>RBM_Minotaur</xenotype>
@@ -174,11 +174,6 @@
 					<thingDef>MedicineHerbal</thingDef>
 					<count>20</count>
 				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Silver</thingDef>
-					<count>200</count>
-				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>FermentingBarrel</thingDef>
@@ -194,7 +189,7 @@
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
-					<count>450</count>
+					<count>600</count>
 					<allowRoofed>True</allowRoofed>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
@@ -212,7 +207,7 @@
 				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Harp</thingDef>
-					<count>2</count>
+					<count>1</count>
 					<allowRoofed>True</allowRoofed>
 				</li>
 				<li Class="ScenPart_CreateIncident">
@@ -231,7 +226,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Following the bloodthirsty invasion of your village, the four of you rise from the viscera and rubble of their once-harmonious home with a cross to bear. \n\nThough you may not have spoken to one another while times were peaceful, you now stand beside these strangers as brethren: all that your fallen village has left to carry its legacy, is you.</text>
+					<text>All those you once loved are dead. All that you once knew is gone. All that you built for yourself and your people lies crumbled beneath your hooves in a river of blood and ash. What was once a thriving, compassionate, nurturing tribal village is now nothing more than a graveyard of rubble and bone. Your home has been destroyed.\n\nThough the four you may not have spoken to one another much while times were peaceful, you now stand beside eachother as brethren. All that your fallen village has left to carry its legacy, is you.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>

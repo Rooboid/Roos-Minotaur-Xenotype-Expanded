@@ -11,7 +11,7 @@
 		<title>bathhouse servant</title>
 		<titleShort>servant</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment in favour of academia. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. \n\nConsidering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
+		<baseDesc>Growing up as an impoverished child meant that [PAWN_nameDef] had to take up employment instead of going to school. [PAWN_pronoun] undertook the arduous task of cleaning bathhouse customers with a strigil — a tool that rid the client of sweat, dirt and dead skin. \n\nConsidering that most of the bathhouse clientele were minotaurs, whose bodies were covered in fur, [PAWN_nameDef]’s job was extremely tiresome.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -37,7 +37,7 @@
 		<title>peasant</title>
 		<titleShort>peasant</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] lead a carefree childhood in a Hellenic tribe. [PAWN_pronoun] and the other calves of the tribe would scurry, wrestle and playfight until sundown, only to arise the following day to repeat the same routine until they each grew up.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lead a carefree childhood in a Hellenic tribe. [PAWN_pronoun] and the other calves of the tribe would scurry, wrestle and playfight until sundown, only to arise the following day to repeat the same routine until they each grew too old for it.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -57,7 +57,7 @@
 		<title>oiketes</title>
 		<titleShort>oiketes</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was enslaved and treat like a possession by [PAWN_possessive] master. [PAWN_nameDef] undertook a myriad of duties throughout [PAWN_possessive] childhood, such as harvesting crops, tunnelling through clay and tailoring simple garments.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was an oiketes — a domestic slave — treat like a possession by [PAWN_possessive] master. [PAWN_nameDef] undertook a myriad of duties throughout [PAWN_possessive] childhood, such as harvesting crops, tunnelling through clay and tailoring simple garments.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -90,7 +90,7 @@
 		<title>silver slave</title>
 		<titleShort>slave</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was pushed down the mines at an early age in search of silver that would “bring prosperity and luxury to all”. Ultimately, [PAWN_nameDef] never got to see such luxuries and was forcibly kept down the mines for most of [PAWN_possessive] childhood.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was pushed down the mines at an early age in search of silver that would “bring prosperity and luxury to all”. Ultimately, [PAWN_nameDef] never got to see such prosperity nor luxury, and was forcibly kept down the mines for most of [PAWN_possessive] childhood.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
@@ -139,7 +139,7 @@
 		<title>herbalist</title>
 		<titleShort>herbalist</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] gathered healing herbs for a wackadoo physician, who cured minotaur far and wide of their battle wounds and ailments. [PAWN_nameDef] learned well under [PAWN_possessive] master’s counsel and became a walking encyclopaedia of local verdure.</baseDesc>
+		<baseDesc>[PAWN_nameDef] gathered healing herbs for a wackadoo physician, who cured minotaurs far and wide of their battle wounds and ailments. [PAWN_nameDef] learned well under [PAWN_possessive] master’s counsel and became a walking encyclopaedia of local verdure.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -158,7 +158,7 @@
 		<title>young messenger</title>
 		<titleShort>young messenger</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] trotted back and forth, delivering messages from pining lovers, homesick soldiers and worried parents. \n\nNot all of these letters found their recipient intact, however, as [PAWN_nameDef] quite enjoyed prizing open envelopes and catching up on the town’s gossip, before amateurishly resealing them and praying not to be found guilty.</baseDesc>
+		<baseDesc>[PAWN_nameDef] trotted back and forth delivering messages from pining lovers, homesick soldiers and worried parents. \n\nNot all of these letters found their recipient intact however, as [PAWN_nameDef] quite enjoyed prizing open envelopes and catching up on the town’s gossip, before amateurishly resealing them and praying not to be found guilty.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -179,7 +179,7 @@
 		<title>philosopher</title>
 		<titleShort>philosopher</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>Under the guise of [PAWN_possessive] tutor, [PAWN_nameDef] spent much of [PAWN_possessive] time contemplating the whims and wonders of the universe. [PAWN_possessive] observations on minotaur anthropology may well be studied by others in the future.</baseDesc>
+		<baseDesc>Under the leadership of [PAWN_possessive] tutor, [PAWN_nameDef] spent much of [PAWN_possessive] time contemplating the whims and wonders of the universe. [PAWN_possessive] observations on minotaur anthropology may well be studied by others in the future.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -214,7 +214,7 @@
 		<titleShort>hetaeros</titleShort>
 		<titleShortFemale>hetaira</titleShortFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] lived [PAWN_possessive] life shrouded in mystery, travelling beside wealthy minotaur warriors as what many assumed to be their concubine. \n\nWord spread that these warriors coveted [PAWN_nameDef]’s intellectual and stimulating company on their excursions, but others theorised it was [PAWN_possessive] body that they were truly after.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived [PAWN_possessive] life shrouded in mystery, travelling beside wealthy minotaur warriors as what many assumed to be their concubine. \n\nWord spread that it was [PAWN_nameDef]’s intellectual and stimulating company that these warriors coveted on their excursions, but others theorised it was [PAWN_possessive] body that they were truly after.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -250,7 +250,7 @@
 		<titleShort>misthios</titleShort>
 		<titleShortFemale>misthia</titleShortFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing their fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries; lush red wine and yards of radiant, soft silk.</baseDesc>
+		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing [PAWN_possessive] fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries, lush red wine and gowns woven from radiant, soft silk.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -276,7 +276,7 @@
 		<title>oracle</title>
 		<titleShort>oracle</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] lived an ascetic life, deeming themselves as a means to relay communications from the Gods, and nothing more. Townsfolk often sought [PAWN_possessive] services to request guidance from above in exchange for a generous handful of gold coins.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived an ascetic life, deeming [PAWN_objective]self as a means to relay communications from the Gods, and nothing more. Townsfolk often sought [PAWN_possessive] services to request guidance from above in exchange for a generous handful of coins.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -303,7 +303,7 @@
 		<title>heavyweight</title>
 		<titleShort>heavyweight</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] dominated the ring in a form of wrestling known as “Palé”. Young calves would squabble at the chance to watch [PAWN_nameDef] bulldoze [PAWN_possessive] opponents into the ground, imitating [PAWN_possessive] moves and cheering [PAWN_possessive] name. \n\nThe only thing that [PAWN_nameDef] fears, is what [PAWN_pronoun] cannot fight in the ring: fire.</baseDesc>
+		<baseDesc>[PAWN_nameDef] dominated the ring in a form of wrestling known as “palé”. Young calves would squabble at the chance to watch [PAWN_nameDef] bulldoze [PAWN_possessive] opponents into the ground, imitating [PAWN_possessive] moves and cheering [PAWN_possessive] name. \n\nThe only thing that [PAWN_nameDef] fears, is what [PAWN_pronoun] cannot fight with [PAWN_possessive] fists: fire.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -336,7 +336,7 @@
 		<title>chiliarch</title>
 		<titleShort>chiliarch</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] commanded an army of over one thousand hoplites, each one willing to die at [PAWN_possessive] hand. Fleshbeasts too, kneeled in surrender under [PAWN_possessive] shadow, but [PAWN_nameDef] always had little sympathy for cowards, ensuring that they never felt the sunlight’s warmth ever again.</baseDesc>
+		<baseDesc>[PAWN_nameDef] commanded an army of over one thousand hoplites, each one willing to die at [PAWN_possessive] hand. Fleshbeasts too, kneeled in surrender under [PAWN_possessive] shadow, but [PAWN_nameDef] always had little sympathy for cowards, and ensured that they never felt the sunlight’s bold warmth again.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -368,7 +368,7 @@
 		<title>rhetorician</title>
 		<titleShort>rhetorician</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was the needle in the haystack of [PAWN_possessive] community, possessing gripping storytelling and social skills. While many minotaur folktales consist of little more than grunts and moos, [PAWN_nameDef]’s stories had flamboyance, they had drama, but most unusually, they even had words containing over five letters. \n\nEventually, though, [PAWN_nameDef] discovered that what made [PAWN_possessive] purse full wasn’t telling humble bar stories, but engaging in political diplomacy and persuasion.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was the needle in the haystack of [PAWN_possessive] community, possessing gripping storytelling and social skills. While many minotaur folktales consist of little more than grunts and moos, [PAWN_nameDef]’s stories had flamboyance, they had drama, but most unusually, they even had words containing over five letters. \n\nEventually, though, [PAWN_nameDef] discovered that what made [PAWN_possessive] purse full wasn’t telling humble bar stories, but using [PAWN_possessive] talents to engage in political diplomacy and persuasion.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -401,7 +401,7 @@
 		<title>bathhouse attendant</title>
 		<titleShort>attendant</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] helped run and maintain the changing rooms of a glorious bathhouse. Because of it’s grandeur, the bathhouse was favoured by influential rulers, generals and politicians alike. [PAWN_nameDef] would quip that taking orders from someone was much more humorous when [PAWN_pronoun]’d seen what they kept below their waists.</baseDesc>
+		<baseDesc>[PAWN_nameDef] helped run and maintain the changing rooms of a glorious bathhouse, favoured by influential rulers and generals alike. [PAWN_nameDef] would quip that taking orders from someone was much more humorous when [PAWN_pronoun]’d seen what hung below their waists.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -471,7 +471,7 @@
 		<title>bullish academic</title>
 		<titleShort>academic</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Life in the sheer, unforgiving mountain range of Padova was harsh on the young [PAWN_nameDef] — but not as harsh as it was for the slaves that erected [PAWN_possessive] family home there. \n\nBeing the calf of two highly educated bovines gave [PAWN_nameDef] some rather unusual traits for a minotaur, such as [PAWN_possessive] academic prowess and total disdain for manual labour.</baseDesc>
+		<baseDesc>Life in the sheer, unforgiving mountain range of Noxia was harsh on the young [PAWN_nameDef] — but not as harsh as it was for the slaves that erected [PAWN_possessive]  home there. \n\nBeing the calf of two highly educated bovines granted [PAWN_nameDef] a gargantuan home, a roster of obedient slaves and some rather unusual traits for a minotaur: incredible academic prowess and total disdain for manual labour.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -500,7 +500,7 @@
 		<title>traumatised calf</title>
 		<titleShort>traumatised</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Not much is known of [PAWN_nameDef]’s childhood, other than the fact that a scolding was sometimes the only form of interaction [PAWN_pronoun] would receive from [PAWN_possessive] parents. A life-shattering rendered [PAWN_objective] mute — the incident forever sealed between [PAWN_possessive] lips.</baseDesc>
+		<baseDesc>Not much is known of [PAWN_nameDef]’s childhood, other than the fact that a scolding was sometimes the only form of interaction [PAWN_pronoun] would receive from [PAWN_possessive] parents. A life-shattering incident rendered [PAWN_objective] totally mute — an incident forever sealed between [PAWN_possessive] silent lips.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -532,7 +532,7 @@
 		<title>troublemaker</title>
 		<titleShort>troublemaker</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] made a hobby of pulling pranks on travelling humans. [PAWN_pronoun] would throw stones and pull faces at those who didn’t fall for [PAWN_possessive] tricks, before running off to find [PAWN_possessive] next victims.</baseDesc>
+		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood pulling pranks on travelling humans.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -553,7 +553,7 @@
 		<title>Astrophysicist</title>
 		<titleShort>scientist</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] yearned to uncover the secrets of the stars, and to do that, [PAWN_pronoun] had to step hoof where many minotaur refused to step: human civilisation. \n\n[PAWN_pronoun] worked in a lab with a myriad of funny-looking fleshbeasts, but [PAWN_possessive] bovine temper and sarcasm prevented that rift between the two xenos from ever closing.</baseDesc>
+		<baseDesc>[PAWN_nameDef] yearned to uncover the secrets of the stars, and to do that, [PAWN_pronoun] had to step hoof where many minotaur refused to step: human civilisation. \n\n[PAWN_pronoun] worked in a lab with a myriad of funny-looking fleshbeasts, all working together to produce some fantastically articulated research papers. But [PAWN_possessive] bovine temper and unrelenting sarcasm prevented the rift between man and minotaur from ever closing, and the resaearch project eventually fell apart.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -581,7 +581,7 @@
 		<title>galactic inmate</title>
 		<titleShort>inmate</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts. [PAWN_pronoun] was sold on the black market for [PAWN_possessive] strength and, someday, [PAWN_possessive] meat. \n\nThe inmates on [PAWN_nameDef]'s ship were destined for a life of intergalactic slavery, but through biding [PAWN_possessive] time, [PAWN_nameDef] made sure that [PAWN_pronoun] wasn't one of them, and escaped.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts and was eventually sold on the black market for [PAWN_possessive] meat. Unfortunately for [PAWN_possessive] eventual buyer, [PAWN_namedDef] wasn't an easy minotaur to pin down, leaving not one soul alive to tell the tale of [PAWN_possessive] eventual escape.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -611,7 +611,7 @@
 		<title>knave</title>
 		<titleShort>knave</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what delights visitors carried in their satchels. \n\nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of a seven-foot minotaur.</baseDesc>
+		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what treasures tourists carried in their bags. \n\nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of a seven-foot minotaur.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -646,7 +646,7 @@
 		<title>foundling</title>
 		<titleShort>foundling</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] entered the world prematurely and stood at half of the size of [PAWN_possessive] fellow calves, leading [PAWN_possessive] father to disown [PAWN_objective] at birth.</baseDesc>
+		<baseDesc>[PAWN_nameDef] entered the world prematurely and suffered an infancy of poor health. But [PAWN_pronoun] survived. [PAWN_possessive] father, however, couldn't look past the fact that his child stood at half of the height of the other minotaurs, and treat [PAWN_objective] like a failure.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -667,7 +667,7 @@
 		<title>seafarer</title>
 		<titleShort>seafarer</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>Orphan of war [PAWN_nameDef] was stripped of all but the clothes on [PAWN_possessive] back. [PAWN_pronoun] was captured by [PAWN_possessive] assailants, but during the lengthy sail overseas, [PAWN_pronoun] bonded with, and was doted on, by the crew. [PAWN_pronoun] gained an admiration for seafaring, war and survival.</baseDesc>
+		<baseDesc>Orphan of war [PAWN_nameDef] was stripped of all but the clothes on [PAWN_possessive] back. [PAWN_pronoun] was captured by colonisers, but during the lengthy sail overseas, [PAWN_pronoun] bonded with, and was doted on, by the crew. [PAWN_pronoun] gained an admiration for seafaring, war and survival.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -728,7 +728,7 @@
 		<title>rickshaw</title>
 		<titleShort>rickshaw</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] pulled vehicles like an animal. Many of these [PAWN_nameDef]-drawn-carts carried members of nobility, who would strike [PAWN_objective] should [PAWN_pronoun] make the journey too rough.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was forced to pull wagons like a souless animal.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -749,7 +749,7 @@
 		<title>scrapper</title>
 		<titleShort>scrapper</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] speaks one language with total fluency, and that language is hand-to-hand combat. [PAWN_nameDef] once lead a bloody life in the clutches of a heinous clique.</baseDesc>
+		<baseDesc>[PAWN_nameDef] speaks one language with total fluency, and that language is bloodshed. [PAWN_nameDef]'s tenure as a gang leader earned [PAWN_objective] an endless list of victims and a body full of scars.</baseDesc>
 		<bodyTypeMale>Fat</bodyTypeMale>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>
@@ -770,14 +770,14 @@
 	</BackstoryDef>
 	
 	<!--============================== Mullered ============================-->
-	<!-- The saying "bull in a china shop" now has it's own backstory! -->
+	<!-- Me -->
 	
 	<BackstoryDef>
 		<defName>RBME_Mullered</defName>
 		<title>mullered</title>
 		<titleShort>drunkard</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>As a new day dawned, so did [PAWN_nameDef], typically hungover in the doorway of an inn. This is what [PAWN_nameDef] called a “clever tactic”: starting the day exactly where [PAWN_pronoun] aimed to end it: where the alcohol was plentiful and the minotaur were merry.</baseDesc>
+		<baseDesc>As a new day dawned, so did [PAWN_nameDef], typically hungover in the doorway of an inn. But starting the day exactly where [PAWN_pronoun] aimed to end it was all part of [PAWN_possessive] drunken plan.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -811,7 +811,7 @@
 		<title>bullsmith</title>
 		<titleShort>bullsmith</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] shaped weapons for [PAWN_possessive] fellow minotaur, no matter how destitute they may be. [PAWN_nameDef] believed in arming all those who may one day stand beside [PAWN_objective] in battle. \n\nNaturally, crafting weapons on the double required [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
+		<baseDesc>[PAWN_nameDef] shaped weapons for [PAWN_possessive] fellow minotaurs, no matter how destitute they were. [PAWN_nameDef] believed in arming all those who may one day stand beside [PAWN_objective] in battle. \n\nNaturally, crafting weapons on the double required [PAWN_objective] to work until nightfall, leaving [PAWN_nameDef] with very little time, and confidence, in the means of socialisation.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -883,7 +883,7 @@
 		<title>traitor</title>
 		<titleShort>traitor</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>Fleshbeasts will part with a pretty penny in exchange for minotaur with unusual pelts — typically for the purpose of sacrificing them as a gift to their Gods. \n\nIt’s said in legend that “it takes a minotaur to take down a minotaur” and, [PAWN_nameDef] turned that sentiment into a line of business, capturing and selling their own kin in exchange for twinkling, golden pockets.</baseDesc>
+		<baseDesc>An ancient legend says that “it takes a minotaur to take down a minotaur”, and [PAWN_nameDef] turned that sentiment into a line of business. [PAWN_objective] captured and sold [PAWN_possessive] own kin to human settlements in exchange for twinkling, golden coins.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -920,7 +920,7 @@
 		<title>athlete</title>
 		<titleShort>athlete</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>Many minotaur cultures celebrate the spectacle of their species’ power through sport. [PAWN_nameDef] trained perilously every day for the chance to participate in these very celebrations, demonstrating [PAWN_possessive] physical abilities for spectators aplenty.</baseDesc>
+		<baseDesc>Many minotaur cultures celebrate the spectacle of their species’ power through sport. [PAWN_nameDef] trained perilously every day for the chance to participate in these very celebrations, turning [PAWN_possessive] body into a chiseled spectacle for all to see.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
