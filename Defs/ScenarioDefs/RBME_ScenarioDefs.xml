@@ -102,9 +102,9 @@
 	<ScenarioDef>
 		<defName>RBME_MinotaurTribe</defName>
 		<label>Minotaur Tribe</label>
-		<description>Following the invasion of their once-harmonious village, four minotaurs rise from the rubble with a cross to bear. Rebuild their ransacked community in the name of peace, or strike down their foes in the name of revenge.</description>
+		<description>Following the invasion of their once-harmonious and settlement, four minotaurs rise from the rubble with a cross to bear. Rebuild their hedonistic community in the name of peace or strike down their foes in the name of revenge.</description>
 		<scenario>
-			<summary>Four minotaur rise from the ashes to rebuild their home.</summary>
+			<summary>Four minotaur rise from the ashes to rebuild their home. Medium difficulty.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBME_MinotaurPlayerTribe</factionDef>
@@ -126,6 +126,12 @@
 							<xenotype>RBM_Minotaur</xenotype>
 							<count>2</count>
 							<description>minotaur</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<xenotype>RBM_Minotaur</xenotype>
+							<count>2</count>
+							<description>minotaur</description>
 							<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
 						</li>
 						<li>
@@ -142,6 +148,42 @@
 					<method>Standing</method>
 				</li>
 				<!-- Player Starting Items -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Silver</thingDef>
+					<count>450</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>BlocksMarble</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>350</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Hay</thingDef>
+					<count>350</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Milk</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>20</count>
+				</li>
+				
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>RBME_EpsilonAxe</thingDef>
@@ -161,55 +203,47 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Pemmican</thingDef>
-					<count>600</count>
+					<thingDef>RBME_HellenicHelmet</thingDef>
+					<stuff>Steel</stuff>
+					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Milk</thingDef>
-					<count>30</count>
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>RBME_Cowbell</thingDef>
+					<count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>MedicineHerbal</thingDef>
-					<count>20</count>
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Harp</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_StartingThing_Defined">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Harp</thingDef>
+					<count>1</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>FermentingBarrel</thingDef>
-					<count>5</count>
-					<allowRoofed>True</allowRoofed>
+					<thingDef>Beer</thingDef>
+					<count>10</count>
 				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Silver</thingDef>
-					<count>450</count>
-					<allowRoofed>True</allowRoofed>
-				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>WoodLog</thingDef>
-					<count>600</count>
-					<allowRoofed>True</allowRoofed>
-				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Gold</thingDef>
-					<count>20</count>
-					<allowRoofed>True</allowRoofed>
-				</li>
+
 				<!-- Scattered Items Throughout Map -->
+				
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Steel</thingDef>
 					<count>200</count>
 				</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>Harp</thingDef>
-					<count>1</count>
-					<allowRoofed>True</allowRoofed>
+				
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Brewing</project>
 				</li>
+				
+				<!-- Starting Incident -->
+				
 				<li Class="ScenPart_CreateIncident">
 					<def>CreateIncident</def>
 					<incident>Flashstorm</incident>
@@ -239,9 +273,9 @@
 	<ScenarioDef>
 		<defName>RBME_ThePovertyTourists</defName>
 		<label>The Poverty Tourists</label>
-		<description>A plucky monarch grows weary of the lap of luxury, and hastily embarks on a quest to live, struggle and thrive like the common man. They embark on this quest with their minotaur guardian, their ammunition- ah, and of course, their pearls. And, oh, how could they go anywhere without their hyperweave blanket…</description>
+		<description>A plucky monarch grows weary of their life of luxury and hastily embarks on a quest to survive, struggle and fight like the common man. By their side is their trusty ‘guardian’; a formidable class of minotaur that’s specifically bred and raised to protect members of the monarchy with their lives. The pair pack up a generous case of supplies and set out to explore the rim.\n\nYour minotaur guardian begins with a random fabled weapon; mystical tools of destruction with a range of unique and devastating effects. Early-game foes won't stand a chance.</description>
 		<scenario>
-			<summary>A monarch and their guardian embark on a thrilling quest.</summary>
+			<summary>A monarch and their guardian embark on a thrilling quest. A unique challenge.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>PlayerColony</factionDef>
@@ -286,22 +320,33 @@
 				<!-- Player Starting Items -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>RBM_Labrys</thingDef>
+					<thingDef>Silver</thingDef>
+					<count>1300</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Gun_Revolver</thingDef>
-					<quality>Masterwork</quality>
+					<thingDef>Steel</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>BlocksMarble</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Jade</thingDef>
+					<count>10</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MealSurvivalPack</thingDef>
 					<count>35</count>
-				</li>
-					<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Silver</thingDef>
-					<count>1000</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -315,31 +360,19 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Steel</thingDef>
-					<count>400</count>
+					<thingDef>Gun_Revolver</thingDef>
+					<quality>Masterwork</quality>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Gold</thingDef>
-					<count>30</count>
-					<allowRoofed>True</allowRoofed>
-				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Jade</thingDef>
-					<count>10</count>
-					<allowRoofed>True</allowRoofed>
-				</li>
-				<!-- Scattered Items Throughout Map -->
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>WoodLog</thingDef>
-					<count>600</count>
+					<thingDef>Apparel_Crown</thingDef>
+					<count>1</count>
+					<stuff>Silver</stuff>
 				</li>
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You grow weary of the lap of luxury and embark on a quest to live like the common man. \n\nYou and your minotaur guardian touch down safely onto new soil. You touch it, marvelling at the sight of soil that hasn’t been treated and tended to by your royal gardeners. Real soil. While you acclimatise to the wilderness around you, the royal ship above you departs, leaving you both stranded on this “slightly-less-amazing-now-that-I’m-stuck-here” soil. \n\nMother dearest said that the ship will be back for you in a month…and mother dearest never lies. \n\nRight?</text>
+					<text>You grow weary of your life of luxury and embark on a quest to live like the common man. \n\nYou and your minotaur guardian touch down safely onto new soil. You touch it, marvelling at the sight of soil that hasn’t been treated, tended and tilled by your royal gardeners. Real, wild soil. While you acclimatise to the wilderness around you, the royal ship above you departs, leaving you both stranded on this “slightly-less-amazing-now-that-I’m-stuck-here” planet. \n\nMother dearest said that the ship will be back for you in a month...and mother dearest never lies.\nRight?</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>

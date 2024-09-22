@@ -280,7 +280,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>RBME_Cowbell</defName>
 		<label>cowbell</label>
-		<description>A melodic cowbell attached to a collar.\n\nThough once a tool of minotaur oppression, the cowbell has been reinvented as a symbol of strength, and its chime warns raiders that a minotaur who doesn’t fear death is near.</description>
+		<description>A melodic cowbell attached to a collar.Though once a tool of minotaur oppression, the cowbell has been reinvented as a symbol of strength, and its chime warns raiders that a minotaur who doesn’t fear death is near.\n\nIt increases a pawn's connection to livestock, making hunting animals much harder, but rearing them much more rewarding.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Cowbell/RBME_CowbellIC</texPath>
@@ -301,9 +301,6 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1500</WorkToMake>
 			<Mass>0.14</Mass>
-			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
