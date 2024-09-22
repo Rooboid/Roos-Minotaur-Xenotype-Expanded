@@ -226,7 +226,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>All those you once loved are dead. All that you once knew is gone. All that you built for yourself and your people lies crumbled beneath your hooves in a river of blood and ash. What was once a thriving, compassionate, nurturing tribal village is now nothing more than a graveyard of rubble and bone. Your home has been destroyed.\n\nThough the four you may not have spoken to one another much while times were peaceful, you now stand beside eachother as brethren. All that your fallen village has left to carry its legacy, is you.</text>
+					<text>All those you once loved are dead. All that you once knew is gone. All that you built for yourself and your people lies crumbled beneath your hooves in a river of blood and ash. What was once a thriving, compassionate, nurturing tribal village is now nothing more than a graveyard of rubble and bone. \n\nThough the four you may not have spoken to one another much while times were peaceful, you now stand beside eachother as brethren. All that your fallen village has left to carry its legacy, is you.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>

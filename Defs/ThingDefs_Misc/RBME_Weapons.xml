@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>RBME_EpsilonAxe</defName>
 		<label>epsilon axe</label>
-		<description>A skullshattering axe used widely by minotaur savages. It is so large that, even though a regular baseliner may indeed be able to pick it up, only pawns with the Herculean gene are strong enough to swing it in battle.</description>
+		<description>A skullshattering axe widely used by minotaur savages. Though it's burdened with a long cooldown and poor accuracy factor, it can cut its victims' heads clean off in a single swing. \n\nIt is so large that, even though a regular baseliner may indeed be able to pick it up, only pawns with the Herculean gene are strong enough to swing it in battle.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -26,11 +26,11 @@
 			<li>RBM_HerculeanClass</li>
 		</weaponClasses>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.05</MoveSpeed>
-			<MeleeHitChance>-0.1</MeleeHitChance>
+			<MoveSpeed>-0.50</MoveSpeed>
+			<MeleeHitChance>-5</MeleeHitChance>
 		</equippedStatOffsets>
 		<costStuffCount>100</costStuffCount>
-		<relicChance>1</relicChance>
+		<relicChance>2</relicChance>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>3</Mass>
@@ -44,7 +44,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>4</power>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -53,8 +53,8 @@
 					<li>Demolish</li>
 					<li>Cut</li>
 				</capacities>
-				<power>28</power>
-				<cooldownTime>3</cooldownTime>
+				<power>25</power>
+				<cooldownTime>4</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -71,7 +71,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBME_Pelekys</defName>
 		<label>Pelekys</label>
-		<description>A double-bitted axe that can be wielded in hand-to-hand combat or thrown short distances in a pinch.</description>
+		<description>A double-bitted axe that can be used in hand-to-hand combat or thrown like a projectile. It's tough to aim, but hits like a hydra's claw.\n\n Throwing the palekys uses the pawn's shooting skill. Using it in hand-to-hand combat uses the pawn's melee skill.</description>
 		<possessionCount>1</possessionCount>
 		<rotateInShelves>false</rotateInShelves>
 		<uiIconScale>0.8</uiIconScale>
@@ -116,8 +116,8 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Proj_Pelekys</defaultProjectile>
-				<warmupTime>3.3</warmupTime>
-				<range>6.8</range>
+				<warmupTime>3.1</warmupTime>
+				<range>8.2</range>
 				<soundCast>Designate_Harvest</soundCast>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
@@ -149,9 +149,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>20</damageAmountBase>
+			<damageAmountBase>19</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.32</armorPenetrationBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<speed>21</speed>
 		</projectile>
 	</ThingDef>
