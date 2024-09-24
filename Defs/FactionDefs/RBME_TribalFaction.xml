@@ -138,42 +138,42 @@
 				<options>
 					<RBME_Peltast>10</RBME_Peltast>
 					<RBME_Hoplite>15</RBME_Hoplite>
-					<RBME_Polemarch>5</RBME_Polemarch>
-					<RBME_Anax>0.05</RBME_Anax>
-					<RBME_Olympian>0.02</RBME_Olympian>
+					<RBME_Polemarch>6</RBME_Polemarch>
+					<RBME_Anax>3</RBME_Anax>
+					<RBME_Olympian>1</RBME_Olympian>
 				</options>
 			</li>
 			<li>
 				<!-- Wild Minotaur Raid (Primarily Melee) -->
 				<kindDef>Combat</kindDef>
-				<commonality>30</commonality>
+				<commonality>40</commonality>
 				<options>
 					<RBM_MinotaurFeral>15</RBM_MinotaurFeral>
 					<RBME_Hoplite>10</RBME_Hoplite>
 					<RBME_Polemarch>5</RBME_Polemarch>
-					<RBME_Anax>0.07</RBME_Anax>
+					<RBME_Anax>1</RBME_Anax>
 				</options>
 			</li>
 			<li>
 				<!-- Hoplite Wave -->
 				<kindDef>Combat</kindDef>
-				<commonality>40</commonality>
+				<commonality>50</commonality>
 				<options>
 					<RBME_Hoplite>10</RBME_Hoplite>
-					<RBME_Polemarch>1</RBME_Polemarch>
-					<RBME_Anax>0.05</RBME_Anax>
+					<RBME_Polemarch>3</RBME_Polemarch>
+					<RBME_Anax>1</RBME_Anax>
 				</options>
 			</li>
 			<li>
 				<!-- Fateful Raid (High Difficulty) -->
 				<kindDef>Combat</kindDef>
-				<commonality>2</commonality>
+				<commonality>10</commonality>
 				<options>
 					<RBME_Peltast>5</RBME_Peltast>
 					<RBME_Hoplite>16</RBME_Hoplite>
-					<RBME_Polemarch>5</RBME_Polemarch>
+					<RBME_Polemarch>8</RBME_Polemarch>
 					<RBME_Anax>3</RBME_Anax>
-					<RBME_Olympian>0.5</RBME_Olympian>
+					<RBME_Olympian>1</RBME_Olympian>
 				</options>
 			</li>
 			<li>

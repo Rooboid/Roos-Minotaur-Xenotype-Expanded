@@ -78,7 +78,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/RBME_Pelekys/RBME_Pelekys</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>1.1</drawSize>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>45</costStuffCount>

@@ -8,7 +8,7 @@
 		<label>Minotaur Nomads</label>
 		<description>Two enslaved minotaur break free from the shackles of captivity and start life anew with little more than the clothes on their backs. What they decide to do next will test their relationship and mettle like never before.</description>
 		<scenario>
-			<summary>Two minotaur secure their freedom on the rim.</summary>
+			<summary>Two minotaur secure their freedom on the rim. Moderately difficult.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBME_MinotaurPlayerOutlander</factionDef>
@@ -57,12 +57,27 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Pemmican</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Hay</thingDef>
 					<count>200</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedicineIndustrial</thingDef>
-					<count>10</count>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_LMG</thingDef>
+					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -84,7 +99,7 @@
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>WoodLog</thingDef>
-					<count>300</count>
+					<count>500</count>
 				</li>
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
@@ -104,7 +119,7 @@
 		<label>Minotaur Tribe</label>
 		<description>Following the invasion of their once-harmonious and settlement, four minotaurs rise from the rubble with a cross to bear. Rebuild their hedonistic community in the name of peace or strike down their foes in the name of revenge.</description>
 		<scenario>
-			<summary>Four minotaur rise from the ashes to rebuild their home. Medium difficulty.</summary>
+			<summary>Four minotaurs rebuild their home. A good starting scenario if you want to get to know the minotaurs.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBME_MinotaurPlayerTribe</factionDef>
@@ -113,7 +128,7 @@
 				<!-- Config pages -->
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
-					<pawnChoiceCount>6</pawnChoiceCount>
+					<pawnChoiceCount>4</pawnChoiceCount>
 					<customSummary>Start with four minotaurs.</customSummary>
 					<overrideKinds>
 						<li>
@@ -133,12 +148,6 @@
 							<count>2</count>
 							<description>minotaur</description>
 							<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
-						</li>
-						<li>
-							<xenotype>RBM_Minotaur</xenotype>
-							<count>2</count>
-							<description>minotaur</description>
-							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 					</xenotypeCounts>
 				</li>
@@ -372,7 +381,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You grow weary of your life of luxury and embark on a quest to live like the common man. \n\nYou and your minotaur guardian touch down safely onto new soil. You touch it, marvelling at the sight of soil that hasn’t been treated, tended and tilled by your royal gardeners. Real, wild soil. While you acclimatise to the wilderness around you, the royal ship above you departs, leaving you both stranded on this “slightly-less-amazing-now-that-I’m-stuck-here” planet. \n\nMother dearest said that the ship will be back for you in a month...and mother dearest never lies.\nRight?</text>
+					<text>You grew weary of your life of luxury and embarked on a quest to live like the common man. \n\nYou and your minotaur guardian touch down safely onto new soil. You touch it, marvelling at the sight of soil that hasn’t been treated, tended and tilled by your royal gardeners. Real, wild soil. While you acclimatise to the wilderness around you, the royal ship above you departs, leaving you both stranded on this “slightly-less-amazing-now-that-I’m-stuck-here” planet. \n\nMother dearest said that the ship will be back for you in a month...and mother dearest never lies.\nRight?</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
