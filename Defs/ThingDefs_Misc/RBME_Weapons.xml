@@ -10,6 +10,9 @@
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
+		<thingCategories>
+			<li>RBSFE_HerculeanApparelCategory</li>
+		</thingCategories>
 		<possessionCount>1</possessionCount>
 		<rotateInShelves>false</rotateInShelves>
 		<uiIconScale>0.8</uiIconScale>
