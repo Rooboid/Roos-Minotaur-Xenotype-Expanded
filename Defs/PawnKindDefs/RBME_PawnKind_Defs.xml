@@ -411,6 +411,10 @@
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<color>(240,140,74)</color>
 			</li>
+			<li>
+				<bodyPartGroup>Neck</bodyPartGroup>
+				<color>(20,20,20)</color>
+			</li>
 		</specificApparelRequirements>
 		<!-- Weapons -->
 		<combatPower>40</combatPower>
@@ -462,6 +466,10 @@
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<color>(230,230,230)</color>
 			</li>
+			<li>
+				<bodyPartGroup>Neck</bodyPartGroup>
+				<color>(240,140,74)</color>
+			</li>
 		</specificApparelRequirements>
 		<!-- Weapons -->
 		<combatPower>55</combatPower>
@@ -502,6 +510,10 @@
 			<li>
 				<bodyPartGroup>FullHead</bodyPartGroup>
 				<color>(68,68,68)</color>
+			</li>
+			<li>
+				<bodyPartGroup>Neck</bodyPartGroup>
+				<color>(20,20,20)</color>
 			</li>
 		</specificApparelRequirements>
 		<!-- Weapons -->
@@ -569,6 +581,10 @@
 						<chance>1</chance>
 					</li>
 				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Neck</bodyPartGroup>
+				<color>(20,20,20)</color>
 			</li>
 		</specificApparelRequirements>
 		<!-- Weapons -->

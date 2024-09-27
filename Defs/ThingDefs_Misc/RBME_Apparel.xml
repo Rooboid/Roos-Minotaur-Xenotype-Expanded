@@ -212,7 +212,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_RoyalHellenicHelmet/RBME_RoyalHellenicHelmetIC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1, 1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<stuffCategories>
@@ -277,7 +277,7 @@
 	<!--====================== Cowbell ======================-->
 	<!-- A simple collar worn by minotaur milkmaids / milkmen -->
   
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBME_Cowbell</defName>
 		<label>cowbell</label>
 		<description>A melodic cowbell attached to a collar.Though once a tool of minotaur oppression, the cowbell has been reinvented as a symbol of strength, and its chime warns raiders that a minotaur who doesn’t fear death is near.\n\nIt increases a pawn's connection to livestock, making hunting animals much harder, but rearing them much more rewarding.</description>
@@ -286,6 +286,7 @@
 			<texPath>Things/Pawn/Humanlike/Apparel/RBME_Cowbell/RBME_CowbellIC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
 		<soundInteract>RBM_Cowbell</soundInteract>
@@ -303,11 +304,8 @@
 			<Mass>0.14</Mass>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>Headgear</li>
-		</thingCategories>
 		<equippedStatOffsets>
-			<HuntingStealth>-0.25</HuntingStealth>
+			<HuntingStealth>-0.20</HuntingStealth>
 			<AnimalGatherYield>0.10</AnimalGatherYield>
 			<PainShockThreshold>0.10</PainShockThreshold>
 		</equippedStatOffsets>
@@ -319,10 +317,11 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBME_Cowbell/RBME_Cowbell</wornGraphicPath>
 			<layers>
-				<li>Belt</li>
+				<li>Overhead</li>
 			</layers>
 			<tags>
 				<li>Hellenic</li>
+				<li>Satyr</li>
 			</tags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

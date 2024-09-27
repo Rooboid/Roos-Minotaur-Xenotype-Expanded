@@ -581,7 +581,7 @@
 		<title>galactic inmate</title>
 		<titleShort>inmate</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts and was eventually sold on the black market for [PAWN_possessive] meat. Unfortunately for [PAWN_possessive] eventual buyer, [PAWN_namedDef] wasn't an easy minotaur to pin down, leaving not one soul alive to tell the tale of [PAWN_possessive] eventual escape.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was imprisoned for [PAWN_possessive] violent outbursts and was eventually sold on the black market for [PAWN_possessive] meat. Unfortunately for [PAWN_possessive] eventual buyer, [PAWN_nameDef] wasn't an easy minotaur to pin down, leaving not one soul alive to tell the tale of [PAWN_possessive] eventual escape.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
