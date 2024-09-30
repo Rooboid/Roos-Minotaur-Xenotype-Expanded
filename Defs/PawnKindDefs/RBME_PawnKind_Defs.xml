@@ -103,7 +103,7 @@
 			<li>
 				<categories>
 					<li>Minotaur</li>
-					<li>MinotaurTribal</li>
+					<li>MinotaurTribe</li>
 					<li>Tribal</li>
 				</categories>
 			</li>
@@ -589,7 +589,7 @@
 		</specificApparelRequirements>
 		<!-- Weapons -->
 		<combatPower>120</combatPower>
-		<weaponMoney>999999</weaponMoney>
+		<weaponMoney>5000~9000</weaponMoney>
 		<weaponTags>
 			<li>TaurailGun</li>
 		</weaponTags>

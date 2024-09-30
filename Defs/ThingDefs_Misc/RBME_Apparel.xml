@@ -73,7 +73,7 @@
 		<defName>RBME_Panoply</defName>
 		<techLevel>Spacer</techLevel>
 		<label>panoply</label>
-		<description>A fabled set of armour said to have been crafted by the hands of the Gods. Though the secrets its of creation lie only with the minotaur, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is with a lucky bullet and a prayer.</description>
+		<description>A fabled set of armour said to have been crafted by the hands of the Gods. Though the secrets its of creation remain unknown, any Herculean pawn is capable of wearing it, rendering them nearly inpenetrable in melee combat. The best way to take down a panoply-clad unit is with a lucky bullet and a prayer.</description>
 		<descriptionHyperlinks>
 			<GeneDef>RBM_Herculean</GeneDef>
 		</descriptionHyperlinks>
@@ -92,20 +92,19 @@
 		<recipeMaker IsNull="True"/>
 		<statBases>
 			<MarketValue>3000</MarketValue>
-			<WorkToMake>9999999</WorkToMake>
+			<WorkToMake>120000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>35</Mass>
 			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.35</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.80</ArmorRating_Heat>
-			<Insulation_Cold>55</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
-			<EquipDelay>23</EquipDelay>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>20</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.12</MoveSpeed>
-			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<tradeTags>
 			<li>HiTechArmor</li>

@@ -219,9 +219,10 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>RBME_Cowbell</thingDef>
+					<stuff>Cloth</stuff>
 					<count>2</count>
 				</li>
-				<li Class="ScenPart_StartingThing_Defined">
+				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_StartingThing_Defined">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Harp</thingDef>
 					<count>1</count>
@@ -249,6 +250,22 @@
 				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
 					<project>Brewing</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>ComplexFurniture</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Smithing</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Stonecutting</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Cocoa</project>
 				</li>
 				
 				<!-- Starting Incident -->
@@ -372,7 +389,7 @@
 					<thingDef>Gun_Revolver</thingDef>
 					<quality>Masterwork</quality>
 				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<li MayRequire="Ludeon.RimWorld.Royalty" Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Apparel_Crown</thingDef>
 					<count>1</count>

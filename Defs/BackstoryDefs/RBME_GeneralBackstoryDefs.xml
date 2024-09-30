@@ -53,6 +53,7 @@
 			<li>Minotaur</li>
 			<li>Outlander</li>
 			<li>ImperialCommon</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Artistic>-5</Artistic>
@@ -77,7 +78,7 @@
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] worked in a creamery, producing and processing milk for refinement, sale and distribution.</baseDesc>
+		<baseDesc>[PAWN_nameDef] worked in a creamery, processing minotaur milk for sale and distribution.</baseDesc>
 		<spawnCategories>
 			<li>Minotaur</li>
 			<li>Outlander</li>
@@ -106,6 +107,7 @@
 		<baseDesc>[PAWN_nameDef] is fascinated with minotaurs, and carries the dream of wooing a beautiful, bovine spouse to love and grow old with.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Social>5</Social>

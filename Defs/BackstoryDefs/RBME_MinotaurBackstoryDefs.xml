@@ -62,6 +62,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Crafting>5</Crafting>
@@ -94,6 +95,7 @@
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Mining>7</Mining>
@@ -144,6 +146,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Plants>4</Plants>
@@ -163,6 +166,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>Bard</li>
 		</spawnCategories>
 		<skillGains>
 			<Social>5</Social>
@@ -219,6 +223,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Intellectual>6</Intellectual>
@@ -250,7 +255,7 @@
 		<titleShort>misthios</titleShort>
 		<titleShortFemale>misthia</titleShortFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing [PAWN_possessive] fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries, lush red wine and gowns woven from radiant, soft silk.</baseDesc>
+		<baseDesc>[PAWN_nameDef] secured a post as a vengeful mercenary, brandishing [PAWN_possessive] fists and axe for whomever supplied the gold. The spoils of war — the ones that fell into [PAWN_nameDef]’s pocket anyway — were spent on wonderous luxuries: succulent berries, lush red wine and gowns woven from radiant, soft silk. [PAWN_nameDef]'s life began to revolve around material goods.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -281,6 +286,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Social>5</Social>
@@ -454,6 +460,8 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurTribe</li>
+			<li>SatyrOnly</li>
+			<li>Bard</li>
 		</spawnCategories>
 		<skillGains>
 			<Artistic>5</Artistic>
@@ -537,6 +545,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>MinotaurOutlander</li>
+			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
 			<Melee>3</Melee>
@@ -611,7 +620,7 @@
 		<title>knave</title>
 		<titleShort>knave</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what treasures tourists carried in their bags. \n\nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of a seven-foot minotaur.</baseDesc>
+		<baseDesc>[PAWN_nameDef] went from a selfless village guard to a thieving knave when [PAWN_pronoun] realised what treasures tourists carried in their bags. \n\nThose who wanted to pass through the village were subject to [PAWN_nameDef]’s “suggested” donation of “whatever-is-in-your-bag”, and frankly, many struggled to refuse in the face of an eight-foot minotaur.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -674,6 +683,7 @@
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
 			<li>MinotaurTribe</li>
+			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
 			<Melee>3</Melee>
@@ -702,6 +712,7 @@
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
 			<li>MinotaurTribe</li>
+			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
 			<Plants>6</Plants>
@@ -784,6 +795,7 @@
 			<li>Minotaur</li>
 			<li>MinotaurOutlander</li>
 			<li>MinotaurTribe</li>
+			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
 			<Melee>5</Melee>

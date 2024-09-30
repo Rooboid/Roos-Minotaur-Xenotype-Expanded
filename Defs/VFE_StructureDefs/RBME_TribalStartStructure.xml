@@ -12,9 +12,9 @@
       <li>.,.,.,.,RBME_CorpseSymbol,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,RawBerries,RBME_CorpseSymbol,.,.,Filth_CorpseBile,.,.,.,.,.,.,.</li>
       <li>.,.,.,WoodLog,WoodLog,WoodLog,WoodLog,.,Filth_Blood,.,Filth_Blood,.,.,Filth_RubbleBuilding,.,.,.,.,.</li>
-      <li>.,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,WoodLog,Blight_North,.,Filth_DriedBlood,Filth_Blood,Filth_CorpseBile,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,.,Filth_RubbleRock</li>
+      <li>.,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,WoodLog,Filth_DriedBlood,.,Filth_DriedBlood,Filth_Blood,Filth_CorpseBile,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,.,Filth_RubbleRock</li>
       <li>.,.,Wall_WoodLog,TorchLamp,.,Filth_Blood,Wall_WoodLog,.,Filth_Blood,Filth_DriedBlood,.,Filth_Trash,Fence_WoodLog,.,.,Filth_RubbleRock,Fence_WoodLog,Filth_RubbleRock,Filth_RubbleRock</li>
-      <li>.,.,Wall_WoodLog,Meat_Cow,Filth_Blood,.,AnimalFlap_Cloth,.,.,.,.,.,Fence_WoodLog,Stool_WoodLog_East,Campfire_North,Filth_RubbleRock,ChunkLimestone,Filth_RubbleRock,ChunkLimestone</li>
+      <li>.,.,Wall_WoodLog,Filth_DriedBlood,Filth_Blood,.,AnimalFlap_Cloth,.,.,.,.,.,Fence_WoodLog,Stool_WoodLog_East,Campfire_North,Filth_RubbleRock,ChunkLimestone,Filth_RubbleRock,ChunkLimestone</li>
       <li>.,.,WoodLog,Bed_WoodLog_East,.,.,Wall_WoodLog,.,.,.,.,.,Fence_WoodLog,.,Filth_RubbleRock,ChunkLimestone,ChunkLimestone,Filth_RubbleRock,Filth_RubbleRock</li>
       <li>.,.,WoodLog,Filth_Blood,.,Filth_Blood,Wall_WoodLog,.,Filth_Blood,Filth_Trash,.,Filth_Trash,Wall_WoodLog,Wall_WoodLog,AnimalFlap_Cloth,Wall_WoodLog,Wall_WoodLog,Filth_RubbleRock,Filth_RubbleRock</li>
       <li>.,.,WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,Filth_Blood,RawBerries,.,Squirrel,WoodLog,.,.,Filth_RubbleRock,Wall_WoodLog,ChunkLimestone,Filth_RubbleRock</li>
@@ -164,7 +164,7 @@
   <numberToSpawn>1</numberToSpawn>
   <spawnDead>true</spawnDead>
   <spawnRotten>false</spawnRotten>
-  <spawnFilthAround>false</spawnFilthAround>
+  <spawnFilthAround>true</spawnFilthAround>
   <defendSpawnPoint>true</defendSpawnPoint>
 </KCSG.SymbolDef>
 
