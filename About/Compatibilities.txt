@@ -2,12 +2,11 @@ Compatibilities:
 
 -------------------------------- Roo's Minotaur Xenotype: --------------------------------
 
+Please note that some compatibilities may be out of date in the 1.5 update!
+
 Vanilla Expanded Framework: https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013
 - Unguiligrade are added as brand new body parts instead of just a buff.
 - Minotaur are slightly bigger than other pawns.
-
-Mod Icons: https://steamcommunity.com/sharedfiles/filedetails/?id=2937699914
-- A mod icon appears on loading screens for this mod. Thanks to Arquebus for granting permission to use the dll in this mod!
 
 Fallout Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1209071221
 - Minotaur backstories have a chance of forcing certain fallout traits.
@@ -19,9 +18,6 @@ Vanilla Achievements Expanded: https://steamcommunity.com/sharedfiles/filedetail
 - 8 achievements added:
 - Added an individual achievement for obtaining each fabled weapon.
 - Added an achievement for obtaining 1000 milk.
-
-Medical System Expansion 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586
-- Unguiligrade legs no longer cause minotaur to have no bones in their legs.
 
 RJW:
 - Pawns in heat due to the Estrous Cycle gene have an increased "hand-holding" frequency.
@@ -44,9 +40,6 @@ Vanilla Achievements Expanded: https://steamcommunity.com/sharedfiles/filedetail
 - 4 achievements added:
 - 2 achievements added for slaying a certain number of minotaur pawns from each added faction.
 - 2 achievements added for slaying the strongest Pawn types of each faction.
-
-Mod Icons: https://steamcommunity.com/sharedfiles/filedetails/?id=2937699914
-- A mod icon appears on loading screens for this mod. Thanks to Arquebus for granting permission to use the dll in this mod!
 
 Fallout Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1209071221
 - Minotaur backstories have a chance of forcing certain fallout traits.
@@ -80,6 +73,3 @@ Vanilla Weapons Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id
 
 More Religious Origins: https://steamcommunity.com/sharedfiles/filedetails/?id=2620745910
 - The Hellenic Minotaur faction will have a Hellenic structure.
-
-Hair Modding Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=2947607004
-- Alpha masks added to new hairstyles.

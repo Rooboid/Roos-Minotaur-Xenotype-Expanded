@@ -39,7 +39,7 @@
 	</modDependencies>
 <description>Welcome the minotaur to the Rim with open arms with this expanded module of Roo's Minotaur Xenotype. Battle or befriend multiple minotaur factions, build your own army of bovine hoplites and flesh out your pawns with brand new backstories and apparel.
 
-This mod must be loaded after the core module: Roo's Minotaur Xenotype
+This mod must be loaded after the core module: Roo's Minotaur Xenotype.
 
 &lt;size=25&gt;• Features&lt;/size&gt;
 
@@ -49,14 +49,15 @@ This mod must be loaded after the core module: Roo's Minotaur Xenotype
 • 5+ pieces of apparel and weaponry.
 • 2 minotaur factions with unique raids and pawn types.
 • Various DLC add-ons such as custom ideology icons and cultures.
-• Integrated compatibility with various great mods.
 
 &lt;size=25&gt;• Credits&lt;/size&gt;
 
 &lt;size=20&gt;Mod:&lt;/size&gt;
 • Graphics and XML: Rooboid
-• C# and emotional support: Zelan
+• C#, XML and emotional support: Zelan
 
-&lt;size=20&gt;Patreon:&lt;/size&gt;
+No generative AI has been used in any part of this mod's creation process.
+
+&lt;size=20&gt;Patreon Supporters:&lt;/size&gt;
 Lambvey, Mangulwort, panatakan yen, Alexandre, Galen, Only, Greg Bunger, D-Train, 1Sopel6, WoolyPie, Dodo, Josh and Prince</description>
 </ModMetaData>
