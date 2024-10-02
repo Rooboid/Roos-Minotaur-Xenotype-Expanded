@@ -4,107 +4,119 @@
 	<!--============================== [Alien/Race] Seren, from Stardust Patches ============================-->
 	<!-- Adds a peace treaty between the minotaur and the Seren -->
 	
-	<!-- Add seren to archon PawnKind -->
-	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>[Alien/Race] Seren, from Stardust</li>
 		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
-			<value>
-				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0.80</Seren_Base>
-			</value>
-		</match>
-	</Operation>
-	
-		<!-- Add seren to sophist PawnKind -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]/xenotypeSet/xenotypeChances</xpath>
-			<value>
-				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0.50</Seren_Base>
-			</value>
-		</match>
-	</Operation>
-	
-		<!-- Stops seren from spawning in minotaur tribal factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/xenotypeSet/xenotypeChances</xpath>
-			<value>
-				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0</Seren_Base>
-			</value>
-		</match>
-	</Operation>
-	
-			<!-- Stops seren from spawning in minotaur outlander factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/xenotypeSet/xenotypeChances</xpath>
-			<value>
-				<Seren_Base MayRequire="Ludeon.RimWorld.Biotech">0</Seren_Base>
-			</value>
-		</match>
-	</Operation>
-	
-	<!-- Allies the minotaur outlander faction with the seren factions -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
-			<value>
-				<li>SerenPlayerBase</li>
-				<li>SerenCivilBase</li>
-				<li>SerenRoughBase</li>
-			</value>
-		</match>
-	</Operation>
-	
-	<!-- Allies the minotaur outlander faction with the seren factions -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
-			<value>
-				<SerenPlayerBase>0~50</SerenPlayerBase>
-				<SerenCivilBase>0~75</SerenCivilBase>
-				<SerenRoughBase>0~50</SerenRoughBase>
-			</value>
-		</match>
-	</Operation>
-	
-	<!-- Allies the minotaur tribal faction with the seren factions -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[Alien/Race] Seren, from Stardust</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[defName="TribeMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
-			<value>
-				<SerenPlayerBase>0~50</SerenPlayerBase>
-				<SerenCivilBase>0~75</SerenCivilBase>
-				<SerenRoughBase>0~50</SerenRoughBase>
-			</value>
+		<match Class="PatchOperationSequence">
+			<operations>
+		
+				<!-- Add seren to archon PawnKind -->
+		
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="RBME_Archon"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<OL_SerenBase MayRequire="Ludeon.RimWorld.Biotech">0.80</OL_SerenBase>
+					</value>
+				</li>
+		
+				<!-- Add seren to sophist PawnKind -->
+		
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="RBME_Sophist"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<OL_SerenBase MayRequire="Ludeon.RimWorld.Biotech">0.50</OL_SerenBase>
+					</value>
+				</li>
+		
+				<!-- Stops seren from spawning in minotaur tribal factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
+		
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="TribeMinotaur"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<OL_SerenBase MayRequire="Ludeon.RimWorld.Biotech">0</OL_SerenBase>
+					</value>
+				</li>
+			
+				<!-- Stops seren from spawning in minotaur outlander factions as default - as sometimes, a pawn spawns as both a seren and a minotaur -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<OL_SerenBase MayRequire="Ludeon.RimWorld.Biotech">0</OL_SerenBase>
+					</value>
+				</li>
+			
+				<!-- Allies the minotaur tribal faction with the seren factions -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="TribeMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+					<value>
+						<SerenPlayerBase>0~50</SerenPlayerBase>
+						<SerenCivilBase>0~75</SerenCivilBase>
+						<SerenRoughBase>0~50</SerenRoughBase>
+					</value>
+				</li>
+		
+				<!-- Allies the minotaur outlander faction with the seren factions -->
+		
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
+					<value>
+						<li>SerenPlayerBase</li>
+						<li>SerenCivilBase</li>
+						<li>SerenRoughBase</li>
+					</value>
+				</li>
+		
+				<!-- Allies the minotaur outlander faction with the seren factions -->
+		
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/modExtensions/li/startingGoodwillByFactionDefs</xpath>
+					<value>
+						<SerenPlayerBase>0~50</SerenPlayerBase>
+						<SerenCivilBase>0~75</SerenCivilBase>
+						<SerenRoughBase>0~50</SerenRoughBase>
+					</value>
+				</li>
+			
+				<!-- Patch to remove red errors 1 -->
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="SerenMinoCoop"]/scenario/parts/li[1]/overrideKinds/li[1]/xenotype</xpath>
+					<value>
+						<xenotype>OL_SerenBase</xenotype>
+					</value>
+				</li>
+				
+				<!-- Patch to remove red errors 2 -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="SerenMinoCoop"]/scenario/parts/li[1]/xenotypeCounts/li[1]/xenotype</xpath>
+					<value>
+						<xenotype>OL_SerenBase</xenotype>
+					</value>
+				</li>
+				
+				<!-- Patch to remove red errors 3 -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="BabySerenwithMinos"]/scenario/parts/li[1]/overrideKinds/li[1]/xenotype</xpath>
+					<value>
+						<xenotype>OL_SerenBase</xenotype>
+					</value>
+				</li>
+				
+				<!-- Patch to remove red errors 4 -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="BabySerenwithMinos"]/scenario/parts/li[1]/xenotypeCounts/li[1]/xenotype</xpath>
+					<value>
+						<xenotype>OL_SerenBase</xenotype>
+					</value>
+				</li>
+
+			</operations>
 		</match>
 	</Operation>
 	
