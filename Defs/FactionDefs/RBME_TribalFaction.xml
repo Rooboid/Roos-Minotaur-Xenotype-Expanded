@@ -54,7 +54,12 @@
 		</disallowedPrecepts>
 		<xenotypeSet>
 			<xenotypeChances>
+			
 				<RBM_Minotaur MayRequire="Ludeon.RimWorld.Biotech">1</RBM_Minotaur>
+				
+				<Stagz_Merfolk_Coastal MayRequire="Arquebus.StagzMerfolk">0.02</Stagz_Merfolk_Coastal>
+				<Stagz_Merfolk_Abyssal MayRequire="Arquebus.StagzMerfolk">0.01</Stagz_Merfolk_Abyssal>
+				
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>
