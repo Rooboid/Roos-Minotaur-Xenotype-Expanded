@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Xenotype Index: Category -->
+
+	<ThingCategoryDef>
+		<defName>RB_XenotypeIndexCategory</defName>
+		<label>xenotype indexes</label>
+		<parent>Books</parent>
+	</ThingCategoryDef>
+
+	<!-- Xenotype Index: Minotaur Tome -->
+
+	<ThingDef ParentName="BookBase">
+		<defName>RBME_XenotypeIndexMinotaur</defName>
+		<label>Xenotype index: Minotaur</label>
+		<description>This snakeskin-bound tome entails the origins of the minotaur xenotype. It’s clearly been penned by multiple authors, as the writing style alternates aggressively between each chapter.</description>
+		<graphicData>
+			<texPath>Things/Item/Book/RBME_XenotypeIndexMinotaur/RBME_XenotypeIndexMinotaur</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Item/Book/RBME_XenotypeIndexMinotaur/RBME_XenotypeIndexMinotaur</uiIconPath>
+		<statBases>
+			<MarketValue>150</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>XenotypeIndex</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>RB_XenotypeIndexCategory</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>RBME_XenotypeIndexMinotaurNamer</nameMaker>
+				<descriptionMaker>RBME_XenotypeIndexMinotaurDescriptionMaker</descriptionMaker>
+				<ageYearsRange>100~200</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Item/Book/RBME_XenotypeIndexMinotaur/RBME_XenotypeIndexMinotaur_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Item/Book/RBME_XenotypeIndexMinotaur/RBME_XenotypeIndexMinotaur_Vertical</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="BookOutcomeProperties_JoyFactorModifier"/>
+				</doers>
+			</li>
+		</comps>
+		<thingSetMakerTags Inherit="False"/>
+	</ThingDef>
+	
+	<!-- Namer -->
+  
+	<RulePackDef>
+		<defName>RBME_XenotypeIndexMinotaurNamer</defName>
+		<include>
+			<li>ArtNameUtility</li>
+		</include>
+		<rulePack>
+		
+			<rulesFiles>
+				<li>Book->Words/Misc/Numbers_SmallRoman</li>
+			</rulesFiles>
+			
+			<rulesStrings>
+				<li>title-> Xenotype Index: Minotaurs | [Book]</li>
+			</rulesStrings>
+			
+		</rulePack>
+	</RulePackDef>
+	
+	<!-- Description Maker -->
+  
+	<RulePackDef>
+		<defName>RBME_XenotypeIndexMinotaurDescriptionMaker</defName>
+		<include>
+			<li>ArtDescriptionUtility_Global</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+			
+				<!-- Origin -->
+			
+				<li>desc-> Origin\n\nThe first chapter of this book speculates how the minotaur came to be. Hellenic tribes speak of a violent king, who’s temper had become so uncontrollable that he sprouted horns from his head and transformed into a raging bull.\n\nOthers suggest that the king was bioengineered to channel his rage into physical strength, and thus, become the first living minotaur.\n\nBoth stories conclude with the king being sealed away within a labyrinth on a rimworld to protect the settlement that bore him.\n\nYears passed, and upon the eventual rediscovery of the labyrinth, the minotaur king was still alive. Colossal, unstable and driven to insanity by his extended time alone.</li>
+				
+				<!-- History -->
+			
+				<li>desc-> History\n\nThe first ever minotaur to be created was sealed in a labyrinth due to its sheer rage. Years passed. And while he remained imprisoned in his sprawling tomb, a violent nuclear war broke out on the surface. The planet’s technology level regressed and the ecosystem became unstable.\n\nFor a time, plant life was scarce, so the medieval farmers that unearthed the minotaur decided to rear him and his descendants like cattle. But this didn’t last long.\n\nThe minotaurs’ strength allowed them to strike with weapons far bigger than the humans’, and so, they overthrew them, and began to build thriving minotaur settlements of their own.</li>
+				
+				<!-- Herculean Weapons -->
+			
+				<li>desc-> Herculean Weapons\n\nThe book begins with a beautiful double page spread of illustrations. Axes, bows, hammers, spears; all drawn with such detail that you feel like you could almost feel them through the page.\n\nThe annotations below speak of the origins of these weapons, and make reference to another xenotype —  the gorgons —  who formed an alliance with the minotaurs in order to take down their oppressors. This truce lasted a number of years, until the minotaurs turned traitor and decimated them with the very munitions they created together: the original herculean weapons.\n\nThe author explains that there is still no explanation for how these mysterious weapons came to be but speculates that their creators had somehow imbued them with unknowable archotechnology.</li>
+				
+				<!-- The Minotaurs and the Gorgons -->
+			
+				<li>desc-> The Minotaurs and the Gorgons\n\nThe first few pages of the book have been penned in such aggressive handwriting that the paper begins to fall apart in your hands. From what you can gather though, the minotaurs were once allied with another xenotype called the gorgons. Together, they possessed the strength to overthrow the humans that oppressed them, and finally walk free.\n\nThe xenotypes were ready to stage a revolution, but the minotaurs turned traitor and eradicated the gorgons from the rim entirely.\n\nWhile one author seems to believe that this was for the minotaurs’ own security, the other questions if the minotaurs’ rage had ultimately become their downfall, and had lost them the most valued ally the xenotype ever had.\n\nThe final chapter of the book explains that gorgons have recently been spotted on the rim again — even stronger, stealthier and all the more sadistic — and have since been dubbed ‘The Minotaur Killers’. </li>
+				
+				<!-- Guardianship -->
+			
+				<li>desc-> Guardianship\n\nAn illustration of a well-dressed minotaur walking beside his elven master adorns the following page. The minotaur — labelled a “guardian” — dominates the entire illustration’s composition, surveying the scene for threats. He even seems to take stock of you, the reader, through the very fibres of the page.\n\nThe text explains that many monarchies protect their heirs by granting them a minotaur “guardian”: a genetically engineered minotaur designed to excel in physical strength, domestic skills and decorum.\n\nThe tradition is especially prevalent on Sophiamunda, but has also been observed on some glitterworlds, medieval worlds and rimworlds too.\n\nIt is said that the breaking of a guardianship pact should always result in the execution of the guardian, regardless of circumstance.</li>
+				
+				<!-- Modern Day -->
+			
+				<li>desc-> Modern Day\n\nThe opening chapter of the book lists two prominent minotaur ideologies, referred to as "Padovanism" and "Noxism" after the first two minotaur settlements to ever be established, Padova and Noxia. \n\nPadovanism preaches that life is short. Instead of enacting vengeance on mankind, padovanist minotaurs believe that they should enjoy what little time they have left and spend it indulging the myriad pleasures that life has to offer, like dancing, drinking and debauchery. Hellenic minotaur tribes often adopt this ideology.\n\nNoxism, however, takes that generational vengeance and holds it above all else. Noxians live on solely to ensure that mankind will not.\n\nIn this final chapter of the book, it’s clear that two of the authors’ beliefs were at odds with each other, as handwritten insults and crude drawings of genitals adorn the book’s final few pages.</li>
+				
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

@@ -207,7 +207,7 @@
 				<kindDef>Trader</kindDef>
 				<commonality>100</commonality>
 				<traders>
-					<Town_Trader>1</Town_Trader>
+					<Town_Trader>2</Town_Trader>
 				</traders>
 				<carriers>
 					<Bison>10</Bison>

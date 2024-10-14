@@ -117,6 +117,19 @@
 		</match>
 	</Operation>
 	
+	<!-- Make Outlander Traders Stock Xenotype Books -->
+	
+	<Operation Class="PatchOperationAdd">
+			<xpath>Defs/TraderKindDef[defName="Visitor_Outlander_Standard"]/stockGenerators</xpath>
+			<value>
+				<li Class="StockGenerator_Category">
+					<categoryDef>RB_XenotypeIndexCategory</categoryDef>
+					<thingDefCountRange>1~2</thingDefCountRange>
+					<countRange>-1~1</countRange>
+				</li>
+			</value>
+	</Operation>
+	
 	<!--============================== Misc Patches ============================-->
 	<!-- Add NamerIdeoGlobal to NamerHellenic_Ideo Rule Pack -->
 	
@@ -127,7 +140,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/RulePackDef[defName="NamerHellenic_Ideo"]/include</xpath>
 			<value>
-			<li>NamerIdeoGlobal</li>
+				<li>NamerIdeoGlobal</li>
 			</value>
 		</match>
 	</Operation>

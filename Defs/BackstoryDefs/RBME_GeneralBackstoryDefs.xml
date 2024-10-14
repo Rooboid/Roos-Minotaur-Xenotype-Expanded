@@ -11,7 +11,7 @@
 		<title>cryptoxenologist</title>
 		<titleShort>scientist</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef]’s many accolades adorn the walls of [PAWN_possessive] laboratory, yet [PAWN_possessive] dubious reputation precedes them, rendering [PAWN_objective] a controversial figure in [PAWN_possessive] field. Self-classified as a ‘purveyor of cryptoxenos’, [PAWN_nameDef]’s fixation on legendary beasts and xenos borders on an illness.</baseDesc>
+		<baseDesc>[PAWN_nameDef]’s many accolades adorn the walls of [PAWN_possessive] laboratory, yet [PAWN_possessive] dubious reputation precedes [PAWN_objective], rendering [PAWN_objective] a controversial figure in [PAWN_possessive] field.\n\nSelf-classified as a ‘purveyor of cryptoxenos’, [PAWN_nameDef]’s fixation on legendary beasts and xenos borders on an illness.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -36,6 +36,9 @@
 		<forcedTraits>
 			<Neurotic>1</Neurotic>
 		</forcedTraits>
+		<possessions>
+			<RBME_XenotypeIndexMinotaur>1</RBME_XenotypeIndexMinotaur>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Dauber ============================-->
@@ -115,5 +118,8 @@
 		<forcedTraits>
 			<Masochist>0</Masochist>
 		</forcedTraits>
+		<possessions>
+			<RBME_XenotypeIndexMinotaur>1</RBME_XenotypeIndexMinotaur>
+		</possessions>
 	</BackstoryDef>
 </Defs>

@@ -206,6 +206,9 @@
 			<li>Shooting</li>
 			<li>ManualDumb</li>
 		</workDisables>
+		<possessions>
+			<RBME_XenotypeIndexMinotaur>1</RBME_XenotypeIndexMinotaur>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Hetaira ============================-->
@@ -397,6 +400,9 @@
 		<requiredWorkTags>
 			<li>Social</li>
 		</requiredWorkTags>
+		<possessions>
+			<RBME_XenotypeIndexMinotaur>1</RBME_XenotypeIndexMinotaur>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Bathhouse Attendant ============================-->
@@ -498,6 +504,9 @@
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
+		<possessions>
+			<RBME_XenotypeIndexMinotaur>1</RBME_XenotypeIndexMinotaur>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Traumatised Calf ============================-->
