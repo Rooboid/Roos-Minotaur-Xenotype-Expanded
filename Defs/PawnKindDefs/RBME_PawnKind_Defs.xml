@@ -480,6 +480,19 @@
 			<li>NeolithicMeleeAdvanced</li>
 			<li>MinoTribeDecent</li>
 		</weaponTags>
+			<inventoryOptions MayRequire="Rooboid.Gorgon">
+			<skipChance>0.7</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>RBG_Theriac</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>RBG_GorgonSkull</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 	
 	<!-- Anax -->
@@ -525,6 +538,19 @@
 			<li>EltexStaff</li>
 			<li>MinoTribeDecent</li>
 		</weaponTags>
+					<inventoryOptions MayRequire="Rooboid.Gorgon">
+			<skipChance>0.7</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>RBG_Theriac</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>RBG_GorgonSkull</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 	
 	<!-- Olympian -->
@@ -763,6 +789,7 @@
 			<li>IndustrialMilitaryBasic</li>
 			<li>IndustrialMilitaryAdvanced</li>
 			<li>SpacerMilitary</li>
+			<li>RBG_Mirrored</li>
 		</apparelTags>
 		<apparelRequired>
 			<li>Apparel_PowerArmorHelmet</li>
@@ -833,6 +860,7 @@
 			<li>IndustrialAdvanced</li>
 			<li>IndustrialMilitaryBasic</li>
 			<li>IndustrialMilitaryAdvanced</li>
+			<li>RBG_Mirrored</li>
 		</apparelTags>
 		<apparelRequired>
 			<li>Apparel_PlateArmor</li>
