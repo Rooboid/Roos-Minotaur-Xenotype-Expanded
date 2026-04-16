@@ -3,7 +3,7 @@
 	<!--====================== Minotaur Nomads ======================-->
 	<!-- Difficulty: Hard -->
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBME_MinotaurNomads</defName>
 		<label>Minotaur Nomads</label>
 		<description>Two enslaved minotaur break free from the shackles of captivity and start life anew with little more than the clothes on their backs. What they decide to do next will test their relationship and mettle like never before.</description>
@@ -114,7 +114,7 @@
 	<!--====================== Minotaur Tribe ======================-->
 	<!-- Difficulty: Medium -->
 	
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBME_MinotaurTribe</defName>
 		<label>Minotaur Tribe</label>
 		<description>Following the invasion of their once-harmonious and settlement, four minotaurs rise from the rubble with a cross to bear. Rebuild their hedonistic community in the name of peace or strike down their foes in the name of revenge.</description>
@@ -296,7 +296,7 @@
 	<!--====================== The Poverty Tourists ======================-->
 	<!-- Difficulty: Easy -->
 	
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBME_ThePovertyTourists</defName>
 		<label>The Poverty Tourists</label>
 		<description>A plucky monarch grows weary of their life of luxury and hastily embarks on a quest to survive, struggle and fight like the common man. By their side is their trusty ‘guardian’; a formidable class of minotaur that’s specifically bred and raised to protect members of the monarchy with their lives. The pair pack up a generous case of supplies and set out to explore the rim.\n\nYour minotaur guardian begins with a random fabled weapon; mystical tools of destruction with a range of unique and devastating effects. Early-game foes won't stand a chance.</description>
