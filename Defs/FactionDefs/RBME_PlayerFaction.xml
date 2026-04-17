@@ -54,7 +54,7 @@
 			<li>ClassicStartTechprints</li>
 		</startingTechprintsResearchTags>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<TribeMinotaur>0~50</TribeMinotaur>
 					<OutlanderMinotaur>0~50</OutlanderMinotaur>
@@ -125,7 +125,7 @@
 			<li>Tribal</li>
 		</recipePrerequisiteTags>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<TribeMinotaur>25~50</TribeMinotaur>
 					<OutlanderMinotaur>0~25</OutlanderMinotaur>

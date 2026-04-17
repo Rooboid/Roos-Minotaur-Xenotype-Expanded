@@ -63,7 +63,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Factions.FactionDefExtension">
 				<allowedBiomes>
 					<li>AridShrubland</li>
 					<li>Desert</li>
